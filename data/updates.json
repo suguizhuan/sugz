@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T10:00:15+00:00",
+  "generated_at": "2026-07-04T15:18:04+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -115,6 +115,186 @@
       "url": "https://www.openpr.com/news/4495899/stat-inhibitors-pipeline-set-for-breakthrough-innovation"
     }
   ],
-  "pubmed": [],
-  "trials": []
+  "pubmed": [
+    {
+      "id": "pubmed-42399521",
+      "date": "2026 Jul 4",
+      "category": "Paper",
+      "title": "Arctiin activates CB2R to regulate the TRAF6-STAT1/6 pathway maintain macrophage M1/M2 homeostasis.",
+      "summary": "Journal of molecular histology",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399521/",
+      "pmid": "42399521"
+    },
+    {
+      "id": "pubmed-42393099",
+      "date": "2026 Jul 3",
+      "category": "Paper",
+      "title": "Kat5 deficiency in alveolar type II cells licenses STAT6-driven glycolytic reprogramming and pulmonary fibrosis.",
+      "summary": "Nature communications",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42393099/",
+      "pmid": "42393099"
+    },
+    {
+      "id": "pubmed-42392482",
+      "date": "2026 Jul 2",
+      "category": "Paper",
+      "title": "Immunohistochemical Assessment of M1/M2 Macrophage Phenotypes in Hepatic Hydatid Disease.",
+      "summary": "Acta tropica",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42392482/",
+      "pmid": "42392482"
+    },
+    {
+      "id": "pubmed-42390182",
+      "date": "2026 Jul 2",
+      "category": "Paper",
+      "title": "Renovascular disease induces functionally relevant, locus-specific alterations to DNA methylation and hydroxymethylation in swine scattered tubular-like cells.",
+      "summary": "American journal of physiology. Renal physiology",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42390182/",
+      "pmid": "42390182"
+    }
+  ],
+  "trials": [
+    {
+      "id": "ct-NCT07670156",
+      "date": "2026-07-02",
+      "category": "Trial",
+      "title": "Upadacitinib in Treatment of JAK/STAT Pathway Disorders With Activating Mutations",
+      "summary": "Status: NOT_YET_RECRUITING · Phase: PHASE1,PHASE2",
+      "tags": [
+        "clinicaltrials.gov",
+        "not_yet_recruiting"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT07670156",
+      "nct": "NCT07670156"
+    },
+    {
+      "id": "ct-NCT07217015",
+      "date": "2026-06-30",
+      "category": "Trial",
+      "title": "A Study of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
+      "summary": "Status: ACTIVE_NOT_RECRUITING · Phase: PHASE2",
+      "tags": [
+        "clinicaltrials.gov",
+        "active_not_recruiting"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT07217015",
+      "nct": "NCT07217015"
+    },
+    {
+      "id": "ct-NCT07677059",
+      "date": "2026-06-30",
+      "category": "Trial",
+      "title": "A Long-term Study of KT-621 Administered Orally to Participants With Asthma Previously Enrolled in a KT-621 Asthma Study",
+      "summary": "Status: RECRUITING · Phase: PHASE2",
+      "tags": [
+        "clinicaltrials.gov",
+        "recruiting"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT07677059",
+      "nct": "NCT07677059"
+    },
+    {
+      "id": "ct-NCT07323654",
+      "date": "2026-06-29",
+      "category": "Trial",
+      "title": "A Study of KT-621 Administered Orally to Adult Participants With Moderate to Severe Eosinophilic Asthma",
+      "summary": "Status: RECRUITING · Phase: PHASE2",
+      "tags": [
+        "clinicaltrials.gov",
+        "recruiting"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT07323654",
+      "nct": "NCT07323654"
+    },
+    {
+      "id": "ct-NCT06626633",
+      "date": "2026-03-12",
+      "category": "Trial",
+      "title": "2321GCCC: CRD3874-SI in Patients With Relapsed/Refractory AML",
+      "summary": "Status: SUSPENDED · Phase: PHASE1",
+      "tags": [
+        "clinicaltrials.gov",
+        "suspended"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06626633",
+      "nct": "NCT06626633"
+    },
+    {
+      "id": "ct-NCT05767671",
+      "date": "2026-02-06",
+      "category": "Trial",
+      "title": "Macrophage Programing in Acute Lung Injury: MiniBAL",
+      "summary": "Status: RECRUITING · Phase: NA",
+      "tags": [
+        "clinicaltrials.gov",
+        "recruiting"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT05767671",
+      "nct": "NCT05767671"
+    },
+    {
+      "id": "ct-NCT06945458",
+      "date": "2026-01-26",
+      "category": "Trial",
+      "title": "Safety, PK, PD, and Clinical Activity of Orally Administered KT-621 in Adult Patients With Atopic Dermatitis (AD)",
+      "summary": "Status: COMPLETED · Phase: PHASE1",
+      "tags": [
+        "clinicaltrials.gov",
+        "completed"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06945458",
+      "nct": "NCT06945458"
+    },
+    {
+      "id": "ct-NCT07091175",
+      "date": "2025-12-05",
+      "category": "Trial",
+      "title": "Dupilumab Therapy in Nephrotic Syndrome in Children",
+      "summary": "Status: RECRUITING · Phase: PHASE2",
+      "tags": [
+        "clinicaltrials.gov",
+        "recruiting"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT07091175",
+      "nct": "NCT07091175"
+    },
+    {
+      "id": "ct-NCT06673667",
+      "date": "2025-10-02",
+      "category": "Trial",
+      "title": "First-in-human Study of Orally Administered KT-621 in Healthy Adult Participants",
+      "summary": "Status: COMPLETED · Phase: PHASE1",
+      "tags": [
+        "clinicaltrials.gov",
+        "completed"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06673667",
+      "nct": "NCT06673667"
+    },
+    {
+      "id": "ct-NCT06250517",
+      "date": "2024-02-09",
+      "category": "Trial",
+      "title": "Impact of the Ex-vivo Pulmonary Perfusion System on the Microbiome of Lung Grafts and Their Inflammatory Reaction.",
+      "summary": "Status: UNKNOWN · Phase: NA",
+      "tags": [
+        "clinicaltrials.gov",
+        "unknown"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06250517",
+      "nct": "NCT06250517"
+    }
+  ]
 }
