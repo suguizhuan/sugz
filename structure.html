@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>结构与功能 | STAT6 资讯站</title>
+  <meta name="description" content="STAT6 蛋白结构域组成、关键活化位点及分子功能介绍。" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧬%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">S6</span>
+        <span>STAT6 资讯站</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="structure.html">结构与功能</a></li>
+        <li><a href="pathway.html">信号通路</a></li>
+        <li><a href="disease.html">疾病与治疗</a></li>
+        <li><a href="research.html">研究进展</a></li>
+      </ul>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <button class="theme-toggle" type="button">☀️ 浅色</button>
+        <button class="menu-btn" type="button" aria-label="菜单">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding:60px 0 20px;">
+      <div class="container">
+        <span class="eyebrow">STRUCTURE & FUNCTION</span>
+        <h1>STAT6 的<span class="grad">结构与功能</span></h1>
+        <p class="lead">STAT6 由 847 个氨基酸组成，具备典型的 STAT 家族模块化结构域，酪氨酸磷酸化位点 Y641 是激活的关键。</p>
+      </div>
+    </section>
+
+    <!-- Gene info -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">基因基本信息</h2>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>项目</th><th>值</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>基因符号</td><td>STAT6</td></tr>
+              <tr><td>别名</td><td>IL-4-STAT, D12S1644</td></tr>
+              <tr><td>染色体</td><td>12q13.3</td></tr>
+              <tr><td>外显子数</td><td>23</td></tr>
+              <tr><td>Entrez Gene ID</td><td>6778</td></tr>
+              <tr><td>Ensembl</td><td>ENSG00000166888</td></tr>
+              <tr><td>UniProt (人)</td><td>P42226</td></tr>
+              <tr><td>蛋白长度</td><td>847 aa</td></tr>
+              <tr><td>分子量</td><td>约 94 kDa</td></tr>
+              <tr><td>关键磷酸化位点</td><td>Tyr641（激活位点）；Ser756（辅助调控）</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Domain diagram -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">蛋白结构域组成</h2>
+        <p class="section-sub">STAT6 采用典型 STAT 家族的六个模块化结构域，各自承担不同功能。</p>
+        <div class="domain-bar" title="STAT6 结构域示意">
+          <div class="domain d-nterm">N-terminal<br>1-135</div>
+          <div class="domain d-coiled">Coiled-coil<br>136-315</div>
+          <div class="domain d-dna">DNA-binding<br>316-490</div>
+          <div class="domain d-linker">Linker<br>491-565</div>
+          <div class="domain d-sh2">SH2<br>566-660</div>
+          <div class="domain d-tad">TAD (Y641)<br>661-847</div>
+        </div>
+        <div class="domain-legend">
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#93c5fd;vertical-align:middle;"></i>N 端域（二聚化/相互作用）</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#86efac;vertical-align:middle;"></i>卷曲螺旋（辅因子结合）</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#fca5a5;vertical-align:middle;"></i>DNA 结合域</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#d8b4fe;vertical-align:middle;"></i>Linker</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#fcd34d;vertical-align:middle;"></i>SH2 域（pY641 识别）</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#fdba74;vertical-align:middle;"></i>反式激活域 TAD</span>
+        </div>
+
+        <div class="card-grid" style="margin-top:20px;">
+          <div class="card">
+            <h3>N 端域 (ND, 1–135)</h3>
+            <p>介导 STAT6 二聚体之间的相互作用，稳定四聚体形式在增强子上的结合。</p>
+          </div>
+          <div class="card">
+            <h3>卷曲螺旋域 (CCD, 136–315)</h3>
+            <p>提供与辅调控因子（如 CBP/p300、NCoA）的相互作用界面，参与核输入调控。</p>
+          </div>
+          <div class="card">
+            <h3>DNA 结合域 (DBD, 316–490)</h3>
+            <p>识别经典 GAS 位点：<code>TTC(N)₄GAA</code>（N₄ 型 GAS，与 STAT1 的 N₃ GAS 不同），特别是 STAT6 偏好 N₄ 型。</p>
+          </div>
+          <div class="card">
+            <h3>SH2 域 (566–660)</h3>
+            <p>识别磷酸化的 Tyr641，介导 STAT6 同源二聚化，也介导与受体磷酸化 ITAM 位点的结合。</p>
+          </div>
+          <div class="card">
+            <h3>反式激活域 (TAD, 661–847)</h3>
+            <p>富含酸性残基，招募转录共激活因子（如 p300/CBP、SRC-1）以启动转录。</p>
+          </div>
+          <div class="card">
+            <h3>关键磷酸化位点</h3>
+            <p><span class="badge">Y641</span> JAK 家族磷酸化后引发二聚化；<span class="badge indigo">S756</span> 参与转录活性调控。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activation mechanism -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">激活机制</h2>
+        <div class="info-block">
+          <ol>
+            <li>IL-4 / IL-13 与其受体复合物（<em>Type I</em>：IL-4Rα + γc；<em>Type II</em>：IL-4Rα + IL-13Rα1）结合。</li>
+            <li>受体相关 JAK 激酶（JAK1/JAK2/JAK3/TYK2）活化，磷酸化 IL-4Rα 胞内域的酪氨酸残基。</li>
+            <li>细胞质中的 STAT6 通过其 SH2 域识别 IL-4Rα 上的 <code>pY-X-X-Q</code> 基序，被募集到受体。</li>
+            <li>JAK 磷酸化 STAT6 的 <strong>Tyr641</strong>。</li>
+            <li>磷酸化的 STAT6 通过 SH2 域相互识别形成同源二聚体。</li>
+            <li>二聚体入核，识别启动子/增强子上的 <em>N₄ 型 GAS 元件</em>，招募 p300/CBP 等共激活因子驱动转录。</li>
+            <li>SOCS1/SOCS3、PIAS1、TC-PTP/PTP1B 等负反馈机制关闭信号。</li>
+          </ol>
+        </div>
+
+        <div class="callout warn">
+          <strong>常见误区：</strong>STAT6 的 SH2 结合位点具备较高的偏好性，不能被典型 STAT1/3 的 GAS 位点替代。STAT6 偏好 <code>N₄</code> 间距的 GAS 元件，例如 IL-4Rα 增强子上的 GAS。
+        </div>
+      </div>
+    </section>
+
+    <!-- Downstream target genes -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">典型下游靶基因</h2>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>靶基因</th><th>细胞背景</th><th>生物学意义</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><em>GATA3</em></td><td>CD4⁺ T 细胞</td><td>Th2 分化的主控转录因子</td></tr>
+              <tr><td><em>IL4RA</em></td><td>多种免疫细胞</td><td>正反馈增强 IL-4 信号</td></tr>
+              <tr><td><em>IL-4, IL-5, IL-13</em></td><td>Th2 细胞</td><td>Th2 型细胞因子</td></tr>
+              <tr><td><em>ARG1</em></td><td>M2 巨噬细胞</td><td>抗炎与组织修复</td></tr>
+              <tr><td><em>CCL17 (TARC), CCL22, CCL26 (Eotaxin-3)</em></td><td>树突细胞、上皮</td><td>招募 Th2/嗜酸粒细胞</td></tr>
+              <tr><td><em>MUC5AC</em></td><td>气道上皮</td><td>粘液高分泌</td></tr>
+              <tr><td><em>CD23 (FCER2)</em></td><td>B 细胞</td><td>低亲和力 IgE 受体</td></tr>
+              <tr><td><em>AID (AICDA)</em>（辅助）</td><td>B 细胞</td><td>参与 IgE/IgG1 类别转换</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="copyright">© 2026 STAT6 资讯站 · 仅供学术研究与科普使用</div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
