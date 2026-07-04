@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-07-04T09:18:33+00:00",
+  "generated_at": "2026-07-04T10:00:15+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
-      "id": "kt-621-ad-p1",
-      "date": "2026-Q1",
+      "id": "kt-621-p1-timeline",
+      "date": "2026-Q2 → 2027",
       "category": "Clinical",
-      "title": "Kymera KT-621（口服 STAT6 降解剂）在中重度特应性皮炎 Phase 1 显示生物制剂级疗效",
-      "summary": "健康志愿者与患者中实现 >95% STAT6 敲降与 Th2 生物标志物广谱抑制；BREADTH Phase 2b 哮喘试验于 2026 年初启动。",
+      "title": "Kymera KT-621（口服 STAT6 PROTAC）Phase 1 完成，宣布 2b 期时间表",
+      "summary": "健康志愿者中皮肤/血浆 STAT6 完全降解；特应性皮炎 2b 期计划 2026 年底启动，哮喘 2b 期 2027-Q1 启动。",
       "tags": [
         "degrader",
+        "PROTAC",
+        "Kymera",
         "atopic-dermatitis",
-        "asthma",
-        "Kymera"
+        "asthma"
       ],
       "url": "https://www.kymeratx.com/kymera-perspective/stat6-degradation-a-paradigm-shift-in-immunology/"
     },
@@ -21,7 +22,7 @@
       "date": "2026-01",
       "category": "Clinical",
       "title": "Recludix / Sanofi 的 REX-8756（SAR448755）首例受试者给药",
-      "summary": "选择性 STAT6 SH2 域小分子抑制剂；Phase 1 盲法安慰剂对照研究预计入组约 100 名健康志愿者。IND 于 2025-12 获批。",
+      "summary": "选择性可逆口服 STAT6 SH2 域抑制剂；Phase 1 招募约 100 名健康志愿者。Sanofi 全球引进交易总额达 $1.325B。",
       "tags": [
         "small-molecule",
         "SH2",
@@ -32,11 +33,41 @@
       "url": "https://recludixpharma.com/pipeline/stat6/"
     },
     {
-      "id": "nurix-sanofi-nx3911",
-      "date": "2025-06 → 2026",
+      "id": "gilead-leo-2025",
+      "date": "2025-01",
       "category": "Deal",
-      "title": "Nurix / Sanofi 扩展 NX-3911（口服 STAT6 降解剂）合作，Sanofi 行使 license 扩展选项",
-      "summary": "首付款 $15M，里程碑款高达 $465M；NX-3911 为临床前口服高选择性 STAT6 降解剂。",
+      "title": "Gilead × LEO Pharma：$1.7B 合作攻坚 2 型炎症口服 STAT6 抑制剂",
+      "summary": "Gilead 与 LEO Pharma 达成高达 17 亿美元的联合开发协议，重点面向特应性皮炎与哮喘的口服 STAT6 小分子抑制剂（临床前）。",
+      "tags": [
+        "deal",
+        "Gilead",
+        "LEO-Pharma",
+        "small-molecule",
+        "preclinical"
+      ],
+      "url": "https://www.gilead.com/news/company-statements"
+    },
+    {
+      "id": "kp-723-jnj-kaken",
+      "date": "2024-Q4",
+      "category": "Deal",
+      "title": "强生（J&J）以逾 $1.2B 独家许可引进 Kaken 的 KP-723（口服 STAT6 抑制剂）",
+      "summary": "J&J 与日本 Kaken 制药就 KP-723 达成全球独家许可，交易总额超 12 亿美元；KP-723 为临床前小分子 STAT6 抑制剂。",
+      "tags": [
+        "deal",
+        "Johnson-Johnson",
+        "Kaken",
+        "small-molecule",
+        "preclinical"
+      ],
+      "url": "https://synapse.zhihuiya.com/drug/49b3ab97557247d594d2fdf95f382860"
+    },
+    {
+      "id": "nurix-sanofi-nx3911",
+      "date": "2025-04",
+      "category": "Deal",
+      "title": "Sanofi 扩大与 Nurix 的 NX-3911 合作：$15M 首付 + $465M 里程碑",
+      "summary": "NX-3911 为临床前口服高选择性 STAT6 降解剂，Sanofi 加注该项目。",
       "tags": [
         "degrader",
         "Nurix",
@@ -44,6 +75,20 @@
         "preclinical"
       ],
       "url": "https://ir.nurixtx.com/news-releases/news-release-details/sanofi-exercises-license-extension-option-nurixs-stat6-program"
+    },
+    {
+      "id": "yf057-inventisbio",
+      "date": "2025 → 2026",
+      "category": "Preclinical",
+      "title": "益方生物 YF057：国内首个进入 PCC 阶段的口服 STAT6 降解剂",
+      "summary": "面向自身免疫疾病与肿瘤适应症的口服 STAT6 蛋白降解剂，进入临床前候选药物阶段。",
+      "tags": [
+        "degrader",
+        "InventisBio",
+        "China",
+        "preclinical"
+      ],
+      "url": "https://www.inventisbio.com/pipeline/"
     },
     {
       "id": "landscape-drughunter-2026",
@@ -62,7 +107,7 @@
       "date": "2026",
       "category": "Landscape",
       "title": "DelveInsight：STAT 抑制剂管线 2026 展望，18+ 公司、22+ 候选药物",
-      "summary": "STAT6 降解剂子领域正快速扩张，Gilead、Pfizer、密歇根大学等临床前项目相继披露。",
+      "summary": "STAT6 降解剂与小分子并进；已是继 IL-4Rα（Dupixent）之后 2 型炎症领域最热的口服替代方向。",
       "tags": [
         "pipeline",
         "market-intel"
