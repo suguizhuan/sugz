@@ -1,0 +1,1618 @@
+SUMMARY OF SAFETY AND EFFECTIVENESS DATA (SSED)
+
+I.     GENERAL INFORMATION
+
+       Device Generic Name: Cranial electrotherapy stimulator to treat depression
+       Device Trade Name: Flow FL-100
+
+       Accessories: Flow Clinic Patient Platform (FL-CPP), Headset pads (FL-PADS)
+
+       Device Procode: JXK
+
+       Applicant’s Name and Address:
+       Flow Neuroscience AB
+       Södra Tullgatan 3,
+       211 40 Malmö, Sweden
+
+       Date(s) of Panel Recommendation: None
+
+       Premarket Approval Application (PMA) Number: P230024
+
+       Date of FDA Notice of Approval: December 8, 2025
+
+       Breakthrough Device: Granted breakthrough device status on May 31, 2022, because of
+       a reasonable expectation that the device can provide more effective treatment of a life
+       threatening disease or condition, and availability would be in the best interest of patients
+       if the device is effective.
+
+II.    INDICATIONS FOR USE
+
+       Flow FL-100 is intended for the treatment of moderate to severe major depressive
+       disorder (MDD) in the current episode, either as monotherapy or as an adjunctive
+       treatment, in patients 18 years and older who are not considered treatment refractory to
+       medication.
+
+III.   LIMITATIONS
+
+       In FDA’s evaluation of the effectiveness of the Flow FL-100 device, based on the
+       Empower study, there is a moderate level of uncertainty of benefit due to unblinding, lack
+       of a prespecified clinically significant change in HDRS-17 scores, and conflicting results
+       from the literature. See Section X.V. for more information regarding how these
+       uncertainties were addressed.
+
+IV.    CONTRAINDICATIONS
+
+       ● Open wounds, broken skin, or damaged skin at the electrode site.
+
+
+                         PMA P230024: FDA Summary of Safety and Effectiveness Data             1 of 35
+      ● Metallic skull reconstruction at the electrode site.
+
+V.    WARNINGS AND PRECAUTIONS
+
+      The warnings and precautions can be found in the Flow FL-100 labeling.
+
+VI.   DEVICE DESCRIPTION
+
+      The device trade name is Flow FL-100 (aka “Flow-100”, “FL-100” or “Flow”).
+
+      FL-100 is a cranial electrotherapy stimulator (CES) for the treatment of depression using
+      transcranial direct
+
+
+
+
+                           Figure 1. The Flow FL-100 and Headset Pads.
+
+      current stimulation (tDCS). A tDCS device delivers low-intensity direct electrical current
+      to specific areas of the brain via electrodes placed on the scalp. The electrical current may
+      modulate neuronal activity by altering the resting membrane potential of cortical neurons,
+      thereby influencing brain excitability.
+
+      FL-100 includes the following components:
+
+      (1)   A Bluetooth-enabled tDCS headset with electrodes delivering 2.0 mA stimulation.
+            The headset communicates with a smartphone through Bluetooth low energy
+            (BLE). A rechargeable Lithium Polymer battery of 250 mAh drives the headset,
+            which allows for about 10-15 sessions before recharge. The headset is rechargeable
+            with a Micro-USB cord. The Micro-USB connector is located on the inside of the
+            headset to make sure it can’t be connected while the headset is on the head.
+
+      (2)   A pair of single-use disposable Headset Pads. Each pad is a cellulose sponge
+            soaked with saline to improve electrical conductivity by lowering skin impedance to
+            ensure a strong, uniform electrical signal. These pads are attached to the electrodes
+
+                        PMA P230024: FDA Summary of Safety and Effectiveness Data            2 of 35
+             using two medical-grade silicone rings and are circular with a diameter of 5 cm that
+             touches the skin. Headset Pads are for one-time use and are packaged in pairs in
+             aluminum foil bags.
+
+       (3) A smartphone app that guides the user, controls the headset, and monitors headset
+            usage. The App lets the user register or login, presents a stimulation schedule to the
+            user (i.e., how many sessions the user should do per week or how many sessions
+            have been missed or finished), gives instructions for how to prepare the headset for
+            stimulation, and controls the stimulation (start/pause/resume). The headset has a
+            unique identifier that is accessible from the smartphone app. This is used to track
+            the usage of each individual device, to send reminders/notifications of planned
+            stimulation sessions to the user’s phone, and to ensure that the user has not already
+            stimulated more than the daily and weekly stimulation limits.
+
+             Each week the user answers a Montgomery-Åsberg Depression Rating Scale
+             Self- report (MADRS-s) questionnaire to track their depression symptoms.
+
+       (4) Main server: The main server is the central processing hub of the device software
+           system and manages the core functions, data storage, and processing logic as the
+           backend for the frontends, the smartphone app and CPP.
+
+       (5)   Clinic patient platform (CPP), a web interface that can be used by a clinician to
+             monitor a patient’s headset usage and set the stimulation parameters.
+
+       The product is intended to be used in a home environment by a patient diagnosed with
+       MDD. Guided by the instructions in the app, the patient can use the product by themself
+       or in the presence of a clinician.
+
+       Users should complete 5 stimulation sessions per week for the first 3 weeks, followed by
+       completion of up to 3 stimulation sessions per week. Each session is 30 minutes long.
+
+       This medical device software has functions subject to FDA premarket review, as well as
+       functions that are not subject to FDA premarket review. For this application, if the
+       product has functions that are not subject to FDA premarket review, FDA assessed those
+       functions only to the extent that they either could adversely impact the safety and
+       effectiveness of the functions subject to FDA premarket review or they are included as a
+       labeled positive impact that was considered in the assessment of the functions subject to
+       FDA premarket review.
+
+VII.   ALTERNATIVE PRACTICES AND PROCEDURES
+
+       There are several other alternatives for the treatment of MDD. These alternatives include:
+
+       • Psychotherapy: Commonly used types of psychotherapy for MDD include cognitive
+         behavioral therapy (CBT), interpersonal psychotherapy (IPT), and problem-solving
+
+
+
+                         PMA P230024: FDA Summary of Safety and Effectiveness Data           3 of 35
+        therapy (PST). Psychotherapy is often combined with another MDD treatment
+        alternative (below).
+
+      • Pharmacotherapy (Antidepressant medication): FDA has approved medication for
+        MDD from each of the following major classes of antidepressants: selective serotonin
+        reuptake inhibitors (SSRIs), serotonin-norepinephrine reuptake inhibitors (SNRIs),
+        atypical antidepressants, tricyclic antidepressants (TCAs), monoamine oxidase
+        inhibitors (MAOIs), serotonin modulators, and N-methyl-D-aspartate receptor
+        antagonists (NMDA antagonists).
+
+      • FDA-approved or -cleared medical devices that deliver transcranial magnetic
+        stimulation (TMS), vagus nerve stimulation (VNS), electroconvulsive therapy (ECT),
+        or an interactive cognitive-emotional and behavioral intervention via a smartphone
+        app-based digital therapeutic.
+
+      Each alternative has its own advantages and disadvantages. A patient should fully discuss
+      these alternatives with his/her physician to select the method that best meets expectations
+      and lifestyle.
+
+VIII. MARKETING HISTORY
+
+      FL-100 has been marketed for the treatment of MDD in the European Union and the
+      United Kingdom since 2019, and in Brazil and Australia beginning in 2020 and 2025,
+      respectively.
+
+      FL-100 has not been withdrawn from marketing for any reason related to safety or
+      effectiveness.
+
+IX.   POTENTIAL ADVERSE EFFECTS OF THE DEVICE ON HEALTH
+
+      Below is a list of the potential adverse effects (e.g., complications) associated with the
+      use of the device observed in the clinical study supporting this approval:
+
+             ●   Dry skin, skin irritation or redness at the site of stimulation
+             ●   Stinging, tingling, numbness or burning sensation during stimulation
+             ●   Trouble concentrating during stimulation
+             ●   Headache
+             ●   Tinnitus
+             ●   Skin burn
+             ●   Sleepiness
+             ●   Acute mood change / Worsening depression
+
+      For the specific adverse effects that occurred in the clinical study, please see Section
+      XI.D.1 below.
+
+      In addition, other studies using FL-1001-9 report the following potential adverse effects:
+
+                        PMA P230024: FDA Summary of Safety and Effectiveness Data                4 of 35
+        ●   Accelerated heart rate
+        ●   Acute mood change / Sudden mood swings / Mood worsening               / Nervousness /
+            Increased anxiety
+        ●   Altered breathing
+        ●   Blurred / Blurry vision
+        ●   Bruise
+        ●   Buzzing / Vibration
+        ●   Dizziness / Nausea
+        ●   Fatigue / Sleepiness / Somnolence
+        ●   Hot flashes
+        ●   Migraine
+        ●   Neck pain / Neck ache
+        ●   Skin Pain
+        ●   Vivid dreams
+
+     Based on the published literature of tDCS treatment of MDD using other devices, a
+     potential adverse effect also includes:
+        ●   Mania/Hypomania10
+X.   SUMMARY OF NON-CLINICAL STUDIES
+
+     A. Biocompatibility
+
+     Flow FL-100 and the Headset Pads are only used on intact skin with prolonged exposure.
+     The exposure is only up to 30 minutes per day, but the device can be used for more than
+     48 days in total, resulting in more than 24 hours of exposure. However, these 24 hours
+     will be spaced out over several months. The device and pads are made of materials
+     common in medical devices that are deemed low risk, such as acrylonitrile-butadiene-
+     styrene (ABS) plastic, medical-grade silicone, and cellulose sponge. The biocompatibility
+     evaluation followed the policy outlined in Attachment G: Biocompatibility of Certain
+     Devices in Contact with Intact Skin of Use of International Standard ISO 10993-1,
+     "Biological evaluation of medical devices - Part 1: Evaluation and testing within a risk
+     management process" Guidance for Industry and Food and Drug Administration Staff.
+
+     B. Electromagnetic Compatibility and Electrical Safety
+
+     The device was tested for and found to comply with the following standards for
+     electromagnetic compatibility, electrical and thermal safety:
+         ● IEC 60601-1 Medical electrical equipment - Part 1: General requirements for
+            safety and essential performance.
+         ● IEC 60601-1-2 Medical electrical equipment - Part 1-2: General requirements for
+            basic safety and essential performance - Collateral standard: Electromagnetic
+            compatibility - Requirements and tests.
+         ● IEC 60601-1-11 Medical electrical equipment - Part 1-11: General requirements
+            for basic safety and essential performance - Collateral standard: Requirements for
+
+
+                      PMA P230024: FDA Summary of Safety and Effectiveness Data              5 of 35
+             medical electrical equipment and medical electrical systems used in the home
+             healthcare environment.
+
+      C. Software & Cybersecurity
+
+      Software for the device consisted of proprietary software marketed by Flow
+      Neuroscience and consists of the Flow app, clinic patient portal (CPP), and the server
+      backend. The software and cybersecurity were reviewed when the PMA was submitted,
+      and the provided documentation was found adequate and consistent with a ‘Major’ level
+      of concern given the Class III status of the device.
+
+      D. Shelf life
+
+      The validated shelf life for the FL-100 Headset and Pads is three (3) years.
+
+      E. Performance Testing
+
+      Each device is verified during manufacturing to generate a stimulation current of 2.0 ±
+      0.05 mA.
+
+XI.   SUMMARY OF PRIMARY CLINICAL STUDY
+
+      The applicant performed a clinical study to establish a reasonable assurance of safety and
+      effectiveness of at-home transcranial direct current stimulation (tDCS) with FL-100 for
+      monotherapy or adjunctive treatment of moderate to severe major depressive disorder
+      (MDD) in the current episode, in the US and the United Kingdom under IDE G210328.11
+      Data from this clinical study, (aka “Empower”, “the Empower study”) were the basis for
+      the PMA approval decision.
+
+      A summary of the clinical study is presented below.
+
+      A. Study Design
+
+         Patients were treated between June 2022 and August 2023. The database for this
+         PMA reflected data collected through August 2023 and included 174 subjects. There
+         were 2 investigational sites.
+
+         Empower was a fully remote 20-week clinical study that included a prospective,
+         multi-center, double-blinded, randomized, two-arm (active/sham control) phase
+         followed by a 10-week open-label phase. Empower was designed to evaluate the
+         safety and effectiveness of at-home treatment with FL-100 in patients at least 18
+         years old in the current episode of moderate to severe MDD.
+
+         As shown below in Figure 2., during the Blinded Phase of the Empower study,
+         patients used FL-100 at home for 5 sessions per week for 3 weeks, followed by 3
+         sessions per week for 7 weeks, for a total of 36 sessions over 10 weeks. Research
+
+
+                       PMA P230024: FDA Summary of Safety and Effectiveness Data             6 of 35
+staff directly supervised patients’ initial device use. Thereafter, research staff
+monitored patients’ device use via the clinic patient portal (CPP) and provided
+assistance as needed. Upon completion of the Blinded Phase, patients were offered
+the opportunity to participate in the 10-week Open-label Phase.
+
+                           Figure 2. Study Design Overview
+
+
+
+
+The Sham (control) group received stimulation using the same device as the Active
+group according to a standard protocol for sham tDCS.12 At the beginning of each 30-
+minute stimulation session, the current was gradually ramped up to 1 mA, over 30
+seconds. However, upon reaching the 1 mA maximum threshold, the current reached
+was gradually ramped down over 15 seconds to 0 mA. Forty-five seconds before the
+end of each session, the current was again ramped up to 1 mA over 30 seconds and
+then ramped down over 15 seconds to 0 mA.
+
+1. Clinical Inclusion and Exclusion Criteria
+
+   Enrollment in the Empower study was limited to patients who met the following
+   inclusion criteria:
+
+   1. Be ≥18 years.
+   2. Have a diagnosis of Unipolar MDD with a current depressive episode as
+      defined by the diagnostic criteria in the Diagnostic and statistical manual of
+      mental disorders – 5th edition (DSM-V)
+   3. Have a Hamilton Depression Rating Score (HDRS-17) of ? 16.
+   4. For 6 weeks prior to enrollment, are either:
+          a. not taking antidepressant medication or;
+          b. are taking a stable antidepressant regimen with a stable medication
+             source and agree to continue the same regimen throughout study
+             participation
+
+
+
+             PMA P230024: FDA Summary of Safety and Effectiveness Data           7 of 35
+5. If in psychotherapy, have maintained stable psychotherapy for at least 6 weeks
+    prior to enrollment.
+6. Have access to a stable internet connection through which the treatment will
+    be received.
+7. Have access to a smartphone or other device running Android 5.0+ or iPhone
+    Operating System (iOS) 12+ (e.g., reasonably new iPhone/iPad or Android
+    phone), used to using the device in their everyday life, and can capably use the
+    study application on the device, as determined by the investigator.
+8. Are currently living in England/Wales (UK) or Texas (US).
+9. Subject is currently under the care of a psychiatrist or a primary care
+    physician, agrees to be evaluated at regular intervals by a psychiatrist or
+    primary care physician for the duration of study participation, and agrees to
+    promptly inform the study staff of any change of psychiatric or mental health
+    providers during study participation.
+10. Subject agrees to allow any and all forms of communication between the
+    investigators/study staff and any healthcare provider who currently provides
+    and/or has provided service to the patient/subject within at least two years of
+    study enrollment.
+11. Subject agrees to provide the name and verifiable contact information (email
+    and mailing addresses, mobile and land-line phone numbers, as applicable) of
+    at least two persons ≥ age 18 who reside within a 60-minute drive of the
+    patient’s residence and whom the research staff is at liberty to contact, as they
+    deem necessary, for the duration of study participation.
+12. Be able to give voluntary, written informed consent to participate and have
+    signed an Informed Consent Form specific to this study.
+13. Be willing and able to comply with all study procedures.
+14. Subject agrees to meet all of the inclusion criteria throughout their
+    participation in the study. Otherwise, the subject will be discontinued from the
+    study.
+15. Subject agrees to a Safety/Suicide Risk Management Protocol, which is
+    intended to reduce the reduce the risk of suicide during study participation.
+
+Patients were not permitted to enroll in the study if they met any of the
+following exclusion criteria:
+
+1. Are in a current state of mania, as determined by the Young Mania Rating
+   Scale (YMRS) or psychosis, as determined by the Mini International
+   Neuropsychiatric Interview (MINI).
+2. Are diagnosed with vitamin or hormonal deficiencies that may mimic mood
+   disorders, as determined by the investigator.
+3. Are currently receiving any other interventional therapy for MDD other than a
+   stable regimen of antidepressants or psychotherapy as defined in the inclusion
+   criteria.
+4. Considered to have treatment-resistant depression (TRD) as defined by
+   inadequate clinical response to 2 or more trials of antidepressants at an
+   adequate dose and duration.
+
+
+          PMA P230024: FDA Summary of Safety and Effectiveness Data            8 of 35
+5. Have a history of electroconvulsive therapy (ECT), transcranial magnetic
+    stimulation (TMS), cranial electrotherapy stimulation (CES), transcranial
+    direct current stimulation (tDCS), deep brain stimulation (DBS), or other brain
+    stimulation.
+6. Patient answers Yes to Questions 4, 5 or 6 on the Columbia Suicide Severity
+    Rating Scale (C-SSRS) Triage and Risk Identification Screener.
+7. Any previous hospitalization for suicidal behavior.
+8. Have chronic severe insomnia (< 4 hours of sleep each night), or depression
+    secondary to chronic insomnia or sleep apnea
+9. Have any structural lesion (e.g., any structural neurological condition, or more
+    subcortical lesions than would be expected for age or have had a stroke that
+    affects stimulated area or connected areas) or any other clinically significant
+    abnormality that might affect safety, study participation, or confound
+    interpretation of study results, as determined by the investigator.
+10. Have any implant in the brain (e.g., DBS) or neurocranium, or any other
+    active implantable medical device.
+11. Have any neurocranial defect.
+12. Have a history of epilepsy or seizures (including history of withdrawal /
+    provoked seizures).
+13. Have shrapnel or any ferromagnetic material in the head.
+14. Have any disorder that would impair the ability to complete the study
+    questionnaires.
+15. Have been diagnosed with autism spectrum disorder.
+16. Are actively abusing substances (<1 week prior to enrollment).
+17. Have a cognitive impairment (including dementia).
+18. Have a history of mania or psychosis.
+19. Are currently using any medications that affect cortical excitability (e.g.,
+    benzodiazepines, epileptics, etc.).
+20. Are currently experiencing symptoms of withdrawal from alcohol or
+    benzodiazepines.
+21. Have been diagnosed with Parkinsonism or other movement disorder as
+    determined by the investigator to interfere with treatment.
+22. Have ever taken esketamine / ketamine for treatment of depression.
+23. Have ever been admitted to hospital for depression.
+24. Have ever been diagnosed with obsessive-compulsive disorder (OCD) or
+    bipolar type 1 or 2 disorder.
+25. Is diagnosed with an active primary anxiety disorder, or post-traumatic stress
+    disorder (PTSD), agoraphobia, anorexia or bulimia, panic or personality
+    disorder with active symptoms.
+26. Have a history of psychosurgery for depression.
+27. Have any history of myocardial infarction, coronary artery bypass graft
+    (CABG), coronary heart failure (CHF), or history of other cardiac issues.
+28. Are currently experiencing or have a history of intractable migraines.
+29. Are a chronic tobacco smoker, as defined by smoking by smoking >100
+    cigarettes (including hand-rolled cigarettes, cigars, cigarillos, etc.) in their
+    lifetime and have smoked every day for the last 7 days.
+
+
+          PMA P230024: FDA Summary of Safety and Effectiveness Data           9 of 35
+   30. If female and of child-bearing potential, currently pregnant or breastfeeding or
+       planning to become pregnant or breastfeed any time during the study.
+   31. Are currently a prisoner.
+   32. Are participating concurrently in another clinical investigation or have
+       participated in a clinical investigation within the last 90 days or intend to
+       Participate in another clinical investigation during the study, and where the
+       participation in the other investigation might interfere with the results of this
+       trial as deemed by the PI.
+   33. Have any medical condition or other circumstances, in the judgment of the
+       investigator, that might interfere with the ability to complete follow-up visits
+       and the self-reported MADRS-s in the app.
+   34. Have any condition which, in the judgment of the Investigator, would
+       preclude adequate evaluation of the device’s safety and performance.
+   35. A Subject who meets any of the exclusion criteria during study participation
+       will be discontinued from the study
+
+2. Follow-up Schedule
+
+   Table 1. Schedule of Procedures shows the procedures that occurred during each
+   study Phase: Pre-Treatment (Weeks -3 to -1), Blinded (Weeks 0 to 10), Open-
+   Label (Weeks 10 to 20), and Early Termination (Weeks 1 to 20).
+
+
+
+
+             PMA P230024: FDA Summary of Safety and Effectiveness Data           10 of 35
+Table 1. Schedule of Procedures.
+[Note: X within a blue cell – procedure performed by research clinician; X within a red cell – procedure performed by subject]
+                                            Pre-                                                                                                             Early
+            Study Phase                                                             Blinded                                          Open-Label
+                                         Treatment                                                                                                        Termination
+                                                                                                              Week 10
+                                           Week                                                                                 Week 10
+                                                                  Week 1        Week 4         Week 7        (± 3 days)                       Week 20
+             Procedure                    -3 to -1   Week 0                                                                    (± 3 days)                 Weeks 1-20
+                                                                 (± 3 days) (± 3 days) (± 3 days)           Final blinded                    (± 3 days)
+                                        (± 3 days)                                                                          Open Label Start
+                                                                                                                visit1
+         Informed Consent                    X
+ Screening and baseline Video Call           X
+
+ Diagnostic Assessment for MDD              X9
+
+
+Intervention Kit Shipped to subject         X5
+
+          Randomization6                                  X
+       Technical onboarding                               X
+           Initial Visit                                  X
+            Video call                       X            X           X             X         X               X                                  X            X
+              MINI                           X
+            HDRS-17                          X                        X             X         X               X                                  X            X
+            MADRS                            X                        X             X         X               X                                  X            X
+           MADRS-s                                       X4           X             X         X               X                                  X            X
+             C-SSRS                          X                        X             X         X               X                                  X            X
+             YMRS                            X                        X             X         X               X                                  X            X
+             HAM-A                           X                                                                X                                  X            X
+           EQ-5D-3L                          X                                                                X                                  X            X
+             RAVLT                           X                                                                X                                  X            X
+             SDMT                                        X2                                                   X2                                 X2
+               TAQ                           X                                                                X                                  X            X
+               AEQ                                                                                            X                                  X            X
+     Healthcare Visit Survey3                                                                                 X                                  X            X
+       FLOW FL-100 use7                                   X           X             X         X               X                  X               X
+   Record/Review Concomitant
+                                             X            X           X             X         X               X                                  X            X
+           Medications
+  Record/Review Adverse Events                            X           X             X         X               X                                  X            X
+
+                              PMA P230024: FDA Summary of Safety and Effectiveness Data                    1 of 35
+Abbreviations: AEQ (Adverse Events Questionnaire), C-SSRS (Columbia–Suicide Severity Rating Scale), EQ-5D-3L (EuroQol 5-Dimension 3-Level Questionnaire), HAM-A (Hamilton
+Anxiety Rating Scale), HDRS-17 (17-item Hamilton Depression Rating Scale), MADRS (Montgomery–Åsberg Depression Rating Scale), MADRS-S (Montgomery–Åsberg Depression
+Rating Scale – Self-rated), MINI (Mini International Neuropsychiatric Interview), RAVLT (Rey Auditory Verbal Learning Test), SDMT (Symbol Digit Modalities Test), TAQ (Treatment
+Acceptability Questionnaire), YMRS (Young Mania Rating Scale).
+1The week 10 visit includes the study Primary endpoint. This will be the final blinded visit and will be the start of the open label phase of the study. Participants in the Sham arm will be
+
+informed of their assignment and will restart with active stimulation for 10 weeks; participants in the Flow FL-100 arm will be allowed to continue maintenance treatment for 10 more weeks
+at 3 sessions per week. The unblinding will occur after the primary end-point data has been recorded.
+1The week 10 visit includes the study Primary endpoint. This will be the final blinded visit and will be the start of the open label phase of the study. Participants in the Sham arm will be
+
+informed of their assignment and will restart with active stimulation for 10 weeks; participants in the Flow FL-100 arm will be allowed to continue maintenance treatment for 10 more weeks
+at 3 sessions per week. The unblinding will occur after the primary end-point data has been recorded.
+2Optional
+3Participants will be surveyed about the number of times he/she has sought healthcare due to depression during the previous 10 weeks.
+4Participants will be required to answer the nine questions of the MADRS-s form in the app to start the first stimulation session during the technical onboarding.
+5Participants will be required to start treatment within 24 days from completing the baseline surveys.
+6Completed after eligibility is confirmed by the investigator; when the participant signs up with their email in the trial app they will automatically be randomized to the sham or active
+
+treatment arm (with 50% probability).
+7Five sessions per week for 3 weeks, followed by three sessions per week for 7 weeks. In total, thirty-six sessions during 10 weeks during the blinded phase. Please refer to Table 2 and
+
+Table 3 below for more details.
+8In case there is an early termination the research staff can request to have an early termination interview, if the subject agrees.
+9Diagnostic Assessment for MDD will be performed by Investigator-Psychiatrist according to the most recent APA Practice Guideline for treatment of MDD.
+
+
+
+
+                                 PMA P230024: FDA Summary of Safety and Effectiveness Data                                2 of 35
+3. Clinical Endpoints
+
+With regards to safety, the tDCS Adverse Effects Questionnaire (AEQ)13 was
+administered at weeks 10 and 20.
+
+With regards to effectiveness, the following primary and secondary endpoints were
+defined.
+
+Primary Endpoint
+The primary effectiveness endpoint is the change in adjusted mean group difference
+in the HDRS-17 scores between 10 weeks and baseline between subjects randomized
+to the active study device (active group) relative to those subjects randomized to the
+sham device (sham group).
+
+Secondary Endpoints
+There were nine secondary effectiveness endpoints, all at Week 10:
+
+1. Arm difference in HDRS-17: (a) response rate and (b) remission rate;
+2. Arm difference in MADRS: (a) average score change, (b) response rate,
+   and (c) remission rate;
+3. Arm difference in (a) MADRS-s average score change, (b) response rate,
+   and (c) remission rate; and
+4. Quality of life improvement as measured by EQ-5D-3L in the active
+   compared to sham arm.
+
+Three of the nine secondary endpoints were pre-specified for multiplicity control:
+1(a), 1(b), and 4.
+
+The primary and three of the secondary effectiveness endpoints were pre-specified to
+be evaluated in the modified intent-to-treat (mITT) population, defined as the
+participants in the ITT subjects who receive at least one treatment session of the
+study device (Active or Sham). Therefore, the mITT population has n=173. The
+difference between the arms was assessed using a mixed model for repeated
+measures. If the p-value of the difference between the arms was less than one-sided
+p = 0.025, then the endpoint was declared a success.
+
+The response rate was pre-specified as the proportion of patients with a <50%
+reduction in score from the baseline to Week 10. Remission was pre-specified as:
+HDRS-17 score ≤7, MADRS score ≤10, MADRS-s score ≤12, at Week 10.
+
+ With regard to success/failure criteria, the primary effectiveness endpoint was the
+ change in adjusted mean group difference in the HDRS-17 scores between 10 weeks
+ and baseline between subjects randomized to the active study device relative to
+ those subjects randomized to sham. The formal statistical hypothesis is as follows:
+
+ H o: d flow – d sham ≤ 0
+
+                PMA P230024: FDA Summary of Safety and Effectiveness Data        1 of 35
+      H a: d flow – d sham > 0
+
+      Where d flow and d sham are the adjusted mean group difference in HDRS-17 scores in
+      subjects randomized to Active and Sham groups, respectively.
+
+      The success/failure criteria for individual patient success was pre-defined as response
+      and remission on the HDRS-17.
+
+B. Accountability of PMA Cohort
+
+   At the time of database lock, a total of 174 subjects were enrolled in the PMA study,
+   115 in the UK and 59 in the US. All eligible subjects were treated according to their
+   randomized allocation and comprised the ITT population (n=174). The mITT
+   population included all ITT subjects who received at least 1 treatment with the study
+   device (Active or Sham); one subject was randomized but never received any
+   stimulation, therefore, the mITT population has n=173. At the Week 10 time point, 149
+   patients remained in the study (14.3% attrition). Thirteen (13) subjects discontinued the
+   treatment in the active group and 12 in the sham group. At week 20, after the open label
+   phase, 111 subjects remained in the study.
+
+
+
+
+                      PMA P230024: FDA Summary of Safety and Effectiveness Data        2 of 35
+Figure 3. Subject Disposition and Reasons for Discontinuation through Week 10
+
+
+
+
+            PMA P230024: FDA Summary of Safety and Effectiveness Data    3 of 35
+       C. Study Population Demographics and Baseline Parameters
+
+            The baseline demographics of the study population are typical for a MDD study
+            performed in the US in terms of gender, where the highest prevalence of depression is
+            in females. No interaction effect was found between the treatment outcome and
+            geography (US vs. UK), sex, age, race, or baseline HDRS-17. Baseline demographics
+            are listed below:
+
+Table 2. Baseline Demographic - Continuous Variables. ITT Analysis Set (N=174)
+
+                              Active                                  Sham                       Group Difference
+              N Mean SD Med Min Max N Mean SD                             Med Min Max          Δ1     LB     UB      p2
+All
+Age
+             87     37.1 11.1 36.0        20.0 75.0 87 38.3 10.9 39.0            19.0 64.0     -1.2   -4.5   2.1 0.463
+(years)
+Female
+Age
+             54     35.4 10.5 32.5        20.0 56.0 66 37.2 10.8 35.0            20.0 64.0     -1.9   -5.7   2.0 0.339
+(years)
+Male
+Age
+             33     39.9 11.7 40.0        20.0 75.0 21 41.7 11.0 41.0            19.0 56.0     -1.8   -8.1   4.5 0.568
+(years)
+Clinical scores
+HDRS-17 87          19.2    2.8    18.0   16.0   30.0   87   18.9   2.6   18.0   16.0   25.0   0.3    -0.6   1.1   0.524
+MADRS        87     24.7    4.7    24.0   11.0   39.0   87   23.9   5.5   24.0   7.0    36.0   0.9    -0.7   2.4   0.273
+MADRS-s 87          26.8    6.9    27.0   4.0    43.0   87   25.7   6.3   26.0   9.0    42.0   1.1    -0.9   3.1   0.273
+HAM-A        87     15.4    4.6    15.0   4.0    27.0   87   14.3   4.6   13.0   4.0    26.0   1.2    -0.2   2.6   0.088
+YMRS         87     2.1     1.7    2.0    0.0    8.0    87   1.9    1.6   2.0    0.0    7.0    0.2    -0.3   0.7   0.463
+195% Student's t Confidence Interval.
+2Nominal p-values. Without multiplicity adjustment.
+
+
+
+
+Table 3. Baseline Demographic - Categorical Variables. ITT Analysis Set (N=174)
+                                          Active                          Sham                           p-value1
+                                          n              %                n             %
+Gender (all)
+Male                                      33             38%              21            24%              0.071
+Female                                    54             62%              66            76%
+Gender 18-21 years old
+Male                                      1              1%               1             1%               0.417
+Female                                    6              7%               1             1%
+Ethnicity
+Hispanic or Latino                        7              8%               13            15%              0.378
+Not Hispanic or Latino                    77             89%              70            80%
+Not reported                              3              3%               3             3%
+Missing                                   0              0%               1             1%
+
+                                  PMA P230024: FDA Summary of Safety and Effectiveness Data                        4 of 35
+                               Active                          Sham                 p-value1
+                               n              %                n              %
+Race
+Asian                        9              10%                2              2%    0.012
+Black or African American 3                 3%                 1              1%
+Native Hawaiian or Other     0              0%                 0              0%
+White                        72             83%                73             84%
+Other                        3              3%                 11             13%
+Missing                      0              0%                 0              0%
+Educational Level
+Less than High               1              1%                 0              0%    0.972
+School/Secondary School
+Some college                 18             21%                19             22%
+Diploma                      9              10%                7              8%
+Bachelor's or Professional   37             43%                37             43%
+Degree
+Master's or Doctoral Degree 22              25%                23             26%
+Prefer not to answer/Missing 0              0%                 1              1%
+Adjunctive treatment
+Antidepressant2              56             64%                53             61%   0.647
+Psychotherapy2               12             14%                14             16%
+No adjunctive treatment      25             29%                32             37%
+(monotherapy)
+1
+  Nominal p-values. Without multiplicity adjustment.
+2
+  Not mutually exclusive
+
+    D. Safety and Effectiveness Results
+
+         1. Safety Results
+
+            The analysis of safety was based on the mITT cohort of 173 subjects available for
+            the 10-week randomized controlled trial (RCT), and the 111 subjects completing the
+            additional 10-week open-label phase. Flow FL-100 was well-tolerated in all 173
+            RCT subjects. There were no serious adverse events (SAEs) attributed to use of the
+            device (Table 7).
+
+            As shown in Table 4, the most frequent AEs (active % vs. sham %), based on the
+            Adverse Events Questionnaire (AEQ) included: Skin redness (63.5% vs. 18.5%),
+            Itching (50.6% vs. 43.2%), Burning sensation (43.5% vs. 38.3%), Headache
+            (42.4% vs. 35.8%), and Scalp pain (21.2% vs. 12.3%).
+
+            At Week 10, the percentage of active vs. sham subjects reporting at least one AE
+            was 70.1% vs. 59.3%, respectively (Table 5). According to Table 5, headache and
+           tinnitus were reported with similar frequency in the active and sham groups. Two
+
+                        PMA P230024: FDA Summary of Safety and Effectiveness Data           5 of 35
+            active group subjects suffered first-degree skin burns. Each subject reported having
+            used dried out headset pads. The burns resolved, and treatment resumed, after a few
+            days.
+
+            During Weeks 10 - 20 (Open-label phase), 9% (6/67) of original active group
+            subjects vs. 16.9% (12/ 71) of original sham group subjects, reported at least one AE
+            (Table 6). Notably, dry skin was reported by 4 subjects, all originally randomized to
+            the sham group. No SAEs were reported during the Open-label phase.
+
+               Table 4. Anticipated Adverse Events Based on the AEQ [N (%)]
+                                     Active (N = 87)                                    Sham (N = 86)
+  Adverse event Total              Mild        Moderate Severe           Total        Mild        Moderate Severe
+  category
+  Headache           36 (42.4) 24 (28.2) 11 (12.9)           1 (1.2)     29 (35.8) 18 (22.2) 9 (11.1)            2 (2.5)
+
+  Neck pain          2 (2.4)       0 (0)       2 (2.4)       0 (0)       4 (4.9)      1 (1.2)     3 (3.7)        0 (0)
+
+  Scalp pain         18 (21.2) 14 (16.5) 3 (3.5)             1 (1.2)     10 (12.3) 7 (8.6)        3 (3.7)        0 (0)
+
+  Itching            43 (50.6) 37 (43.5) 3 (3.5)             3 (3.5)     35 (43.2) 28 (34.6) 7 (8.6)             0 (0)
+
+  Burning            37 (43.5) 32 (37.6) 4 (4.7)             1 (1.2)     31 (38.3) 25 (30.9) 6 (7.4)             0 (0)
+  sensation
+  Skin redness       54 (63.5) 42 (49.4) 11 (12.9)           1 (1.2)     15 (18.5) 13 (16.0) 2 (2.5%)            0 (0)
+
+  Sleepiness         10 (11.8) 5 (5.9)         4 (4.7)       1 (1.2)     12 (14.8) 9 (11.1)       2 (2.5)        1 (1.1)
+
+  Trouble            12 (14.1) 8 (9.4)         3 (3.5)       1 (1.2)     3 (3.7)      2 (2.5)     1 (1.2)        0 (0)
+  concentrating
+  during
+  stimulation
+  Acute mood         7 (8.2)       3 (3.5)     3 (3.5)       1 (1.2)     6 (7.4)      5 (6.2)     1 (1.2)        0 (0)
+  change
+An adverse event was present if the participant rated that it was at least remotely possible that it was associated with the
+            intervention. Participants rated the severity of the adverse events as mild, moderate or severe.
+
+
+
+
+                               PMA P230024: FDA Summary of Safety and Effectiveness Data                                   6 of 35
+Table 5. All Adverse Events by AE Code, Weeks 0-10, Regardless of Device Relatedness
+                                Active                     Sham
+                                                                                   Group Difference†
+                                (N=87)                    (N=86)
+                         Events Subjs %*   Events         Subjs   %*             ∆        LB      UB
+   All Events             118     61 70.1%   89             51   59.3%         10.8%    -3.6%    25.0%
+   Blood and
+   lymphatic system        1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+   disorders
+     Lymphadenopat
+                           1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+     hy
+   Ear and
+   labyrinth               2     2      2.3%       2        2        2.3%       0.0%    -6.2%     6.0%
+   disorders
+     Tinnitus              2     2      2.3%       2        2        2.3%       0.0%    -6.2%     6.0%
+   Eye disorders           4     3      3.4%       1        1        1.2%       2.3%    -3.3%     8.9%
+     Photopsia             2     2      2.3%       1        1        1.2%       1.1%    -4.5%     7.0%
+     Vision blurred        2     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+   Gastrointestinal
+                           8     6      6.9%       1        1        1.2%       5.7%    -0.4%    13.6%
+   disorders
+     Diarrhea              1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+     Irritable bowel
+                           2     2      2.3%       0        0        0.0%       2.3%    -2.2%     8.1%
+     syndrome
+     Nausea                3     2      2.3%       1        1        1.2%       1.1%    -4.5%     7.0%
+     Vomiting              2     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+   General
+   disorders and
+                           3     3      3.4%       4        4        4.7%      -1.2%    -8.5%     5.7%
+   administration
+   site conditions
+     Chest pain            0     0      0.0%       1        1        1.2%      -1.2%    -6.5%     3.3%
+     Fatigue               1     1      1.1%       1        1        1.2%       0.0%    -5.5%     5.3%
+     Malaise               1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+     Pain                  1     1      1.1%       2        2        2.3%      -1.2%    -7.2%     4.4%
+   Infections and
+                          25     22    25.3%       25       19      22.1%       3.2%    -9.8%    16.1%
+   infestations
+     Bacterial
+                           0     0      0.0%       1        1        1.2%      -1.2%    -6.5%     3.3%
+     infection
+     COVID-19              6     6      6.9%       5        5        5.8%       1.1%    -7.0%     9.3%
+     Cystitis              1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+     Gastroenteritis
+                           1     1      1.1%       1        1        1.2%       0.0%    -5.5%     5.3%
+     viral
+     Influenza             4     3      3.4%       6        6        7.0%      -3.5%    -11.5%    3.7%
+     Lower
+     respiratory tract     1     1      1.1%       1        1        1.2%       0.0%    -5.5%     5.3%
+     infection
+     Nasopharyngitis      12     11    12.6%       8        7        8.1%       4.5%    -5.1%    14.5%
+     Pneumonia            0      0     0.0%        1        1        1.2%      -1.2%    -6.5%    3.3%
+     Sinusitis            0      0     0.0%        1        1        1.2%      -1.2%    -6.5%    3.3%
+     Viral infection      0      0     0.0%        1        1        1.2%      -1.2%    -6.5%    3.3%
+
+
+
+
+                           PMA P230024: FDA Summary of Safety and Effectiveness Data                     1 of 35
+                           Active                     Sham
+                                                                              Group Difference†
+                           (N=87)                    (N=86)
+                    Events Subjs %*        Events    Subjs      %*          ∆        LB       UB
+Injury, poisoning
+and procedural        4     4      4.6%       0        0        0.0%       4.6%     0.1%    11.4%
+complications
+  Burns first
+                      2     2      2.3%       0        0        0.0%       2.3%    -2.2%     8.1%
+  degree
+  Head injury         1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+  Limb injury         1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+Metabolism and
+nutrition             1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+disorders
+  Gout                1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+Neoplasms
+benign,
+malignant and         1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+unspecified (incl
+cysts and polyps)
+  Acrochordon         1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+Nervous system
+                     40     31    35.6%       41       30      34.9%       0.7%    -13.7%   15.1%
+disorders
+  Burning
+                      1     1      1.1%       1        1        1.2%       0.0%    -5.5%     5.3%
+  sensation
+  Dizziness          5      3     3.4%        2        2       2.3%        1.1%     -5.2%   8.0%
+  Dysgeusia          0      0     0.0%        1        1       1.2%       -1.2%     -6.5%   3.3%
+  Headache           26     25    28.7%       29       24      27.9%       0.8%    -12.7%   14.6%
+  Hyperaesthesia     0      0     0.0%        1        1       1.2%       -1.2%     -6.5%   3.3%
+  Migraine           4      3     3.4%        0        0       0.0%        3.4%     -1.0%   9.8%
+  Migraine with
+                      1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+  aura
+  Ophthalmic
+                      0     0      0.0%       1        1        1.2%      -1.2%    -6.5%     3.3%
+  migraine
+  Paraesthesia        2     2      2.3%       3        3        3.5%      -1.2%    -8.0%     5.1%
+  Somnolence          1     1      1.1%       3        3        3.5%      -2.3%    -9.1%     3.3%
+Psychiatric
+                      5     4      4.6%       4        4        4.7%      -0.1%    -7.5%     7.3%
+disorders
+  Aggression          0     0      0.0%       1        1        1.2%      -1.2%    -6.5%     3.3%
+  Anxiety             1     1      1.1%       1        1        1.2%       0.0%    -5.5%     5.3%
+  Depressed mood      1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+  Insomnia            1     1      1.1%       2        2        2.3%      -1.2%    -7.2%     4.4%
+  Panic attack        1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+  Tension             1     1      1.1%       0        0        0.0%       1.1%    -3.3%     6.4%
+Reproductive
+system and            0     0      0.0%       1        1        1.2%      -1.2%    -6.5%     3.3%
+breast disorders
+  Heavy menstrual
+                      0     0      0.0%       1        1        1.2%      -1.2%    -6.5%     3.3%
+  bleeding
+Respiratory,
+                      1     1      1.1%       2        1        1.2%       0.0%    -5.5%     5.3%
+thoracic and
+
+
+
+                      PMA P230024: FDA Summary of Safety and Effectiveness Data                     2 of 35
+                                Active                                 Sham
+                                                                                                 Group Difference†
+                                (N=87)                                (N=86)
+                         Events Subjs %*                 Events       Subjs       %*            ∆            LB          UB
+     mediastinal
+     disorders
+       Asthma                0        0      0.0%          1           1       1.2%           -1.2%      -6.5%           3.3%
+       Dyspnea               0        0      0.0%          1           1       1.2%           -1.2%      -6.5%           3.3%
+       Oropharyngeal
+                             1        1      1.1%          0           0       0.0%            1.1%      -3.3%           6.4%
+       pain
+     Skin and
+     subcutaneous            20       17     19.5%         8           8       9.3%        10.2%        -0.4%        21.4%
+     tissue disorders
+       Acne                  1        1      1.1%          1           1       1.2%            0.0%      -5.5%       5.3%
+       Alopecia              1        1      1.1%          0           0       0.0%            1.1%      -3.3%       6.4%
+       Dry skin              9        9      10.3%         4           4       4.7%            5.7%      -2.5%       14.8%
+       Pain of skin          1        1      1.1%          1           1       1.2%            0.0%      -5.5%       5.3%
+       Pruritus              0        0      0.0%          1           1       1.2%           -1.2%      -6.5%       3.3%
+       Rash                  1        1      1.1%          1           1       1.2%            0.0%      -5.5%       5.3%
+       Skin irritation       7        6      6.9%          0           0       0.0%            6.9%       1.9%       14.5%
+     Vascular
+                             3        2      2.3%          0           0       0.0%            2.3%     -2.2%        8.1%
+     disorders
+       Hot flush             1        1      1.1%          0           0       0.0%            1.1%      -3.3%           6.4%
+       Hypertension          2        1      1.1%          0           0       0.0%            1.1%      -3.3%           6.4%
+      Abbreviations: Subjs =subjects, LB=lower bound, UB= upper bound
+      ∆ % difference between active and sham
+      *Percentage of subjects experiencing the specific event.
+
+
+Table 6. All Adverse Events by AE Code Weeks 10-20, Regardless of Device Relatedness
+                      Originally in Active Originally in Sham
+                                                                                          Group Difference†
+                            (N=67)               (N=71)
+                     Events Subjs %* Events Subjs          %*                        ∆                LB           UB
+ All Events            6       6     9.0%  14      12     16.9%                    -7.9%            -20.1%        3.7%
+ Blood and
+ lymphatic system        0        0        0.0%      1            1        1.4%    -1.4%            -7.7%         4.4%
+ disorders
+   Anemia                0        0        0.0%      1            1        1.4%        -1.4%        -7.7%         4.4%
+ Ear and labyrinth
+                         1        1        1.5%      1            1        1.4%        0.1%         -6.3%         6.9%
+ disorders
+   Tinnitus              1        1        1.5%      1            1        1.4%        0.1%         -6.3%         6.9%
+ Gastrointestinal
+                         0        0        0.0%      1            1        1.4%    -1.4%            -7.7%         4.4%
+ disorders
+   Nausea                0        0        0.0%      1            1        1.4%        -1.4%        -7.7%         4.4%
+ General disorders
+ and
+                         0        0        0.0%      2            2        2.8%    -2.8%            -10.0%        3.1%
+ administration
+ site conditions
+   Asthenia              0        0        0.0%      1            1        1.4%        -1.4%        -7.7%         4.4%
+   Illness               0        0        0.0%      1            1        1.4%        -1.4%        -7.7%         4.4%
+ Immune system
+                         1        1        1.5%      0            0        0.0%        1.5%         -3.8%         8.2%
+ disorders
+
+                              PMA P230024: FDA Summary of Safety and Effectiveness Data                                         3 of 35
+                      Originally in Active Originally in Sham
+                                                                                   Group Difference†
+                            (N=67)               (N=71)
+                     Events Subjs %* Events Subjs           %*                    ∆        LB      UB
+   Seasonal allergy    1       1     1.5%  0        0      0.0%                 1.5%      -3.8%   8.2%
+ Infections and
+                       1       1     1.5%  4        4      5.6%                 -4.1%   -12.5%    3.1%
+ infestations
+   COVID-19            0       0     0.0%  2        2      2.8%                 -2.8%   -10.0%    3.1%
+   Lower respiratory
+                       0       0     0.0%  2        2      2.8%                 -2.8%   -10.0%    3.1%
+   tract infection
+   Sinusitis           1       1     1.5%  0        0      0.0%                 1.5%      -3.8%   8.2%
+ Musculoskeletal
+ and connective        1       1     1.5%  0        0      0.0%                 1.5%      -3.8%   8.2%
+ tissue disorders
+   Pain in extremity   1       1     1.5%  0        0      0.0%                 1.5%      -3.8%   8.2%
+ Nervous system
+                       1       1     1.5%  0        0      0.0%                 1.5%      -3.8%   8.2%
+ disorders
+   Headache            1       1     1.5%  0        0      0.0%                 1.5%      -3.8%   8.2%
+ Psychiatric
+                       1       1     1.5%  0        0      0.0%                 1.5%      -3.8%   8.2%
+ disorders
+   Mood Altered        1       1     1.5%  0        0      0.0%                 1.5%      -3.8%   8.2%
+ Reproductive
+ system and breast     0       0     0.0%  1        1      1.4%                 -1.4%     -7.7%   4.4%
+ disorders
+   Pelvic pain         0       0     0.0%  1        1      1.4%                 -1.4%     -7.7%   4.4%
+ Skin and
+ subcutaneous          0       0     0.0%  4        4      5.6%                 -5.6%   -13.8%    0.2%
+ tissue disorders
+   Dry skin            0       0     0.0%  4        4      5.6%                 -5.6%   -13.8%    0.2%
+   Abbreviations: Subjs=subjects, LB=lower bound, UB=upper bound, p= p-value.
+   ∆ % difference between active and sham
+   *Percentage of subjects experiencing the specific event.
+   † 95% Confidence Interval.
+
+
+Table 7. All Serious Adverse Events Weeks 0-10.
+
+All Serious Adverse Events by AE Code
+mITT Analysis Set (N= 173)
+                          Active                          Sham
+                                                                                        Group Difference†
+                          (N=87)                         (N=86)
+                   Events Subjs   %* Events              Subjs       %*           ∆         LB     UB         p
+ All Events          1      1    1.1%  0                   0        0.0%        1.1%      -3.3%   6.4%      0.999
+ Vascular
+                      1        1      1.1%       0         0        0.0%        1.1%      -3.3%   6.4%      0.999
+ disorders
+  Hypertension        1        1      1.1%       0         0        0.0%        1.1%      -3.3%   6.4%      0.999
+Abbreviations: Subjs= subjects, LB=lower bound, UB=upper bound, p=p-value.
+∆ % difference between active and sham
+*Percentage of subjects experiencing the specific event.
+ † 95% Confidence Interval.
+
+
+
+
+                              PMA P230024: FDA Summary of Safety and Effectiveness Data                      4 of 35
+2. Effectiveness Results
+
+The analysis of effectiveness was based on the 173 evaluable patients at the 10-
+week time point. The prespecified primary and secondary endpoint results are
+shown in Table 8.
+
+A fully Conditional Specification (FCS) approach was used to produce 20 multiply
+imputed completed data sets. The FCS approach accommodates nonmonotonicity in
+the pattern of missing data and requires regression models to be specified for each
+variable with missing values needing imputation. All models included age, sex, in
+psychotherapy at baseline, use of any antidepressants at baseline, and treatment
+group. The resulting completed datasets were combined using Rubin's Rule.
+
+Given that the primary endpoint was statistically met, the secondary endpoints were
+tested. As pre-specified (see Table 9.), a Hochberg approach was used for
+controlling multiplicity. The 2-sided p-values (and conversion to 1-sided) are
+provided along with the corresponding Hochberg-adjusted p-values. After correcting
+for multiplicity, the secondary endpoints Week 10 HDRS-17-based Remission and
+Week 10 HDRS-17-based Response are statistically significant based on the
+covariate-adjusted multiple-imputation-based multiplicity-adjusted 1-sided p-values
+(Table 8). The Week 10 EQ-5D-3L endpoint is not statistically significant before or
+after multiplicity correction.
+
+Table 8. Prespecified Primary and Secondary Endpoint Results at Week 10
+ Endpoint (10 weeks) Active Sham            Delta     OR/Cohen’s d p-value2,3
+
+ N (mITT)                87        86       -         -                  -
+
+ HDRS-17 (baseline)      19.2      19.0     -         -                  -
+
+ - Mean change           -9.4      -7.1     -2.3      0.37               0.012
+
+ - Response rate         54.4%     26.9% 27.5% 3.25                      0.0013
+
+ - Remission rate        44.9%     21.8% 23.1% 2.93                      0.0043
+
+ MADRS (baseline)        24.7      23.9     -         -                  -
+
+ - Mean change           -11.3     -7.7     -3.6      0.41               0.0063
+
+ - Response rate         63.0%     31.6% 31.4% 3.70                      <0.0013
+
+ - Remission rate        57.5%     29.4% 28.1% 3.26                      0.0023
+
+ MADRS-s (baseline)      26.8      25.8     -         -                  -
+
+ - Mean change           -9.9      -6.2     -3.7      0.41               0.0093
+
+
+             PMA P230024: FDA Summary of Safety and Effectiveness Data             5 of 35
+    Endpoint (10 weeks) Active Sham             Delta       OR/Cohen’s d p-value2,3
+
+    N (mITT)                87        86        -           -               -
+
+    - Response rate         49.1%     24.0% 25.1% 3.06                      0.0043
+
+    - Remission rate        53.8%     23.4% 30.4% 3.83                      0.0023
+
+    EQ-5D-3L (baseline) 0.75          0.75      -           -               -
+
+    - Mean change1          0.08      0.06      0.02        -               0.3263
+Abbreviations: OR=odds ratio 1Higher is better 2Two-sided
+3Nominal p-values. Without multiplicity adjustment.
+
+
+
+Table 9. Multiplicity Analysis
+    Endpoint
+                                   2-sided 1-sided 1-sided Hochberg
+                                   p-values p-values adjusted p-values
+    Week 10 HDRS response           0.001      0.0005            0.0015
+    Week 10 HDRS remission          0.004      0.0020            0.0040
+                                               0.1630            0.1630
+    Week 10 EQ-5D-3L                0.326
+
+
+▪     For the primary endpoint (see Figure 4), the Active/Sham between-group mean
+      difference in HDRS-17 scores is -2.3 points in favor of the Active group
+      (p=0.012). This result is statistically significant.
+
+▪     For the secondary endpoint using the HDRS-17: the Active/Sham between-
+      group difference in response rates is 27.5% higher in favor of the Active
+      group (p=0.001); the between-group difference in remission rates is 23.1% in
+      favor of the Active group (p=0.004). These results are statistically significant.
+
+▪     For the secondary endpoint using the MADRS: the Active/Sham between-group
+      mean difference in MADRS scores is -3.6 points in favor of the Active group
+      (p=0.006); the between-group difference in response rates is 31.4% higher in
+      favor of the Active group (p=<0.001) the between-group difference in the
+      remission rates is 28.1% higher in favor of the Active group (p=0.002). These
+      results are statistically significant.
+
+▪     For the secondary endpoint using the EQ-5D-3L, the Active/Sham mean change
+      from baseline to Week 10 is: 0.08 - 0.06 = 0.02 (p=0.326), indicating there was no
+      benefit in Active group subjects compared to Sham group subjects.
+
+
+
+
+                PMA P230024: FDA Summary of Safety and Effectiveness Data             6 of 35
+                   30
+
+                                                                                                   Severe
+                   25
+
+
+                   20                                                                              Moderate
+   HDRS-17 Score
+
+
+
+
+                                                                                                                    Active
+                   15
+
+                                                                                                   Mild             Sham
+                   10
+
+
+                    5
+                                                                                                   Remission
+
+                    0
+                        0         2              4               6           8             10                  12
+                                                               Weeks
+
+
+      Figure 4. Change in Mean HDRS-17 Scores between Baseline and 10 Weeks, Overlayed with
+                                       HDRS-17 Depression Symptom Severity Levels
+
+                            3. Subgroup Analyses
+
+                            Subgroup analyses showed no interaction between site- gender-, age-, race- and
+                            treatment effect, suggesting that the data is poolable. No subgroup analysis was
+                            performed for ethnicity.
+
+Table 10. Results for FL-100 Users without any Adjunctive Treatment (FL-100 as
+Monotherapy)
+ HDRS-17                       Active vs Sham, Week 10, OC (mITT)
+
+ Subgroup                      Mean score change                 Response rate            Remission rate                N
+
+
+ Monotherapy1                  -9.7 vs -5.9,                     47.8% vs 13.8%,          34.8% vs 13.8%,               23 vs 29,
+                               delta: -3.8, Cohen’s d: 0.56,     OR=5.76,                 OR=3.29,                      52 (35%)
+                               p=0.0027.                         p<0.0001                 p=0.0027
+1Observed cases (subjects with complete week 10 data. Only 4 subjects with FL-100 as monotherapy did not reach Week 10
+
+
+
+
+                                       PMA P230024: FDA Summary of Safety and Effectiveness Data                           7 of 35
+Table 11. Results for FL-100 Users on an Antidepressant (AD)
+
+ HDRS-17    Active vs Sham, Week 10, mITT
+
+ Subgroup Mean score change                     Response rate                  Remission rate            N
+
+
+ On AD      -10.6 vs -7.8,                      63.2% vs 35.4%, OR=3.14,       53.1% vs 25.5%,           56 vs 53
+            delta: -2.8, Cohen’s d: 0.46,       p=0.010                        OR=3.33,
+            p=0.019                                                            p=0.009
+
+
+               4. Blinding
+
+               A blinding assessment was conducted at Week 10: Prior to subjects unblinding
+               through the system they were asked to respond to the question “Which treatment
+               arm do you think you are in?” (answers: sham/active), followed by the question
+               “How certain are you of this?”, with the options 1 to 5 where 5 is very certain and
+               1 is very uncertain.
+
+               In the active group, 77.6% correctly guessed they received active treatment, while
+               in the sham group 40.7% correctly guessed they received sham treatment (Table
+               12). This constitutes a statistically significant difference (p=0.012).
+
+                       Table 12. Post-treatment Blinding Assessment Results
+
+              Real arm            Guessed active [N (%)] Guessed sham [N (%)]
+              Active              66 (77.6%)                    19 (22.4%)
+              Sham                48 (59.3%)                    33 (40.7%)
+     Note: Seven withdrawn subjects did not perform the blinding assessment. Therefore, the total N is 166.
+
+                Table 13 shows the change in HDRS-17 score, response rate and remission rate at
+                Week 10 were, respectively, highest in the Active/Guessed Active group (-11.14,
+                61.4%, 50.9%) and lowest in the Sham/Guessed Sham group (-6.66, 15.6%,
+                15.6%). Comparing the Week 10 outcomes between the Active/Guessed Sham
+                and Sham/Guessed Active groups, the Sham/Guessed Active Group had a greater
+                reduction in HDRS-17 score (-8.58 versus -7.24), higher response rate (37.2%
+                versus 35.3%) and lower remission rate (27.9% versus 29.4%).
+
+
+
+
+                            PMA P230024: FDA Summary of Safety and Effectiveness Data                         8 of 35
+Table 13. Mean HDRS-17 Change, Response/Remission Rates at Week 10,
+Guessed Arm with any Certainty, 1 to 5
+
+ HDRS-17     Guessed arm, with any certainty (options 1 to 5, where 5 is very certain and 1 is very
+             uncertain)
+ N = 149     Guessed Active                               Guessed Sham
+
+ Real arm    Change     Response Remission        N       Change          Response    Remission         N
+ Active      -11.14     61.4%       50.9%         57      -7.24           35.3%       29.4%             17
+
+ Comparison delta: -    OR:         OR: 2.65,     -       delta: -        OR: 2.87,   OR: 2.21,         -
+            2.56        2.66, p:    p: 0.017              0.58            p: 0.11     p: 0.22
+                        0.014*
+ Sham        -8.58      37.2%       27.9%         43      -6.66           15.6%       15.6%             32
+
+
+    Table 14 shows the change in HDRS-17 score, response and remission rates at
+    Week 10 were, respectively, highest in the Active/Guessed Active group (-11.78,
+    68%, 56.0%) and lowest in the Sham/Guessed Sham group (-6.52, 14.3%,
+    14.3%). Comparing the Week 10 outcomes between the Active/Guessed Sham
+    and Sham/Guessed Active groups, the Sham/Guessed Active group had a greater
+    reduction in HDRS-17 score (-9.0 versus –7.46), higher response rate (44.4%
+    versus 38.5%) and higher remission rate (33.3% versus 30.8%).
+
+Table 14. Mean HDRS-17 change, response/remission rates at Week 10, Guessed
+Arm with certainty ≥ 3*
+
+HDRS-17      Guessed arm, with certainty >=3
+
+ N = 120     Guessed Active                               Guessed Sham
+
+ Real arm    Change     Response Remission        N       Change          Response    Remission         N
+
+ Active      -11.78     68.0%       56.0%         50      -7.46           38.5%       30.8%             13
+
+ Compariso   delta: -   OR:         OR: 2.52,     -       delta:          OR: 3.59,   OR: 2.59,         -
+ n           2.78       2.62, p:    p: 0.031              - 0.94          p: 0.12     p: 0.23
+                        0.0248*
+ Sham        -9.0       44.4%       33.3%         36      -6.52           14.3%       14.3%             21
+
+
+
+    To estimate what the results would have been if the active guesses for both arms
+    were balanced, the adjusted HDRS-17 mean changes was calculated. Table 15
+    shows that the balanced guesses resulted in a between-group difference of -2.12
+    points, which is 0.35 points below the original results.
+
+    The analysis in Table 15 was also complemented by a similar method; Correct
+    Guess Rate (CGR) adjustment15. CGR estimates the distribution of score changes
+    for the 2 x 2 = 4 subgroups based on the real and guessed arm and then resamples
+
+              PMA P230024: FDA Summary of Safety and Effectiveness Data                       9 of 35
+                 (with replacement) the data so as to create a dataset where guesses are perfectly
+                 balanced. After adjustment, CGR yields a between-group mean change of -2.0
+                 points on HDRS-17.
+
+     Table 15. Adjusted HDRS-17 Mean Change Score (Observed Cases) Based on Balanced
+                                    Blinding Guesses
+
+    Real arm         Guessed active         Guessed sham         Original results         Adjusted results
+
+    Active           -11.14 (77.6%1)        -7.24                -10.27                   -10.27
+
+    Sham             -8.58 (59.3%1)         -6.66                -7.80                    -8.152
+
+    Difference                                                   -10.27 - 7.80 = -2.47    -10.27 - 8.15 = -2.12
+1
+  Percentage of the group that guessed active.
+2
+  Rebalanced sham result at 77.6% active guesses: -8.58*0.776 - 6.66*(1-0.776) = -8.15
+
+                 5. Open-label Phase Results
+
+                 In the active group, a total of 55 (55/87=63.2%) participants completed the
+                 additional 10-week open-label phase (Table 16). 30 of the 31 participants (97%)
+                 who showed a treatment response (HDRS-17) during the 10-week blinded phase
+                 continued to show a treatment response at Week 20. Of the 24 participants in the
+                 active group who did not show a treatment response during the blinded phase, 9
+                 participants (38%) showed a treatment response at Week 20.
+
+                 In the sham group, 10 of the 12 participants (83%) who showed a treatment
+                 response in the 10-week blinded phase continued to show a treatment response at
+                 Week 20. Of the 44 sham group participants who did not show a treatment
+                 response in the blinded phase, 22 (50%) showed a treatment response at Week 20.
+
+                 Table 16. Responders (HDRS-17) at Week 20 Based on Response at Week 10.
+                  Active group                      N at Week 10          Responders at Week 20 [N (%)]
+
+                  Week 10 responders                31                    30 (97%)
+
+                  Week 10 nonresponders             24                    9 (38%)
+
+                  Total                             55                    39 (71%)
+
+                  Sham group
+
+                  Week 10 responders                12                    10 (83%)
+
+                  Week 10 nonresponders             44                    22 (50%)
+
+                  Total                             56                    32 (57%)
+
+
+
+
+                              PMA P230024: FDA Summary of Safety and Effectiveness Data                       10 of 35
+               6. Pediatric Extrapolation
+
+               In this premarket application, existing clinical data was not leveraged to support
+               approval of a pediatric patient population.
+
+XII.   FINANCIAL DISCLOSURE
+
+       The Financial Disclosure by Clinical Investigators regulation (21 CFR 54) requires
+       applicants who submit a marketing application to include certain information concerning
+       the compensation to, and financial interests and arrangement of, any clinical investigator
+       conducting clinical studies covered by the regulation. The pivotal clinical study included
+       2 investigators. None of the clinical investigators had disclosable financial
+       interests/arrangements as defined in sections 54.2(a), (b), (c), and (f). The information
+       provided does not raise any questions about the reliability of the data.
+
+XIII. SUMMARY OF SUPPLEMENTAL CLINICAL INFORMATION
+
+Flow FL-100 was the subject device in a single-center, 3-arm, randomized, double-blind, sham-
+controlled clinical trial conducted at Hospital Universitário in São Paulo, Brazil
+(NCT04889976).3 The study, titled “Portable Transcranial Electrical Stimulation and Internet-
+Based Behavioral Therapy for Major Depression Study (PSYLECT)”, was designed to evaluate
+the efficacy, safety, tolerability and usability of: (1) active tDCS (Flow FL-100) with active
+internet behavioral therapy (iBT) (“double active”); (2) active tDCS (Flow FL-100) with sham
+iBT (“tDCS only”); and (3) sham tDCS (sham Flow FL-100) + sham iBT (“double sham”) in
+adults with MDD with a HDRS-17 score ≥ 17 at baseline, during 6 weeks. No antidepressant
+washouts were performed during the trial.
+
+Interventions: tDCS was administered in 2-mA, 30-minute prefrontal sessions for 15 consecutive
+weekdays (1-mA, 90-second duration for sham) and twice-weekly sessions for 3 weeks. The
+digital intervention consisted of 46 sessions based on behavioral therapy. Digital placebo was
+internet browsing.
+
+Main Outcomes and Measures: Change in HDRS-17 score at Week 6.
+
+Results: Of 837 volunteers screened, 210 participants were enrolled (180 [86%] female; mean
+[SD] age, 38.9 [9.3] years) and allocated to double active (n = 64), tDCS only (n = 73), or double
+sham (n = 73). Of the 210 participants enrolled, 199 finished the trial. Linear mixed-effects
+models did not reveal statistically significant group differences in treatment by time interactions
+for HDRS-17 scores, and the estimated effect sizes between groups were as follows: double
+active vs tDCS only (Cohen d, 0.05; 95%CI, −0.48 to 0.58; P = .86), double active vs double
+sham (Cohen d, −0.20; 95%CI, −0.73 to 0.34; P = .47), and tDCS only vs double sham (Cohen d,
+−0.25; 95%CI, −0.76 to 0.27; P = .35). Skin redness and heat or burning sensations were more
+
+
+
+
+                         PMA P230024: FDA Summary of Safety and Effectiveness Data           11 of 35
+frequent in the double active and tDCS only groups. One nonfatal suicide attempt occurred in the
+tDCS only group.
+
+Conclusions and Relevance: Unsupervised home-use tDCS combined with a digital
+psychological intervention or digital placebo was not found to be superior to sham for treatment
+of a major depressive episode in this trial.
+
+XIV. PANEL MEETING RECOMMENDATION AND FDA’S POST-PANEL ACTION
+
+       In accordance with the provisions of section 515(c)(3) of the act as amended by the Safe
+       Medical Devices Act of 1990, this PMA was not referred to the Neurological Devices
+       Panel an FDA advisory committee, for review and recommendation because the
+       information in the PMA substantially duplicates information previously reviewed by this
+       panel.
+
+XV.    CONCLUSIONS DRAWN FROM PRECLINICAL AND CLINICAL STUDIES
+
+       A. Effectiveness Conclusions
+
+           The effectiveness data from the Empower RCT study are based on the cohort of 173
+           randomized subjects that received at least one stimulation session (mITT) with the
+           Flow FL-100 device (1 subject was randomized but never used the device). Subjects
+           were randomized in a 1:1 ratio to either receive active or sham stimulation for 10
+           weeks (blinded period). All assessments were completed by blinded personnel.
+
+           1. The effectiveness outcomes at Week 10 are summarized as follows:
+
+               ● Clinically meaningful between-group differences for the primary and
+                 secondary outcomes were not prespecified.
+
+               ● The Active/Sham 2.3-point between-group difference in HDRS-17 scores at
+                 Week 10 meets a pre-specified statistical primary endpoint. The medical
+                 literature lacks consensus regarding what constitutes a clinically significant or
+                 meaningful between-group difference in HDRS-17 scores. As such, the
+                 clinical significance or meaningfulness of the between-group difference of
+                 -2.3 points on the HDRS-17 scale has not been established. Nevertheless, the
+                 2.3 point between-group difference helps support the view that FL-100
+                 provides probable benefit.
+
+               ● The prespecified HDRS-17 secondary endpoint (adjusted for multiplicity)
+                 analyses demonstrate statistically significant between-group differences in: (a)
+                 response rates = 27.5% (54.4% in the Active arm compared to 26.9% in the
+                 Sham arm, OR=3.25) and (b) remission rates = 23.1% (44.9% in the Active
+                 arm compared to 21.8% in the Sham arm, OR=2.93);
+
+
+
+
+                         PMA P230024: FDA Summary of Safety and Effectiveness Data          12 of 35
+● The primary and secondary HDRS-17 results are further supported by the
+  Active versus Sham between-group difference in response and remission rates
+  (secondary endpoints, not adjusted for multiplicity), respectively, on the
+  MADRS (31.4%, OR=3.70; 28.1%, OR=3.2) and the MADRS-s (25.1%,
+  OR=3.06; 30.4%, OR=3.83). These differences are statistically significant.
+
+● The EQ-5D-3L measures a person's health-related quality of life by assessing
+  five dimensions: mobility, self-care, usual activities, pain/discomfort, and
+  anxiety/depression. There was no between-group statistical difference in EQ-
+  5D-3L scores at Week 10. The EQ-5D-3L frequently fails to detect mild
+  depressive symptoms, as individuals with subclinical depression often select
+  "no problems" on the anxiety/depression dimension. The insensitivity of EQ-
+  5D-3L is documented in the literature.14
+
+● Monotherapy vs. Adjunctive FL-100 Use
+  ○ In the subgroup (N=52) who used the FL-100 as monotherapy (i.e., no
+    adjunctive treatment): HDRS-17 response rate was 47.8% in the active
+    group compared to 13.8% in the sham group (delta=34%, OR=5.76); the
+    HDRS-17 remission rate was 34.8% in the active group compared to 13.8%
+    in the sham group (delta=21.0%, OR=3.33).
+
+   ○ In the subgroup who used FL-100 adjunctively (i.e., with antidepressant
+     medication): HDRS-17 response rate was 63.2% in the active group
+     compared to 35.4% in the sham group (delta=27.8%, OR=3.14); the
+     HDRS-17 remission rate was 53.1% in the active group compared to 25.5%
+     in (delta=27.6%, OR=3.33).
+
+   ○ Data were not provided regarding FL-100 used adjunctively with psycho-
+     therapy or with psychotherapy and antidepressant medication.
+
+● The blinding assessment showed that 77.6% of active subjects correctly
+  guessed their group whereas 40.7% of sham subjects correctly guessed their
+  group (Table 12), constituting a significant difference (p=0.012) that raised
+  uncertainty about the adequacy of blinding due to study bias. This uncertainty
+  was heightened when comparing the data in Tables 13 and 14 between the
+  Sham – Guessed Active and the Active – Guessed Sham groups.
+
+   A post-hoc device blinding study was conducted to determine whether the
+   active and sham devices were indistinguishable, in order to validate the sham.
+   Additional analyses performed showed the adjusted mean change score based
+   on balance blinding guesses would have been a slight decrease in group
+   difference. Therefore, the post-hoc device blinding study and blinding
+   analyses adequately addressed the earlier uncertainty associated with the
+   unbalanced blinding assessment results.
+
+
+
+
+         PMA P230024: FDA Summary of Safety and Effectiveness Data         13 of 35
+      ● Patients who previously had an inadequate clinical response to two or more
+        antidepressants at an adequate dose and duration were excluded from the
+        study, limiting the evidence for use of the FL-100 in a more treatment
+        resistant population.
+
+   2. Outcomes from Weeks 10-20 (Open-label phase)
+
+      At Week 20, a total of 55 participants from the original active group completed
+      the 10-week open-label phase. 30 of the 31 participants (97%) who were
+      responders at Week 10 (HDRS-17 reduction ≥ 50%), were responders at Week
+      20. Of the 24 participants in the original active group who were not HDRS-17
+      responders at Week 10, 9 participants (38%) showed a treatment response at
+      Week 20. Open-label data does not account for a device placebo effect and cannot
+      be used to determine device effectiveness.
+
+      At Week 20, 10 of the 12 original sham group participants (83%) who showed a
+      treatment response at Week 10 continued to show a treatment response at Week
+      20. Of the 44 sham group participants who did not show a treatment response at
+      Week 10, 22 (50%) showed a treatment response at Week 20.
+
+B. Safety Conclusions
+
+   The risks of the device are based on data collected in the clinical study conducted to
+   support PMA approval as described above.
+
+   When comparing the device-related adverse events between the active and sham
+   group, only Skin and subcutaneous tissue disorders display a difference greater than
+   5% (Table 5), which is expected because longer exposure to the stimulation current
+   causes skin irritation and dry skin in some subjects. This difference is also
+   represented in the AEQ for Skin redness related to the device.
+
+   Two cases of mild, superficial skin burns (first-degree burns) were reported. The
+   burns healed without sequelae. In both cases, the participant used dried-out electrode
+   pads, a known cause of skin burns. Treatment was resumed after a few days.
+
+   Notably, headaches were reported in both groups at almost equal rates. Headaches
+   were generally mild in severity. Consistent with the medical literature10,13, the most
+   frequent adverse events (AEs) (active % vs. sham %) were skin redness (63.5% vs.
+   18.5%), itching (50.6% vs. 43.2%), burning sensation (43.5% vs. 38.3%), headache
+   (42.4% vs. 35.8%), and scalp pain (21.2% vs. 12.3%). No serious adverse events,
+   including hypomania, mania, or suicidality, were observed in the study.
+
+   In conclusion, the FL-100 presents some probable risks, but the probable risks are
+   low.
+
+
+
+
+                 PMA P230024: FDA Summary of Safety and Effectiveness Data           14 of 35
+    C. Benefit-Risk Determination
+
+        The totality of the evidence demonstrates FL-100 provides probable benefit to
+        persons at least 18 years of age with major depressive disorder (MDD), that, while
+        modest, is sufficient to outweigh its probable risk. Uncertainty of benefit due to
+        unblinding, lack of a prespecified clinically significant change in HDRS-17 scores,
+        and conflicting results from the literature was evaluated. The FL-100 presents some
+        probable risks, but the probable risks are low. The risks are, in general, mild and
+        transient. The main risks of the device are skin dryness, skin irritation or redness after
+        prolonged use and transient headache. Stinging, burning, or itching sensations at the
+        stimulation site are also common. Skin burns have been reported in cases of electrode
+        pad reuse or use of dried-out electrode pads.
+
+        Overall, the evidence is adequate to demonstrate a reasonable assurance that FL-100
+        is safe and effective under the conditions of use described in the indications of use.
+
+        Additional factors that were considered in determining probable risks and benefits for
+        the FL-100 device include:
+            - The clinical study had high compliance with less than 15% attrition.
+            - The randomized controlled trial had two sites in distinct geographic locations
+               (UK and US, Texas) supporting the generalizability of the results.
+            - The FL-100 showed a probable clinical benefit as a standalone treatment in
+               the clinical study and as an adjunctive treatment with antidepressant
+               medication.
+            - The ability for home use of the device facilitates access to the treatment and
+               provides an alternative to patients with low tolerance to pharmacological
+               treatments.
+            - The probable risks are well-characterized due to the long presence of the
+               device on the European market.
+
+    D. Patient Perspective
+
+       This submission either did not include specific information on patient perspectives or
+       the information did not serve as part of the basis of the decision to approve or deny the
+       PMA for this device.
+
+    E. Overall Conclusions
+
+       In conclusion, given the available information above, the data support that for the
+       indication for use of the FL-100 device, the probable benefits outweigh the probable
+       risks.
+
+XVI. CDRH DECISION
+
+    CDRH issued an approval order on December 8, 2025.
+
+
+
+                      PMA P230024: FDA Summary of Safety and Effectiveness Data            15 of 35
+     The applicant’s manufacturing facilities have been found to be in compliance with the
+     device Quality System (QS) regulation (21 CFR 820).
+
+XVII. APPROVAL SPECIFICATIONS
+
+     Directions for use: See device labeling.
+
+     Hazards to Health from Use of the Device: See Indications, Contraindications,
+     Warnings, Precautions, and Adverse Events in the device labeling.
+
+     Post-approval Requirements and Restrictions: Sese approval order.
+
+XVIII. REFERENCES
+
+     1. L.V.M. Aparicio, M.S. Luethi, L. Borrione, et al., The Portable Transcranial
+        Electrical Stimulation and Internet-Based Behavioral Therapy for Major Depression
+        Study (PSYLECT): Results of the maintenance phase, (2024).
+
+     2. Lucas Borrione, Izio Klein, Lais B. Razza, Paulo Suen, André R. Brunoni, Use of
+        app-based psychological interventions in combination with home-use transcranial
+        direct current stimulation for the treatment of major depressive disorder: A case
+        series, Journal of Affective Disorders, Volume 288, 2021, Pages 189-190.
+
+     3. Borrione L, Cavendish BA, Aparicio LVM, et al. Home-Use Transcranial Direct
+        Current Stimulation for the Treatment of a Major Depressive Episode: A Randomized
+        Clinical Trial. JAMA Psychiatry. 2024;81(4):329–337.
+        doi:10.1001/jamapsychiatry.2023.4948
+
+     4. Rachel D. Woodham, Rachael M. Rimmer, Allan H. Young, Cynthia H.Y. Fu,
+        Adjunctive home-based transcranial direct current stimulation treatment for major
+        depression with real-time remote supervision: An open-label, single-arm feasibility
+        study with long term outcomes, Journal of Psychiatric Research, Volume 153, 2022,
+        197-205.
+
+     5. Rachel D. Woodham, Sudhakar Selvaraj, Nahed Lajmi, Harriet Hobday, Gabrielle
+        Sheehan, Ali-Reza Ghazi-Noori, Peter J. Lagerberg, Rodrigo Machado-Vieira, Jair C.
+        Soares, Allan H. Young, Cynthia H.Y. Fu, Home-based transcranial direct current
+        stimulation for major depressive disorder: 6-month follow-up from randomised sham-
+        controlled trial and open-label treatment phases, Journal of Psychiatric Research,
+        Volume 186, 2025, Pages 23-32.
+
+     6. Sobral M, Guiomar R, Martins V and Ganho-Ávila A (2022) Home-based
+        transcranial direct current stimulation in dual active treatments for symptoms of
+        depression and anxiety: A case series. Front. Psychiatry 13:947435. doi:
+        10.3389/fpsyt.2022.947435.
+
+
+
+                      PMA P230024: FDA Summary of Safety and Effectiveness Data             16 of 35
+7. Rezaei, H., Woodham, R.D., Ghazi-Noori, AR. et al. Acceptability of home-based
+   transcranial direct current stimulation (tDCS) in bipolar depression: thematic analysis
+   of individual views. BMC Psychiatry 25, 549 (2025). https://doi.org/10.1186/s12888-
+   025-06948-4.
+
+8. Baukaite, E., Noel-Johnson, A., Walker, K., Griffiths, C. (2024). An Interpretative
+   Phenomenological Study of the Experiences and Value of Flow Transcranial Direct
+   Current Stimulation (tDCS) and Behaviour Therapy Training Software Used at Home
+   for Specialist Perinatal Mental Health Service and Maternal Loss Psychology Service
+   Patients with Depression. Open Journal of Depression, 13, 41-61.
+   https://doi.org/10.4236/ojd.2024.133004.
+
+9. Ghazi-Noori, AR., Woodham, R.D., Rezaei, H. et al. Home-based transcranial direct
+   current stimulation in bipolar depression: an open-label treatment study of clinical
+   outcomes, acceptability and adverse events. Int J Bipolar Disord 12, 30 (2024).
+   https://doi.org/10.1186/s40345-024-00352-9.
+
+10. Matsumoto H, Ugawa Y. Adverse events of tDCS and tACS: A review. Clin
+    Neurophysiol Pract. 2016; 2:19-25. doi: 10.1016/j.cnp.2016.12.003. PMID:
+    30214966; PMCID: PMC6123849.
+
+11. Woodham RD, Selvaraj S, Lajmi N, Hobday H, Sheehan G, Ghazi-Noori AR,
+    Lagerberg PJ, Rizvi M, Kwon SS, Orhii P, Maislin D, Hernandez L, Machado-Vieira
+    R, Soares JC, Young AH, Fu CHY. Home-based transcranial direct current
+    stimulation treatment for major depressive disorder: a fully remote phase 2
+    randomized sham-controlled trial. Nat Med. 2025; 31(1):87-95. doi: 10.1038/s41591-
+    024-03305-y. Epub 2024 Oct 21. PMID: 39433921; PMCID: PMC11750699.
+
+12. Brunoni AR, Moffa AH, Sampaio-Junior B, Borrione L, Moreno ML, Fernandes RA,
+    Veronezi BP, Nogueira BS, Aparicio LVM, Razza LB, Chamorro R, Tort LC,
+    Fraguas R, Lotufo PA, Gattaz WF, Fregni F, Benseñor IM; ELECT-TDCS
+    Investigators. Trial of Electrical Direct-Current Therapy versus Escitalopram for
+    Depression. N Engl J Med. 2017;376 (26):2523-2533. doi:
+    10.1056/NEJMoa1612999. PMID: 28657871.
+
+13. Brunoni AR, Amadera J, Berbel B, et al. A systematic review on reporting and
+    assessment of adverse effects associated with transcranial direct current stimulation.
+    Int J Neuropsychopharmacol. 2011; 14(8):1133-45. doi:
+    10.1017/S1461145710001690. Epub 2011 Feb 15. PMID: 21320389.
+
+14. Herdman M, Gudex C, Lloyd A, et al. Development and preliminary testing of the
+    new five-level version of EQ-5D (EQ-5D-5L). Qual Life Res. 2011; 20(10):1727-36.
+
+15. Szigeti, B., Nutt, D., Carhart-Harris, R. et al. The difference between ‘placebo group’
+    and ‘placebo control’: a case study in psychedelic microdosing. Sci Rep 13, 12107
+    (2023). https://doi.org/10.1038/s41598-023-34938-7
+
+                  PMA P230024: FDA Summary of Safety and Effectiveness Data          17 of 35
+
