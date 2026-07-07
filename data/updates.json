@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T07:56:39+00:00",
+  "generated_at": "2026-07-07T06:57:13+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -116,6 +116,18 @@
     }
   ],
   "pubmed": [
+    {
+      "id": "pubmed-42409330",
+      "date": "2026 Jul 6",
+      "category": "Paper",
+      "title": "Bupleurum falcatum L. root extract suppresses norepinephrine-induced M2 macrophage polarization by regulating IL-4/STAT6 axis.",
+      "summary": "Fitoterapia",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42409330/",
+      "pmid": "42409330"
+    },
     {
       "id": "pubmed-42399521",
       "date": "2026 Jul 4",
