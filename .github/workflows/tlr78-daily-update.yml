@@ -1,0 +1,43 @@
+name: TLR7/8 antagonist daily update
+
+on:
+  schedule:
+    # 每天 UTC 03:41 触发（错开 STAT6 任务与整点，减轻上游 API 抖动）
+    - cron: "41 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tlr78-daily-update
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest TLR7/8 antagonist items
+        run: python tlr78/scripts/fetch_latest.py
+
+      - name: Commit and push if changed
+        run: |
+          if [[ -n "$(git status --porcelain tlr78/data/updates.json tlr78/research.html)" ]]; then
+            git config user.name "tlr78-daily-bot"
+            git config user.email "tlr78-daily-bot@users.noreply.github.com"
+            git add tlr78/data/updates.json tlr78/research.html
+            git commit -m "chore(daily): 更新 TLR7/8 拮抗剂最新进展 $(date -u +%Y-%m-%d)"
+            git push origin HEAD:master
+          else
+            echo "No changes."
+          fi

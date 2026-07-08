@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>信号通路 | TLR7/8 拮抗剂资讯站</title>
+  <meta name="description" content="ssRNA → TLR7/8 → MyD88 → IRAK → TRAF6 → NF-κB / IRF7 通路机制、IFN-α 产生与拮抗剂的阻断节点。" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🛡️%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">T7</span>
+        <span>TLR7/8 拮抗剂资讯站</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="structure.html">结构与功能</a></li>
+        <li><a href="pathway.html">信号通路</a></li>
+        <li><a href="disease.html">疾病与治疗</a></li>
+        <li><a href="research.html">研究进展</a></li>
+      </ul>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <button class="theme-toggle" type="button">☀️ 浅色</button>
+        <button class="menu-btn" type="button" aria-label="菜单">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding:60px 0 20px;">
+      <div class="container">
+        <span class="eyebrow">SIGNALING PATHWAY</span>
+        <h1><span class="grad">ssRNA → TLR7/8 → MyD88</span> 通路全景</h1>
+        <p class="lead">从内体识别单链 RNA，到 I 型干扰素与促炎细胞因子表达，TLR7/8 处于先天免疫与自身免疫的中枢开关位置。</p>
+      </div>
+    </section>
+
+    <!-- Two arms -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">MyD88 下游的两条分支</h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3>促炎分支 (NF-κB) <span class="badge">各类髓系细胞</span></h3>
+            <p><strong>路径：</strong>MyD88 → IRAK4 → IRAK1/IRAK2 → TRAF6 → TAK1 → IKK<br>
+              <strong>结果：</strong>NF-κB 与 MAPK 活化<br>
+              <strong>产物：</strong>TNF、IL-6、IL-12、IL-1β 等促炎细胞因子。</p>
+          </div>
+          <div class="card">
+            <h3>干扰素分支 (IRF7) <span class="badge indigo">主要在 pDC</span></h3>
+            <p><strong>路径：</strong>MyD88 → IRAK4 → IRAK1 → TRAF6 → TRAF3 → IRF7<br>
+              <strong>结果：</strong>IRF7 磷酸化入核<br>
+              <strong>产物：</strong>大量 I 型干扰素（IFN-α/β），构成狼疮"干扰素特征"。</p>
+          </div>
+        </div>
+        <div class="callout">
+          注意：pDC 高表达 <em>TLR7</em> 与 <em>IRF7</em>，是体内 IFN-α 的主要来源；这也是 TLR7 拮抗剂能显著压低干扰素特征的机制基础。
+        </div>
+      </div>
+    </section>
+
+    <!-- Diagram -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">通路示意（含拮抗节点）</h2>
+        <div class="pathway-diagram">
+          <div class="pathway-step">单链 RNA / 自身 RNA 免疫复合物进入内体</div>
+          <div class="pathway-arrow">↓</div>
+          <div class="pathway-step highlight">TLR7 / TLR8 识别并二聚化 ← <span style="color:var(--warn);">拮抗剂在此阻断</span></div>
+          <div class="pathway-arrow">↓</div>
+          <div class="pathway-step">TIR 域招募接头蛋白 MyD88</div>
+          <div class="pathway-arrow">↓</div>
+          <div class="pathway-step">IRAK4 → IRAK1 / IRAK2 → TRAF6</div>
+          <div class="pathway-arrow">↓</div>
+          <div class="pathway-branch">
+            <div class="pathway-step">TAK1 → IKK<br><small style="color:var(--text-muted);font-weight:normal;">NF-κB / MAPK</small></div>
+            <div class="pathway-step">TRAF3 → IRF7<br><small style="color:var(--text-muted);font-weight:normal;">I 型干扰素</small></div>
+          </div>
+          <div class="pathway-arrow">↓</div>
+          <div class="pathway-branch">
+            <div class="pathway-step">促炎细胞因子<br>(TNF, IL-6, IL-12)</div>
+            <div class="pathway-step">IFN-α / IFN-β<br>(干扰素特征)</div>
+            <div class="pathway-step">B 细胞活化<br>(自身抗体)</div>
+            <div class="pathway-step">组织炎症<br>(皮肤/肾/关节)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Regulation -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">调控与拮抗层次</h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3>受体层面拮抗</h3>
+            <p><strong>小分子：</strong>Enpatoran、Afimetoran、MHV370、E-6742 直接结合口袋阻止二聚化。<br>
+              <strong>抗体：</strong>DS-7011a 从外结构域封闭 TLR7。</p>
+          </div>
+          <div class="card">
+            <h3>配体层面拮抗</h3>
+            <p><strong>寡核苷酸拮抗剂（IRS/IMO 系列）：</strong>竞争性占据 RNA 结合位点，中和自身 RNA 的刺激。</p>
+          </div>
+          <div class="card">
+            <h3>下游激酶抑制</h3>
+            <p><strong>IRAK4 抑制剂：</strong>阻断 MyD88 下游的近端激酶，对 TLR7/8/9 与 IL-1 家族均有效（更广谱）。</p>
+          </div>
+          <div class="card">
+            <h3>内源性负反馈</h3>
+            <p>SOCS1、A20 (TNFAIP3)、UNC93B1 的调控突变均可影响 TLR7/8 信号强度与自身免疫易感性。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">核酸感知 Toll 样受体对比</h2>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>受体</th><th>配体</th><th>定位</th><th>关键下游</th><th>疾病相关</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>TLR3</td><td>dsRNA</td><td>内体</td><td>TRIF → IFN-β</td><td>抗病毒、脑炎</td></tr>
+              <tr><td><strong>TLR7</strong></td><td><strong>GU-rich ssRNA</strong></td><td>内体</td><td>MyD88 → IFN-α</td><td><strong>SLE、皮肤狼疮</strong></td></tr>
+              <tr><td><strong>TLR8</strong></td><td><strong>AU-rich ssRNA</strong></td><td>内体</td><td>MyD88 → 促炎因子</td><td><strong>炎症、部分自免</strong></td></tr>
+              <tr><td>TLR9</td><td>CpG DNA</td><td>内体</td><td>MyD88 → IFN-α</td><td>SLE、感染</td></tr>
+              <tr><td>cGAS-STING</td><td>胞浆 dsDNA</td><td>胞质</td><td>TBK1 → IFN-β</td><td>干扰素病、SLE</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="color:var(--text-muted);font-size:13px;margin-top:8px;">TLR7/8/9 同属 MyD88 依赖的内体核酸感受器，因此选择性拮抗 TLR7/8 可在不完全废除抗病毒防御的前提下抑制自身核酸驱动的病理性炎症。</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="copyright">© 2026 TLR7/8 拮抗剂资讯站 · 仅供学术研究与科普使用</div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

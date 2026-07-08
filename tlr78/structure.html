@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>结构与功能 | TLR7/8 拮抗剂资讯站</title>
+  <meta name="description" content="TLR7 与 TLR8 受体结构域组成、配体识别与切割激活机制，以及拮抗剂结合位点介绍。" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🛡️%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">T7</span>
+        <span>TLR7/8 拮抗剂资讯站</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="structure.html">结构与功能</a></li>
+        <li><a href="pathway.html">信号通路</a></li>
+        <li><a href="disease.html">疾病与治疗</a></li>
+        <li><a href="research.html">研究进展</a></li>
+      </ul>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <button class="theme-toggle" type="button">☀️ 浅色</button>
+        <button class="menu-btn" type="button" aria-label="菜单">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding:60px 0 20px;">
+      <div class="container">
+        <span class="eyebrow">STRUCTURE & FUNCTION</span>
+        <h1>TLR7/8 的<span class="grad">结构与功能</span></h1>
+        <p class="lead">TLR7 与 TLR8 是内体膜上的单次跨膜受体，由马蹄形 LRR 外结构域识别单链 RNA，胞内 TIR 域启动信号；配体口袋是小分子拮抗剂的主要作用位点。</p>
+      </div>
+    </section>
+
+    <!-- Gene info -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">基因基本信息</h2>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>项目</th><th>TLR7</th><th>TLR8</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>基因符号</td><td>TLR7</td><td>TLR8</td></tr>
+              <tr><td>染色体</td><td>Xp22.2</td><td>Xp22.2</td></tr>
+              <tr><td>Entrez Gene ID</td><td>51284</td><td>51311</td></tr>
+              <tr><td>Ensembl</td><td>ENSG00000196664</td><td>ENSG00000101916</td></tr>
+              <tr><td>UniProt (人)</td><td>Q9NYK1</td><td>Q9NR97</td></tr>
+              <tr><td>蛋白长度</td><td>约 1049 aa</td><td>约 1041 aa</td></tr>
+              <tr><td>主要表达细胞</td><td>pDC、B 细胞</td><td>单核细胞、mDC、中性粒</td></tr>
+              <tr><td>天然配体</td><td>富含 GU 的 ssRNA、鸟苷</td><td>富含 AU 的 ssRNA、尿苷</td></tr>
+              <tr><td>激动剂原型</td><td>咪喹莫特、瑞喹莫德(R848)</td><td>瑞喹莫德(R848)、莫托莫德</td></tr>
+              <tr><td>亚细胞定位</td><td colspan="2">内体 / 内溶酶体（需 UNC93B1 转运）</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Domain diagram -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">受体结构域组成</h2>
+        <p class="section-sub">TLR7/8 为 I 型单次跨膜蛋白，采用典型 Toll 样受体的模块化结构。</p>
+        <div class="domain-bar" title="TLR7/8 结构域示意">
+          <div class="domain d-nterm">Signal<br>信号肽</div>
+          <div class="domain d-dna">LRR-N<br>外结构域 N</div>
+          <div class="domain d-linker">Z-loop<br>切割环</div>
+          <div class="domain d-coiled">LRR-C<br>外结构域 C</div>
+          <div class="domain d-sh2">TM<br>跨膜</div>
+          <div class="domain d-tad">TIR<br>胞内信号域</div>
+        </div>
+        <div class="domain-legend">
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#93c5fd;vertical-align:middle;"></i>信号肽（内质网靶向）</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#fca5a5;vertical-align:middle;"></i>LRR 外结构域 N 端（配体口袋 1）</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#d8b4fe;vertical-align:middle;"></i>Z-loop（蛋白酶切割位点）</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#86efac;vertical-align:middle;"></i>LRR 外结构域 C 端（配体口袋 2）</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#fcd34d;vertical-align:middle;"></i>跨膜段</span>
+          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#fdba74;vertical-align:middle;"></i>TIR 胞内信号域</span>
+        </div>
+
+        <div class="card-grid" style="margin-top:20px;">
+          <div class="card">
+            <h3>LRR 马蹄形外结构域</h3>
+            <p>由约 26 个亮氨酸富集重复（LRR）拼成马蹄形。两个受体分子背靠背形成 m 形二聚体，配体结合于二聚体界面。</p>
+          </div>
+          <div class="card">
+            <h3>双配体结合口袋</h3>
+            <p>TLR8 存在两个结合位点：位点 1 结合小分子（尿苷/咪唑喹啉），位点 2 结合寡核苷酸；协同稳定活化二聚体。</p>
+          </div>
+          <div class="card">
+            <h3>Z-loop 切割激活</h3>
+            <p>内体中组织蛋白酶（cathepsin）/天冬酰胺内肽酶切割 Z 环，是 TLR7/8/9 获得信号能力的必经步骤。</p>
+          </div>
+          <div class="card">
+            <h3>跨膜段 (TM)</h3>
+            <p>单次跨越内体膜，连接外结构域与胞内 TIR 域，参与受体在内体的定位与二聚化取向。</p>
+          </div>
+          <div class="card">
+            <h3>TIR 胞内信号域</h3>
+            <p>Toll/IL-1 受体同源域，配体诱导二聚化后招募接头蛋白 MyD88，启动下游级联。</p>
+          </div>
+          <div class="card">
+            <h3>UNC93B1 伴侣</h3>
+            <p>跨膜伴侣蛋白 UNC93B1 负责将 TLR7/8 从内质网转运至内体，是其表达与信号的必要条件，也是潜在调控靶点。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Antagonist mechanism -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">拮抗剂作用机制</h2>
+        <div class="info-block">
+          <ol>
+            <li>正常情况下，内体中的单链 RNA（含自身 RNA）经切割后的 TLR7/8 识别。</li>
+            <li>配体结合诱导 LRR 外结构域<strong>二聚化重排</strong>，使胞内两个 TIR 域靠近。</li>
+            <li><strong>竞争型小分子拮抗剂</strong>（如 Enpatoran、Afimetoran、MHV370、E-6742）结合于配体口袋或变构位点，阻止活化构象形成。</li>
+            <li>受体保持在非活化二聚体状态，无法招募 MyD88，信号被切断在最上游。</li>
+            <li>另一类<strong>寡核苷酸拮抗剂</strong>（如 IRS/IMO 系列）以序列特异方式竞争 RNA 结合位点。</li>
+            <li><strong>抗体类拮抗剂</strong>（如 DS-7011a 抗 TLR7 单抗）从外结构域侧封闭受体。</li>
+          </ol>
+        </div>
+
+        <div class="callout warn">
+          <strong>拮抗 vs. 激动：</strong>同一结合口袋既可被激动剂（咪喹莫特、瑞喹莫德）占据以<em>激活</em>受体用于抗肿瘤/疫苗佐剂，也可被拮抗剂占据以<em>抑制</em>受体用于自身免疫。化学结构上的细微差异决定了受体是被"打开"还是"锁死"。
+        </div>
+      </div>
+    </section>
+
+    <!-- TLR7 vs TLR8 -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">TLR7 与 TLR8 的异同</h2>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th>维度</th><th>TLR7</th><th>TLR8</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>主要免疫细胞</td><td>浆细胞样树突状细胞 (pDC)、B 细胞</td><td>单核/巨噬细胞、髓样 DC、中性粒细胞</td></tr>
+              <tr><td>标志性下游</td><td>IFN-α（I 型干扰素）</td><td>TNF、IL-12、IL-1β 等促炎细胞因子</td></tr>
+              <tr><td>配体偏好</td><td>富含 GU 的 ssRNA、鸟苷类似物</td><td>富含 AU 的 ssRNA、尿苷及降解产物</td></tr>
+              <tr><td>自身免疫权重</td><td>狼疮核心驱动，遗传学证据强</td><td>参与炎症放大，与部分单基因炎症病相关</td></tr>
+              <tr><td>拮抗策略意义</td><td>抑制 IFN 特征与自身抗体</td><td>抑制促炎细胞因子风暴</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="color:var(--text-muted);font-size:13px;margin-top:8px;">正因两者分工互补，<strong>双重 TLR7/8 拮抗剂</strong>被认为能同时压制"干扰素臂"与"促炎臂"，成为主流开发方向。</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="copyright">© 2026 TLR7/8 拮抗剂资讯站 · 仅供学术研究与科普使用</div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
