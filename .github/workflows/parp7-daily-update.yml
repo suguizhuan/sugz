@@ -1,4 +1,4 @@
-name: STAT6 daily update
+name: PARP7 daily update
 
 on:
   schedule:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: stat6-daily-update
+  group: parp7-daily-update
   cancel-in-progress: false
 
 jobs:
@@ -27,16 +27,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch latest STAT6 items
+      - name: Fetch latest PARP7 items
         run: python scripts/fetch_latest.py
 
       - name: Commit and push if changed
         run: |
-          if [[ -n "$(git status --porcelain data/updates.json research.html)" ]]; then
-            git config user.name "stat6-daily-bot"
-            git config user.email "stat6-daily-bot@users.noreply.github.com"
-            git add data/updates.json research.html
-            git commit -m "chore(daily): 更新 STAT6 最新进展 $(date -u +%Y-%m-%d)"
+          if [[ -n "$(git status --porcelain data/updates.json news.html)" ]]; then
+            git config user.name "parp7-daily-bot"
+            git config user.email "parp7-daily-bot@users.noreply.github.com"
+            git add data/updates.json news.html
+            git commit -m "chore(daily): 更新 PARP7 最新进展 $(date -u +%Y-%m-%d)"
             git push origin HEAD:master
           else
             echo "No changes."

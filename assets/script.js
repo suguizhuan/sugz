@@ -1,7 +1,7 @@
-// STAT6 资讯网站 - 交互脚本
+// PARP7 资讯监控网站 - 交互脚本
 (function () {
   const root = document.documentElement;
-  const stored = localStorage.getItem("stat6-theme");
+  const stored = localStorage.getItem("parp7-theme");
   if (stored) root.setAttribute("data-theme", stored);
 
   document.addEventListener("DOMContentLoaded", () => {
@@ -17,7 +17,7 @@
         const cur = root.getAttribute("data-theme") || "dark";
         const next = cur === "light" ? "dark" : "light";
         root.setAttribute("data-theme", next);
-        localStorage.setItem("stat6-theme", next);
+        localStorage.setItem("parp7-theme", next);
         setLabel();
       });
     }

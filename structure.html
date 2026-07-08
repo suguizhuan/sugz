@@ -3,24 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>结构与功能 | STAT6 资讯站</title>
-  <meta name="description" content="STAT6 蛋白结构域组成、关键活化位点及分子功能介绍。" />
+  <title>结构与功能 | PARP7 资讯监控</title>
+  <meta name="description" content="PARP7（TIPARP）的基因与蛋白结构、WWE 结构域、CCCH 锌指、催化 ART 结构域，以及单-ADP-核糖基化（MARylation）机制。" />
   <link rel="stylesheet" href="assets/style.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧬%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎯%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="index.html">
-        <span class="brand-mark">S6</span>
-        <span>STAT6 资讯站</span>
+        <span class="brand-mark">P7</span>
+        <span>PARP7 资讯监控</span>
       </a>
       <ul class="nav-links">
         <li><a href="index.html">首页</a></li>
-        <li><a href="structure.html">结构与功能</a></li>
+        <li><a href="structure.html">结构功能</a></li>
         <li><a href="pathway.html">信号通路</a></li>
-        <li><a href="disease.html">疾病与治疗</a></li>
-        <li><a href="research.html">研究进展</a></li>
+        <li><a href="disease.html">疾病治疗</a></li>
+        <li><a href="landscape.html">竞争格局</a></li>
+        <li><a href="news.html">每日资讯</a></li>
+        <li><a href="companies.html">公司</a></li>
+        <li><a href="deals.html">交易融资</a></li>
+        <li><a href="patents.html">专利进展</a></li>
       </ul>
       <div style="display:flex;gap:8px;align-items:center;">
         <button class="theme-toggle" type="button">☀️ 浅色</button>
@@ -33,139 +37,193 @@
     <section class="hero" style="padding:60px 0 20px;">
       <div class="container">
         <span class="eyebrow">STRUCTURE & FUNCTION</span>
-        <h1>STAT6 的<span class="grad">结构与功能</span></h1>
-        <p class="lead">STAT6 由 847 个氨基酸组成，具备典型的 STAT 家族模块化结构域，酪氨酸磷酸化位点 Y641 是激活的关键。</p>
+        <h1>PARP7 的<span class="grad">结构与酶学功能</span></h1>
+        <p class="lead">PARP7（TIPARP / ARTD14）属于 ADP-核糖基转移酶（ARTD）家族，但它是一种<strong>单</strong>-ADP-核糖基转移酶（mono-ART），
+          催化向底物转移单个 ADP-核糖单元（MARylation），而非 PARP1/2 那样的多聚化。这一差异决定了它独特的生物学角色与成药策略。</p>
       </div>
     </section>
 
-    <!-- Gene info -->
+    <!-- Gene / protein facts -->
     <section>
       <div class="container">
-        <h2 class="section-title">基因基本信息</h2>
-        <div class="table-wrap">
-          <table class="data">
-            <thead>
-              <tr><th>项目</th><th>值</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>基因符号</td><td>STAT6</td></tr>
-              <tr><td>别名</td><td>IL-4-STAT, D12S1644</td></tr>
-              <tr><td>染色体</td><td>12q13.3</td></tr>
-              <tr><td>外显子数</td><td>23</td></tr>
-              <tr><td>Entrez Gene ID</td><td>6778</td></tr>
-              <tr><td>Ensembl</td><td>ENSG00000166888</td></tr>
-              <tr><td>UniProt (人)</td><td>P42226</td></tr>
-              <tr><td>蛋白长度</td><td>847 aa</td></tr>
-              <tr><td>分子量</td><td>约 94 kDa</td></tr>
-              <tr><td>关键磷酸化位点</td><td>Tyr641（激活位点）；Ser756（辅助调控）</td></tr>
-            </tbody>
-          </table>
+        <h2 class="section-title">基因与蛋白概况</h2>
+        <div class="info-block">
+          <dl class="facts">
+            <dt>基因符号</dt><dd>PARP7</dd>
+            <dt>别名</dt><dd>TIPARP、ARTD14、pART14、TCDD-inducible poly(ADP-ribose) polymerase</dd>
+            <dt>染色体位置</dt><dd>3q25.31</dd>
+            <dt>Entrez Gene ID</dt><dd>25976</dd>
+            <dt>UniProt</dt><dd>Q7Z3E1</dd>
+            <dt>蛋白长度</dt><dd>约 657 个氨基酸（isoform 1）</dd>
+            <dt>分子量</dt><dd>约 75 kDa</dd>
+            <dt>酶分类</dt><dd>单-ADP-核糖基转移酶（mono-ART / MART），EC 2.4.2.-</dd>
+            <dt>亚细胞定位</dt><dd>核内为主，可穿梭至细胞质；参与细胞质应激颗粒调控</dd>
+          </dl>
         </div>
       </div>
     </section>
 
-    <!-- Domain diagram -->
+    <!-- Domain architecture -->
     <section>
       <div class="container">
-        <h2 class="section-title">蛋白结构域组成</h2>
-        <p class="section-sub">STAT6 采用典型 STAT 家族的六个模块化结构域，各自承担不同功能。</p>
-        <div class="domain-bar" title="STAT6 结构域示意">
-          <div class="domain d-nterm">N-terminal<br>1-135</div>
-          <div class="domain d-coiled">Coiled-coil<br>136-315</div>
-          <div class="domain d-dna">DNA-binding<br>316-490</div>
-          <div class="domain d-linker">Linker<br>491-565</div>
-          <div class="domain d-sh2">SH2<br>566-660</div>
-          <div class="domain d-tad">TAD (Y641)<br>661-847</div>
+        <h2 class="section-title">结构域组成</h2>
+        <p class="section-sub">PARP7 由 N 端调控区、WWE 结构域、CCCH 型锌指与 C 端催化 ART 结构域串联组成。</p>
+
+        <div class="domain-bar">
+          <div class="domain d-nterm">N 端区</div>
+          <div class="domain d-coiled">WWE 结构域</div>
+          <div class="domain d-dna">CCCH 锌指</div>
+          <div class="domain d-sh2">催化 ART 结构域</div>
         </div>
         <div class="domain-legend">
-          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#93c5fd;vertical-align:middle;"></i>N 端域（二聚化/相互作用）</span>
-          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#86efac;vertical-align:middle;"></i>卷曲螺旋（辅因子结合）</span>
-          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#fca5a5;vertical-align:middle;"></i>DNA 结合域</span>
-          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#d8b4fe;vertical-align:middle;"></i>Linker</span>
-          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#fcd34d;vertical-align:middle;"></i>SH2 域（pY641 识别）</span>
-          <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:#fdba74;vertical-align:middle;"></i>反式激活域 TAD</span>
+          <span><span style="background:#93c5fd;"></span>N 端调控区</span>
+          <span><span style="background:#86efac;"></span>WWE 结构域</span>
+          <span><span style="background:#fca5a5;"></span>CCCH 型锌指</span>
+          <span><span style="background:#fcd34d;"></span>催化 ART 结构域</span>
         </div>
 
-        <div class="card-grid" style="margin-top:20px;">
+        <div class="card-grid" style="margin-top:24px;">
           <div class="card">
-            <h3>N 端域 (ND, 1–135)</h3>
-            <p>介导 STAT6 二聚体之间的相互作用，稳定四聚体形式在增强子上的结合。</p>
+            <h3>N 端调控区</h3>
+            <p>包含核定位/穿梭相关序列，参与 PARP7 在核质间的分布与蛋白稳定性调控。</p>
           </div>
           <div class="card">
-            <h3>卷曲螺旋域 (CCD, 136–315)</h3>
-            <p>提供与辅调控因子（如 CBP/p300、NCoA）的相互作用界面，参与核输入调控。</p>
+            <h3>WWE 结构域</h3>
+            <p>识别 poly-ADP-核糖（PAR）/ iso-ADP-核糖的模块，介导与 ADP-核糖信号相关蛋白的相互作用，参与底物识别与定位。</p>
           </div>
           <div class="card">
-            <h3>DNA 结合域 (DBD, 316–490)</h3>
-            <p>识别经典 GAS 位点：<code>TTC(N)₄GAA</code>（N₄ 型 GAS，与 STAT1 的 N₃ GAS 不同），特别是 STAT6 偏好 N₄ 型。</p>
+            <h3>CCCH 型锌指</h3>
+            <p>典型的 CCCH 锌指具备 RNA 结合潜力，提示 PARP7 参与 RNA 代谢与应激颗粒动态，是其区别于多数 PARP 成员的特征。</p>
           </div>
           <div class="card">
-            <h3>SH2 域 (566–660)</h3>
-            <p>识别磷酸化的 Tyr641，介导 STAT6 同源二聚化，也介导与受体磷酸化 ITAM 位点的结合。</p>
-          </div>
-          <div class="card">
-            <h3>反式激活域 (TAD, 661–847)</h3>
-            <p>富含酸性残基，招募转录共激活因子（如 p300/CBP、SRC-1）以启动转录。</p>
-          </div>
-          <div class="card">
-            <h3>关键磷酸化位点</h3>
-            <p><span class="badge">Y641</span> JAK 家族磷酸化后引发二聚化；<span class="badge indigo">S756</span> 参与转录活性调控。</p>
+            <h3>催化 ART 结构域</h3>
+            <p>ADP-核糖基转移酶折叠。由于催化关键残基（H-Y-Φ 变体，缺失 PARP1 中的谷氨酸）不同，PARP7 只能转移<strong>单个</strong>ADP-核糖，即 mono-ART 活性，也是小分子抑制剂结合的口袋所在。</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Activation mechanism -->
-    <section>
+    <!-- MARylation mechanism -->
+    <section style="background:var(--bg-soft);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
       <div class="container">
-        <h2 class="section-title">激活机制</h2>
-        <div class="info-block">
-          <ol>
-            <li>IL-4 / IL-13 与其受体复合物（<em>Type I</em>：IL-4Rα + γc；<em>Type II</em>：IL-4Rα + IL-13Rα1）结合。</li>
-            <li>受体相关 JAK 激酶（JAK1/JAK2/JAK3/TYK2）活化，磷酸化 IL-4Rα 胞内域的酪氨酸残基。</li>
-            <li>细胞质中的 STAT6 通过其 SH2 域识别 IL-4Rα 上的 <code>pY-X-X-Q</code> 基序，被募集到受体。</li>
-            <li>JAK 磷酸化 STAT6 的 <strong>Tyr641</strong>。</li>
-            <li>磷酸化的 STAT6 通过 SH2 域相互识别形成同源二聚体。</li>
-            <li>二聚体入核，识别启动子/增强子上的 <em>N₄ 型 GAS 元件</em>，招募 p300/CBP 等共激活因子驱动转录。</li>
-            <li>SOCS1/SOCS3、PIAS1、TC-PTP/PTP1B 等负反馈机制关闭信号。</li>
-          </ol>
+        <h2 class="section-title">单-ADP-核糖基化（MARylation）机制</h2>
+        <p class="section-sub">PARP7 使用 NAD⁺ 作为供体，将单个 ADP-核糖共价连接到底物蛋白的特定残基（多为半胱氨酸），从而改变底物的活性、稳定性或相互作用。</p>
+        <div class="pathway-diagram">
+          <div class="pathway-step">NAD⁺（供体）+ 底物蛋白</div>
+          <div class="pathway-arrow">↓ PARP7 催化</div>
+          <div class="pathway-step highlight">底物–ADP-核糖（MAR 化）+ 烟酰胺</div>
+          <div class="pathway-arrow">↓</div>
+          <div class="pathway-branch">
+            <div class="pathway-step">TBK1 MAR 化 → 抑制活性</div>
+            <div class="pathway-step">AHR MAR 化 → 负反馈/降解</div>
+            <div class="pathway-step">自身 MAR 化（automodification）</div>
+          </div>
         </div>
-
         <div class="callout warn">
-          <strong>常见误区：</strong>STAT6 的 SH2 结合位点具备较高的偏好性，不能被典型 STAT1/3 的 GAS 位点替代。STAT6 偏好 <code>N₄</code> 间距的 GAS 元件，例如 IL-4Rα 增强子上的 GAS。
+          <strong>与 PARP1/2 的关键区别：</strong> PARP1/2 催化<strong>多聚</strong>ADP-核糖化（PARylation）并主要参与 DNA 损伤修复；
+          PARP7 催化<strong>单</strong>ADP-核糖化（MARylation）并主要调控免疫与转录信号。因此针对 PARP7 的抑制剂需要高选择性，
+          以避免脱靶到 PARP1/2 而产生不同的药理与安全性特征。
         </div>
       </div>
     </section>
 
-    <!-- Downstream target genes -->
+    <!-- Key substrates / functions -->
     <section>
       <div class="container">
-        <h2 class="section-title">典型下游靶基因</h2>
+        <h2 class="section-title">主要底物与生物学功能</h2>
         <div class="table-wrap">
           <table class="data">
             <thead>
-              <tr><th>靶基因</th><th>细胞背景</th><th>生物学意义</th></tr>
+              <tr><th>底物 / 通路</th><th>PARP7 的作用</th><th>下游效应</th></tr>
             </thead>
             <tbody>
-              <tr><td><em>GATA3</em></td><td>CD4⁺ T 细胞</td><td>Th2 分化的主控转录因子</td></tr>
-              <tr><td><em>IL4RA</em></td><td>多种免疫细胞</td><td>正反馈增强 IL-4 信号</td></tr>
-              <tr><td><em>IL-4, IL-5, IL-13</em></td><td>Th2 细胞</td><td>Th2 型细胞因子</td></tr>
-              <tr><td><em>ARG1</em></td><td>M2 巨噬细胞</td><td>抗炎与组织修复</td></tr>
-              <tr><td><em>CCL17 (TARC), CCL22, CCL26 (Eotaxin-3)</em></td><td>树突细胞、上皮</td><td>招募 Th2/嗜酸粒细胞</td></tr>
-              <tr><td><em>MUC5AC</em></td><td>气道上皮</td><td>粘液高分泌</td></tr>
-              <tr><td><em>CD23 (FCER2)</em></td><td>B 细胞</td><td>低亲和力 IgE 受体</td></tr>
-              <tr><td><em>AID (AICDA)</em>（辅助）</td><td>B 细胞</td><td>参与 IgE/IgG1 类别转换</td></tr>
+              <tr>
+                <td><strong>TBK1</strong></td>
+                <td>MAR 化 TBK1，抑制其自磷酸化与激酶活性</td>
+                <td>抑制 STING/RIG-I → TBK1 → IRF3 轴，<strong>下调 I 型干扰素</strong></td>
+              </tr>
+              <tr>
+                <td><strong>AHR（芳香烃受体）</strong></td>
+                <td>被 AHR 转录诱导，反过来 MAR 化 AHR</td>
+                <td>负反馈调控 AHR 信号，影响 AHR 靶基因（如 CYP1A1）表达与 AHR 降解</td>
+              </tr>
+              <tr>
+                <td><strong>核受体 / 转录共调节</strong></td>
+                <td>MAR 化并调控转录共调节因子（如雌激素受体信号，早期文献报道）</td>
+                <td>影响激素反应性转录</td>
+              </tr>
+              <tr>
+                <td><strong>应激颗粒 / RNA 代谢</strong></td>
+                <td>经 CCCH 锌指参与 RNA 结合与应激颗粒动态</td>
+                <td>调控翻译应激反应</td>
+              </tr>
+              <tr>
+                <td><strong>自身（automodification）</strong></td>
+                <td>自我 MAR 化</td>
+                <td>调控 PARP7 自身活性与周转</td>
+              </tr>
             </tbody>
           </table>
         </div>
+        <p style="color:var(--text-muted);font-size:13px;">注：底物谱仍在不断扩展，具体位点与生理意义以最新原始文献为准（见「每日资讯」自动更新的 PubMed 条目）。</p>
       </div>
     </section>
 
+    <!-- External resources -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">结构 / 数据库资源</h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3>UniProt Q7Z3E1</h3>
+            <p>蛋白序列、结构域注释、翻译后修饰与相互作用。</p>
+            <a class="more" href="https://www.uniprot.org/uniprotkb/Q7Z3E1/entry" target="_blank" rel="noopener">前往 →</a>
+          </div>
+          <div class="card">
+            <h3>NCBI Gene 25976</h3>
+            <p>基因概况、参考序列、表达与同源物。</p>
+            <a class="more" href="https://www.ncbi.nlm.nih.gov/gene/25976" target="_blank" rel="noopener">前往 →</a>
+          </div>
+          <div class="card">
+            <h3>AlphaFold / PDB</h3>
+            <p>PARP7 催化结构域与抑制剂复合物结构（检索 PARP7 / TIPARP）。</p>
+            <a class="more" href="https://www.rcsb.org/search?request=%7B%22query%22%3A%7B%22type%22%3A%22terminal%22%2C%22service%22%3A%22full_text%22%2C%22parameters%22%3A%7B%22value%22%3A%22PARP7%22%7D%7D%2C%22return_type%22%3A%22polymer_entity%22%7D" target="_blank" rel="noopener">前往 →</a>
+          </div>
+          <div class="card">
+            <h3>GeneCards TIPARP</h3>
+            <p>综合注释、表达谱、通路与疾病关联。</p>
+            <a class="more" href="https://www.genecards.org/cgi-bin/carddisp.pl?gene=TIPARP" target="_blank" rel="noopener">前往 →</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="copyright">© 2026 STAT6 资讯站 · 仅供学术研究与科普使用</div>
+      <div class="footer-grid">
+        <div>
+          <h5>关于本站</h5>
+          <p>PARP7（TIPARP）抑制剂资讯监控站，汇编自公开文献、临床数据库、新闻与专利检索，仅供科研与竞品情报参考。</p>
+        </div>
+        <div>
+          <h5>页面导航</h5>
+          <ul>
+            <li><a href="pathway.html">信号通路</a></li>
+            <li><a href="disease.html">疾病与治疗</a></li>
+            <li><a href="landscape.html">竞争格局与里程碑</a></li>
+            <li><a href="news.html">每日资讯</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>数据来源</h5>
+          <ul>
+            <li><a href="https://www.uniprot.org/uniprotkb/Q7Z3E1/entry" target="_blank" rel="noopener">UniProt</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/gene/25976" target="_blank" rel="noopener">NCBI Gene</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">© 2026 PARP7 资讯监控 · 仅供学术研究与竞品情报参考</div>
     </div>
   </footer>
 

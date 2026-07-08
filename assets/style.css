@@ -1,4 +1,4 @@
-/* STAT6 资讯网站 - 共用样式 */
+/* PARP7 抑制剂资讯监控网站 - 共用样式 */
 :root {
   --bg: #0b1120;
   --bg-soft: #111a2e;
@@ -576,7 +576,90 @@ footer .copyright {
   border-top: 1px solid var(--border);
 }
 
+/* Live / news feed */
+.updated-at {
+  font-family: var(--mono, monospace);
+  font-size: 12px;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 18px;
+}
+.live-h3 {
+  font-size: 16px;
+  margin: 26px 0 12px;
+  letter-spacing: -0.2px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.pubmed-list { padding-left: 20px; margin: 8px 0 0; }
+.pubmed-list li { margin-bottom: 8px; font-size: 14px; color: var(--text); }
+.pubmed-list li .pm-meta { color: var(--text-muted); font-size: 13px; }
+
+.news-list { list-style: none; padding: 0; margin: 8px 0 0; }
+.news-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  transition: border-color .2s, transform .2s;
+}
+.news-item:hover { border-color: var(--accent); transform: translateX(2px); }
+.news-item a.news-title { font-weight: 600; font-size: 15px; color: var(--text); }
+.news-item a.news-title:hover { color: var(--accent); }
+.news-item .news-meta {
+  display: block;
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 12.5px;
+}
+.news-item .news-src {
+  color: var(--accent-2);
+  font-weight: 600;
+}
+
+/* Data-source pills */
+.source-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 6px 0 0;
+}
+.source-row .badge { font-weight: 600; }
+
+/* Definition list for facts */
+dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 8px 20px; margin: 16px 0; }
+dl.facts dt { color: var(--text-muted); font-size: 14px; }
+dl.facts dd { margin: 0; font-size: 14px; color: var(--text); }
+
 /* Responsive */
+@media (max-width: 1040px) {
+  .nav-links a { padding: 8px 9px; font-size: 13px; }
+}
+@media (max-width: 940px) {
+  .nav-links { display: none; }
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    right: 24px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    padding: 12px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    gap: 4px;
+    z-index: 50;
+  }
+  .nav-links.open a { font-size: 14px; }
+  .menu-btn { display: inline-block; }
+  dl.facts { grid-template-columns: 1fr; gap: 2px; }
+  dl.facts dt { margin-top: 8px; }
+}
 @media (max-width: 780px) {
   .nav-links { display: none; }
   .nav-links.open {

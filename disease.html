@@ -3,24 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>疾病与治疗 | STAT6 资讯站</title>
-  <meta name="description" content="STAT6 在过敏性疾病、哮喘、特应性皮炎、B 细胞淋巴瘤等疾病中的作用与药物开发。" />
+  <title>疾病与治疗 | PARP7 资讯监控</title>
+  <meta name="description" content="PARP7 在鳞状细胞癌（肺鳞癌、头颈鳞癌）、卵巢癌等 3q 扩增肿瘤中的作用，以及 PARP7 抑制剂单药与免疫联合治疗策略。" />
   <link rel="stylesheet" href="assets/style.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧬%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎯%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="index.html">
-        <span class="brand-mark">S6</span>
-        <span>STAT6 资讯站</span>
+        <span class="brand-mark">P7</span>
+        <span>PARP7 资讯监控</span>
       </a>
       <ul class="nav-links">
         <li><a href="index.html">首页</a></li>
-        <li><a href="structure.html">结构与功能</a></li>
+        <li><a href="structure.html">结构功能</a></li>
         <li><a href="pathway.html">信号通路</a></li>
-        <li><a href="disease.html">疾病与治疗</a></li>
-        <li><a href="research.html">研究进展</a></li>
+        <li><a href="disease.html">疾病治疗</a></li>
+        <li><a href="landscape.html">竞争格局</a></li>
+        <li><a href="news.html">每日资讯</a></li>
+        <li><a href="companies.html">公司</a></li>
+        <li><a href="deals.html">交易融资</a></li>
+        <li><a href="patents.html">专利进展</a></li>
       </ul>
       <div style="display:flex;gap:8px;align-items:center;">
         <button class="theme-toggle" type="button">☀️ 浅色</button>
@@ -33,146 +37,142 @@
     <section class="hero" style="padding:60px 0 20px;">
       <div class="container">
         <span class="eyebrow">DISEASE & THERAPY</span>
-        <h1>STAT6 的<span class="grad">临床相关性</span></h1>
-        <p class="lead">从 Th2 相关的过敏和自身免疫，到 B 细胞淋巴瘤和实体瘤的免疫抑制微环境，STAT6 是重要的治疗靶点。</p>
+        <h1>PARP7 相关<span class="grad">疾病与治疗策略</span></h1>
+        <p class="lead">PARP7 的治疗价值主要集中在肿瘤学，尤其是携带 <em>3q</em> 扩增、依赖 PARP7 抑制干扰素来逃避免疫的鳞状细胞癌。
+          此外，其在病毒感染、炎症与代谢中的角色也是新兴研究方向。</p>
       </div>
     </section>
 
-    <!-- Allergic diseases -->
+    <!-- Indications -->
     <section>
       <div class="container">
-        <h2 class="section-title">过敏与 Th2 相关疾病</h2>
+        <h2 class="section-title">主要适应症方向</h2>
         <div class="card-grid">
           <div class="card">
-            <h3>过敏性哮喘 <span class="badge">Th2</span></h3>
-            <p>STAT6 驱动气道嗜酸粒细胞炎症、杯状细胞增生、粘液分泌与气道高反应性；小鼠 <em>Stat6⁻/⁻</em> 完全抵抗过敏性哮喘诱导。</p>
+            <div class="card-icon">🫁</div>
+            <h3>肺鳞状细胞癌（LUSC）</h3>
+            <p>3q 扩增常见，PARP7 高表达；是 RBN-2397 早期临床重点富集人群之一。</p>
           </div>
           <div class="card">
-            <h3>特应性皮炎 (AD) <span class="badge">Th2</span></h3>
-            <p>皮损中 STAT6 高度活化；IL-4Rα 抗体（dupilumab）可显著改善病情，是 STAT6 通路阻断的临床成功范例。</p>
+            <div class="card-icon">👄</div>
+            <h3>头颈鳞状细胞癌（HNSCC）</h3>
+            <p>同属 3q 扩增高发的鳞癌，PARP7 依赖性强，免疫治疗联合潜力大。</p>
           </div>
           <div class="card">
-            <h3>过敏性鼻炎</h3>
-            <p>STAT6 促进 IgE 类别转换与嗜酸粒细胞浸润；<em>STAT6</em> 基因多态性与鼻炎/花粉症易感性相关。</p>
+            <div class="card-icon">🎗️</div>
+            <h3>卵巢癌 / 其他鳞癌</h3>
+            <p>食管鳞癌、宫颈鳞癌等 3q 扩增肿瘤，以及部分卵巢癌被列为潜在拓展方向。</p>
           </div>
           <div class="card">
-            <h3>嗜酸粒细胞性食管炎 (EoE) <span class="badge">Th2</span></h3>
-            <p>Dupilumab 已获 FDA 批准用于 EoE 的治疗，证明 STAT6 通路在食管上皮性 Th2 型炎症中的核心作用。</p>
-          </div>
-          <div class="card">
-            <h3>食物过敏</h3>
-            <p>STAT6 驱动 IL-4 依赖的 IgE 生成，是花生等食物过敏的关键节点。</p>
-          </div>
-          <div class="card">
-            <h3>寄生虫感染</h3>
-            <p>STAT6 介导抗蠕虫的 Th2 型免疫，杯状细胞增生、粘液排虫（"weep and sweep"）等。</p>
+            <div class="card-icon">🦠</div>
+            <h3>抗病毒 / 炎症</h3>
+            <p>PARP7 抑制干扰素的机制外溢至抗病毒免疫；其在炎症与代谢中的角色为基础研究方向。</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Cancer -->
-    <section>
+    <!-- Biomarker -->
+    <section style="background:var(--bg-soft);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
       <div class="container">
-        <h2 class="section-title">STAT6 与肿瘤</h2>
-        <p class="section-sub">STAT6 在肿瘤中既可作为致癌驱动因子，也塑造免疫抑制型 TME。</p>
-        <div class="card-grid">
-          <div class="card">
-            <h3>原发性纵隔 B 细胞淋巴瘤 (PMBCL)</h3>
-            <p>约 <strong>36% – 72%</strong> 病例存在 <em>STAT6</em> 激活突变（尤以 DNA 结合域 D419 热点），驱动细胞增殖。</p>
-          </div>
-          <div class="card">
-            <h3>滤泡性淋巴瘤 (FL)</h3>
-            <p>约 <strong>11%</strong> 病例存在 <em>STAT6</em> 突变（D419、N421 等），协同 EZH2、CREBBP 参与生发中心 B 细胞的转录改变。</p>
-          </div>
-          <div class="card">
-            <h3>孤立性纤维瘤 (SFT)</h3>
-            <p>特征性 <em>NAB2-STAT6</em> 融合，是病理诊断的关键分子标志。</p>
-          </div>
-          <div class="card">
-            <h3>结外 NK/T 细胞淋巴瘤</h3>
-            <p>研究显示部分病例存在 STAT6 通路激活，参与免疫逃逸。</p>
-          </div>
-          <div class="card">
-            <h3>实体瘤微环境</h3>
-            <p>STAT6 促使 TAM 向 M2 型极化，抑制抗肿瘤免疫；在结直肠癌、乳腺癌、胶质瘤等中被广泛报道。</p>
-          </div>
-          <div class="card">
-            <h3>作为治疗靶点</h3>
-            <p>STAT6 敲除或抑制可将 M2 型巨噬细胞重编程为 M1 型，恢复 T 细胞抗肿瘤活性，与 PD-1 阻断剂协同增效。</p>
-          </div>
+        <h2 class="section-title">生物标志物与患者富集</h2>
+        <div class="info-block">
+          <h3>3q 扩增 / PARP7 高表达</h3>
+          <p style="color:var(--text-muted);">PARP7 基因位于 3q25.31，处于鳞状细胞癌中频繁发生的 3q 染色体臂扩增区域。3q 扩增（常与 <em>SOX2</em>、<em>PIK3CA</em> 等共扩增）
+            导致 PARP7 过表达，使肿瘤对 PARP7 依赖性增强。因此 <strong>3q 扩增 / PARP7 表达水平</strong> 是最受关注的候选富集标志物，
+            也是伴随诊断开发的方向。</p>
         </div>
-      </div>
-    </section>
-
-    <!-- Genetic variants -->
-    <section>
-      <div class="container">
-        <h2 class="section-title">遗传学与突变</h2>
-        <div class="table-wrap">
-          <table class="data">
-            <thead>
-              <tr><th>变异 / 突变</th><th>疾病</th><th>特点</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>D419G / D419A / D419N</td><td>PMBCL、FL、Hodgkin 淋巴瘤</td><td>DBD 热点激活突变，增强 DNA 结合与转录活性</td></tr>
-              <tr><td>N421K</td><td>PMBCL、FL</td><td>DBD 突变，激活型</td></tr>
-              <tr><td>NAB2-STAT6 融合</td><td>孤立性纤维瘤 (SFT)</td><td>融合致核内 STAT6 表达持续激活，诊断标志</td></tr>
-              <tr><td>Gain-of-function（胚系）</td><td>早发性过敏性疾病、家族性嗜酸性肉芽肿</td><td>2023 年新描述的胚系激活突变综合征，广泛 Th2 型炎症</td></tr>
-              <tr><td>rs324011 (启动子)</td><td>哮喘、过敏性鼻炎易感</td><td>影响转录因子结合与表达</td></tr>
-              <tr><td>rs703817 / rs71802646</td><td>血清 IgE 水平</td><td>GWAS 关联</td></tr>
-            </tbody>
-          </table>
-        </div>
-
         <div class="callout">
-          <strong>关注新方向：</strong> 近年报告的 <em>STAT6 胚系功能获得性突变（GOF）</em> 患者表现为特应性皮炎、哮喘、食物过敏、高 IgE 综合征样表型，
-          是遗传性 Th2 相关免疫失调的新型原发性免疫缺陷病（IEI）。
+          <strong>与免疫治疗的关系：</strong> PARP7 抑制恢复 I 型干扰素、增强抗原提呈与 T 细胞浸润，理论上可将"冷肿瘤"转"热"，
+          因此与 PD-(L)1 检查点抑制剂的联合被视为重要的临床开发路径。
         </div>
       </div>
     </section>
 
-    <!-- Drugs table -->
+    <!-- Treatment strategies -->
     <section>
       <div class="container">
-        <h2 class="section-title">相关药物与在研管线</h2>
+        <h2 class="section-title">治疗策略</h2>
         <div class="table-wrap">
           <table class="data">
-            <thead>
-              <tr><th>药物</th><th>作用机制</th><th>状态 / 适应症</th></tr>
-            </thead>
+            <thead><tr><th>策略</th><th>机制逻辑</th><th>开发阶段 / 备注</th></tr></thead>
             <tbody>
-              <tr><td>Dupilumab (Dupixent)</td><td>抗 IL-4Rα 单抗，同时阻断 IL-4 与 IL-13 → 抑制 STAT6</td><td><span class="badge">上市</span> 特应性皮炎、哮喘、鼻息肉、EoE、结节性痒疹、慢性荨麻疹、COPD 等</td></tr>
-              <tr><td>Tralokinumab</td><td>抗 IL-13 单抗</td><td><span class="badge">上市</span> 特应性皮炎</td></tr>
-              <tr><td>Lebrikizumab</td><td>抗 IL-13 单抗</td><td><span class="badge">上市</span> 特应性皮炎</td></tr>
-              <tr><td>Cendakimab</td><td>抗 IL-13 单抗</td><td><span class="badge warn">Ⅲ 期</span> EoE、AD</td></tr>
-              <tr><td>Pitrakinra</td><td>IL-4 突变型（IL-4Rα 拮抗剂）</td><td><span class="badge warn">早期</span> 哮喘（已终止）</td></tr>
-              <tr><td><strong>KT-621</strong> (Kymera)</td><td>口服 STAT6 PROTAC 降解剂</td><td><span class="badge warn">Phase 1 完成</span> AD 2b 期 2026-Q4；哮喘 2b 期 2027-Q1</td></tr>
-              <tr><td><strong>REX-8756 / REX-2787</strong> (Recludix · Sanofi)</td><td>口服 STAT6 SH2 域可逆小分子抑制剂</td><td><span class="badge warn">Phase 1</span> 2 型炎症 / 免疫；Sanofi 引进交易 $1.325B</td></tr>
-              <tr><td><strong>NX-3911</strong> (Nurix · Sanofi)</td><td>口服 STAT6 蛋白降解剂</td><td><span class="badge indigo">临床前</span> Sanofi 扩大合作，$15M 首付 + $465M 里程碑</td></tr>
-              <tr><td><strong>KP-723</strong> (Kaken · J&amp;J)</td><td>口服小分子 STAT6 抑制剂</td><td><span class="badge indigo">临床前</span> 2 型炎症 / 自免；J&amp;J 引进 &gt;$1.2B</td></tr>
-              <tr><td><em>未公开代号</em> (LEO Pharma · Gilead)</td><td>口服小分子 STAT6 抑制剂</td><td><span class="badge indigo">临床前</span> AD、哮喘；合作总额 $1.7B (2025-01)</td></tr>
-              <tr><td><strong>YF057</strong> (益方生物)</td><td>口服 STAT6 降解剂</td><td><span class="badge indigo">PCC</span> 自免 / 肿瘤</td></tr>
-              <tr><td>AS1517499</td><td>STAT6 磷酸化小分子抑制剂（工具化合物）</td><td><span class="badge indigo">临床前</span> 广泛用于机制研究</td></tr>
-              <tr><td>PM-43I / PM-73G</td><td>STAT6 二聚化/核转位小分子抑制剂</td><td><span class="badge indigo">临床前</span> 哮喘模型有效</td></tr>
-              <tr><td>Ruxolitinib / Abrocitinib / Upadacitinib</td><td>JAK1(/2/3) 抑制剂，间接下调 STAT6</td><td><span class="badge">上市</span> AD、多种 Th2 炎症</td></tr>
-              <tr><td>Baricitinib</td><td>JAK1/2 抑制剂</td><td><span class="badge">上市</span> AD、RA</td></tr>
-              <tr><td>反义寡核苷酸 (ASO) / siRNA</td><td>敲低 STAT6 或 IL-4Rα</td><td><span class="badge indigo">早期研究</span> 哮喘</td></tr>
+              <tr>
+                <td><strong>PARP7 抑制剂单药</strong></td>
+                <td>恢复肿瘤细胞内在干扰素信号，直接抑制增殖并激活免疫</td>
+                <td><span class="badge">Phase 1</span> RBN-2397 首个进入临床</td>
+              </tr>
+              <tr>
+                <td><strong>PARP7i + 抗 PD-(L)1</strong></td>
+                <td>干扰素恢复 + 检查点解除，协同增强 T 细胞杀伤</td>
+                <td><span class="badge indigo">联合探索</span> 临床前协同证据</td>
+              </tr>
+              <tr>
+                <td><strong>PARP7i + STING 激动剂</strong></td>
+                <td>上游激活 + 解除下游 TBK1 刹车，双重放大干扰素</td>
+                <td><span class="badge warn">临床前 / 概念验证</span></td>
+              </tr>
+              <tr>
+                <td><strong>生物标志物指导</strong></td>
+                <td>以 3q 扩增 / PARP7 表达富集敏感人群</td>
+                <td>伴随诊断方向</td>
+              </tr>
             </tbody>
           </table>
         </div>
-
-        <div class="callout warn">
-          注：本表为一般性总结，具体适应症、审批状态请以各地监管机构和最新文献为准。
-        </div>
+        <p style="color:var(--text-muted);font-size:13px;">具体在研药物与临床进展详见 <a href="landscape.html">竞争格局</a> 与 <a href="news.html">每日资讯</a>（ClinicalTrials.gov 自动更新）。</p>
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">常见问题 FAQ</h2>
+        <details class="faq" open>
+          <summary>PARP7 抑制剂和 PARP1/2 抑制剂（如奥拉帕利）是一回事吗？</summary>
+          <p>不是。奥拉帕利等靶向 PARP1/2，通过抑制 DNA 损伤修复、结合 BRCA 突变的"合成致死"发挥作用；PARP7 抑制剂作用于免疫——恢复 I 型干扰素、激活抗肿瘤免疫。两者机制、适应症与生物标志物完全不同。</p>
+        </details>
+        <details class="faq">
+          <summary>为什么 PARP7 抑制剂重点针对鳞状细胞癌？</summary>
+          <p>因为 PARP7 位于 3q 扩增区，而肺鳞癌、头颈鳞癌等鳞状细胞癌频繁发生 3q 扩增，导致 PARP7 过表达、肿瘤对其依赖性增强，形成可富集的治疗窗口。</p>
+        </details>
+        <details class="faq">
+          <summary>PARP7 抑制剂能单药起效，还是必须联合？</summary>
+          <p>临床前显示单药即可在部分模型中诱导持久肿瘤消退，但因其机制放大免疫应答，与 PD-(L)1 检查点抑制剂等联合被认为具有更大潜力，是重要的临床开发方向。</p>
+        </details>
+        <details class="faq">
+          <summary>PARP7 抑制会不会因为激活干扰素而带来自身免疫风险？</summary>
+          <p>这是该类药物需要关注的安全性问题之一。高选择性（避免脱靶 PARP1/2）与合适的给药方案是平衡疗效与免疫相关毒性的关键，需临床数据进一步验证。</p>
+        </details>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="copyright">© 2026 STAT6 资讯站 · 仅供学术研究与科普使用</div>
+      <div class="footer-grid">
+        <div>
+          <h5>关于本站</h5>
+          <p>PARP7（TIPARP）抑制剂资讯监控站，汇编自公开文献、临床数据库、新闻与专利检索，仅供科研与竞品情报参考，不构成医疗建议。</p>
+        </div>
+        <div>
+          <h5>页面导航</h5>
+          <ul>
+            <li><a href="pathway.html">信号通路</a></li>
+            <li><a href="landscape.html">竞争格局与里程碑</a></li>
+            <li><a href="companies.html">公司</a></li>
+            <li><a href="news.html">每日资讯</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>数据来源</h5>
+          <ul>
+            <li><a href="https://clinicaltrials.gov/search?term=PARP7" target="_blank" rel="noopener">ClinicalTrials.gov</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=PARP7+cancer" target="_blank" rel="noopener">PubMed: PARP7 肿瘤</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">© 2026 PARP7 资讯监控 · 仅供学术研究与竞品情报参考</div>
     </div>
   </footer>
 

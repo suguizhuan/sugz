@@ -3,24 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>信号通路 | STAT6 资讯站</title>
-  <meta name="description" content="IL-4 / IL-13 → JAK → STAT6 通路机制、Ⅰ型/Ⅱ型受体差异、下游生物学效应。" />
+  <title>信号通路 | PARP7 资讯监控</title>
+  <meta name="description" content="PARP7 通过 MAR 化 TBK1 抑制 STING/RIG-I → TBK1 → IRF3 → I 型干扰素通路；AHR 诱导反馈环；PARP7 抑制剂如何重新激活抗肿瘤免疫。" />
   <link rel="stylesheet" href="assets/style.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧬%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎯%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="index.html">
-        <span class="brand-mark">S6</span>
-        <span>STAT6 资讯站</span>
+        <span class="brand-mark">P7</span>
+        <span>PARP7 资讯监控</span>
       </a>
       <ul class="nav-links">
         <li><a href="index.html">首页</a></li>
-        <li><a href="structure.html">结构与功能</a></li>
+        <li><a href="structure.html">结构功能</a></li>
         <li><a href="pathway.html">信号通路</a></li>
-        <li><a href="disease.html">疾病与治疗</a></li>
-        <li><a href="research.html">研究进展</a></li>
+        <li><a href="disease.html">疾病治疗</a></li>
+        <li><a href="landscape.html">竞争格局</a></li>
+        <li><a href="news.html">每日资讯</a></li>
+        <li><a href="companies.html">公司</a></li>
+        <li><a href="deals.html">交易融资</a></li>
+        <li><a href="patents.html">专利进展</a></li>
       </ul>
       <div style="display:flex;gap:8px;align-items:center;">
         <button class="theme-toggle" type="button">☀️ 浅色</button>
@@ -32,127 +36,128 @@
   <main>
     <section class="hero" style="padding:60px 0 20px;">
       <div class="container">
-        <span class="eyebrow">SIGNALING PATHWAY</span>
-        <h1><span class="grad">IL-4 / IL-13 → JAK → STAT6</span> 通路全景</h1>
-        <p class="lead">从细胞因子结合到基因表达，STAT6 处于 Th2 型免疫的中枢位置。</p>
+        <span class="eyebrow">SIGNALING PATHWAYS</span>
+        <h1>PARP7 与 <span class="grad">I 型干扰素 & AHR</span> 通路</h1>
+        <p class="lead">PARP7 处在两条通路的交汇处：一方面被芳香烃受体（AHR）诱导并对其负反馈，另一方面通过 MAR 化 TBK1
+          抑制 I 型干扰素信号。正是后者构成了 PARP7 抑制剂在肿瘤免疫中的核心作用机制。</p>
       </div>
     </section>
 
-    <!-- Receptor types -->
+    <!-- IFN axis -->
     <section>
       <div class="container">
-        <h2 class="section-title">Ⅰ 型与 Ⅱ 型 IL-4 受体</h2>
-        <div class="card-grid">
-          <div class="card">
-            <h3>Type I 受体 <span class="badge">主要在造血细胞</span></h3>
-            <p><strong>组成：</strong>IL-4Rα + γc(common gamma chain)<br>
-              <strong>激酶：</strong>JAK1 (IL-4Rα) + JAK3 (γc)<br>
-              <strong>配体：</strong>IL-4<br>
-              <strong>主要细胞：</strong>T 细胞、B 细胞、肥大细胞、嗜碱粒细胞。</p>
+        <h2 class="section-title">核心机制：PARP7 抑制 I 型干扰素</h2>
+        <p class="section-sub">核酸感应（cGAS-STING / RIG-I-MAVS）汇聚到 TBK1，激活 IRF3 驱动 I 型干扰素。PARP7 通过 MAR 化 TBK1 关闭这一警报。</p>
+        <div class="pathway-diagram">
+          <div class="pathway-branch">
+            <div class="pathway-step">胞质 DNA → cGAS → STING</div>
+            <div class="pathway-step">胞质 RNA → RIG-I → MAVS</div>
           </div>
-          <div class="card">
-            <h3>Type II 受体 <span class="badge indigo">主要在非造血细胞</span></h3>
-            <p><strong>组成：</strong>IL-4Rα + IL-13Rα1<br>
-              <strong>激酶：</strong>JAK1/JAK2 + TYK2<br>
-              <strong>配体：</strong>IL-4 和 IL-13<br>
-              <strong>主要细胞：</strong>上皮、内皮、平滑肌、成纤维细胞、单核-巨噬细胞。</p>
-          </div>
+          <div class="pathway-arrow">↓ 汇聚</div>
+          <div class="pathway-step highlight">TBK1（关键激酶节点）</div>
+          <div class="pathway-arrow">↓ 磷酸化</div>
+          <div class="pathway-step">IRF3 二聚化入核</div>
+          <div class="pathway-arrow">↓</div>
+          <div class="pathway-step">I 型干扰素（IFN-α/β）+ ISG 表达</div>
+          <div class="pathway-arrow">↓</div>
+          <div class="pathway-step">抗肿瘤 / 抗病毒先天免疫</div>
         </div>
         <div class="callout">
-          注意：<em>IL-13Rα2</em> 是高亲和力"诱饵受体"，胞内域短，通常不激活 STAT6，但可通过 AP-1 通路调控 TGF-β。
+          <strong>PARP7 的"刹车"作用：</strong> 肿瘤细胞高表达 PARP7 时，PARP7 会 <strong>MAR 化 TBK1</strong>，抑制其激酶活性，
+          从而阻断 IRF3 激活与 I 型干扰素产生。结果是肿瘤"熄灭"了本应发出的干扰素警报，逃避免疫监视。
         </div>
       </div>
     </section>
 
-    <!-- Diagram -->
-    <section>
+    <!-- Inhibitor effect -->
+    <section style="background:var(--bg-soft);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
       <div class="container">
-        <h2 class="section-title">通路示意</h2>
+        <h2 class="section-title">PARP7 抑制剂如何逆转免疫抑制</h2>
         <div class="pathway-diagram">
-          <div class="pathway-step">IL-4 / IL-13 结合胞外受体</div>
+          <div class="pathway-step">PARP7 抑制剂（如 RBN-2397）</div>
+          <div class="pathway-arrow">↓ 抑制 MAR 化</div>
+          <div class="pathway-step highlight">TBK1 去抑制、恢复活性</div>
           <div class="pathway-arrow">↓</div>
+          <div class="pathway-step">IRF3 → I 型干扰素信号恢复</div>
+          <div class="pathway-arrow">↓ 双重效应</div>
           <div class="pathway-branch">
-            <div class="pathway-step">Type I：IL-4Rα + γc<br><small style="color:var(--text-muted);font-weight:normal;">JAK1 + JAK3</small></div>
-            <div class="pathway-step">Type II：IL-4Rα + IL-13Rα1<br><small style="color:var(--text-muted);font-weight:normal;">JAK1/2 + TYK2</small></div>
+            <div class="pathway-step">肿瘤细胞内在：干扰素驱动增殖抑制 / 凋亡</div>
+            <div class="pathway-step">免疫介导：抗原提呈↑、T 细胞浸润↑、免疫记忆</div>
           </div>
-          <div class="pathway-arrow">↓</div>
-          <div class="pathway-step">IL-4Rα 胞内域 Tyr 磷酸化</div>
-          <div class="pathway-arrow">↓</div>
-          <div class="pathway-step">STAT6 被募集，Y641 磷酸化</div>
-          <div class="pathway-arrow">↓</div>
-          <div class="pathway-step highlight">pSTAT6 二聚化 → 入核</div>
-          <div class="pathway-arrow">↓</div>
-          <div class="pathway-step">识别 N₄-GAS 元件 (TTC-N₄-GAA)</div>
-          <div class="pathway-arrow">↓</div>
-          <div class="pathway-branch">
-            <div class="pathway-step">Th2 分化<br>(GATA3)</div>
-            <div class="pathway-step">B 细胞类别转换<br>(IgE, IgG1)</div>
-            <div class="pathway-step">M2 极化<br>(ARG1, YM1)</div>
-            <div class="pathway-step">上皮反应<br>(MUC5AC, CCL26)</div>
-          </div>
+        </div>
+        <p style="color:var(--text-muted);font-size:14px;">
+          在临床前模型中，PARP7 抑制在部分肿瘤中可诱导<strong>持久的肿瘤消退</strong>并建立免疫记忆，效应依赖于完整的
+          I 型干扰素信号与 T 细胞——这也是"细胞内在 + 免疫介导"双重机制的实验证据（Gozgit et al., <em>Cancer Cell</em> 2021）。
+        </p>
+      </div>
+    </section>
+
+    <!-- AHR feedback -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">AHR 诱导–反馈环</h2>
+        <p class="section-sub">PARP7 的别名 TIPARP 即"TCDD-诱导型 PARP"，因为它由芳香烃受体（AHR）在环境毒物（如二噁英/TCDD）刺激下诱导表达。</p>
+        <div class="pathway-diagram">
+          <div class="pathway-step">配体（TCDD / 内源配体）→ AHR 激活</div>
+          <div class="pathway-arrow">↓ 转录诱导</div>
+          <div class="pathway-step highlight">PARP7 (TIPARP) 表达上调</div>
+          <div class="pathway-arrow">↓ MAR 化 AHR</div>
+          <div class="pathway-step">抑制 AHR 转录活性 / 促进 AHR 降解</div>
+          <div class="pathway-arrow">↺ 负反馈</div>
+          <div class="pathway-step">限制 AHR 靶基因（CYP1A1 等）持续激活</div>
+        </div>
+        <div class="callout warn">
+          <strong>交叉调控的意义：</strong> AHR 信号本身在肿瘤微环境中常具免疫抑制性（如促进 Treg、抑制效应 T 细胞）。
+          PARP7 既参与 AHR 反馈，又抑制干扰素，处在"环境应激—免疫抑制"的枢纽，因此其抑制剂的药理效应可能超出单纯的干扰素恢复。
         </div>
       </div>
     </section>
 
-    <!-- Regulation -->
+    <!-- Summary table -->
     <section>
       <div class="container">
-        <h2 class="section-title">正/负反馈调控</h2>
-        <div class="card-grid">
-          <div class="card">
-            <h3>正反馈</h3>
-            <p><strong>IL-4Rα:</strong> STAT6 上调 IL-4Rα 表达，放大 IL-4 信号。<br>
-              <strong>GATA3:</strong> Th2 分化后自我维持并促进 IL-4 分泌。</p>
-          </div>
-          <div class="card">
-            <h3>负反馈</h3>
-            <p><strong>SOCS-1/3:</strong> 抑制 JAK 激酶活性。<br>
-              <strong>PIAS1:</strong> 通过 SUMO 化抑制 STAT6 DNA 结合。<br>
-              <strong>TC-PTP (PTPN2), SHP-1/2:</strong> 去磷酸化 STAT6。</p>
-          </div>
-          <div class="card">
-            <h3>与其他通路的 crosstalk</h3>
-            <p><strong>PI3K-AKT:</strong> IL-4 也激活 IRS2-PI3K，促进细胞生存增殖。<br>
-              <strong>MAPK:</strong> IL-13 → TYK2/JAK2 → ERK 参与上皮修复。<br>
-              <strong>STAT1 拮抗：</strong>IFN-γ / STAT1 通路抑制 Th2 分化。</p>
-          </div>
-          <div class="card">
-            <h3>翻译后修饰</h3>
-            <p><strong>磷酸化：</strong>Y641（激活）、S756 等。<br>
-              <strong>乙酰化：</strong>p300 介导，增强 DNA 结合。<br>
-              <strong>SUMO 化：</strong>PIAS 介导，抑制核内活性。</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Comparison -->
-    <section>
-      <div class="container">
-        <h2 class="section-title">STAT6 与其他 STAT 家族成员对比</h2>
+        <h2 class="section-title">通路要点速览</h2>
         <div class="table-wrap">
           <table class="data">
-            <thead>
-              <tr><th>成员</th><th>主要激活因子</th><th>关键功能</th><th>疾病相关</th></tr>
-            </thead>
+            <thead><tr><th>环节</th><th>分子事件</th><th>净效应</th></tr></thead>
             <tbody>
-              <tr><td>STAT1</td><td>IFN-α/β, IFN-γ</td><td>抗病毒、Th1</td><td>免疫缺陷、自身免疫</td></tr>
-              <tr><td>STAT2</td><td>IFN-α/β</td><td>Ⅰ 型干扰素反应</td><td>病毒感染易感</td></tr>
-              <tr><td>STAT3</td><td>IL-6, IL-10, IL-23</td><td>Th17、急性期反应</td><td>肿瘤、AD-HIES</td></tr>
-              <tr><td>STAT4</td><td>IL-12</td><td>Th1 分化</td><td>SLE, RA</td></tr>
-              <tr><td>STAT5a/b</td><td>IL-2, IL-3, GM-CSF, PRL</td><td>Treg、造血</td><td>白血病</td></tr>
-              <tr><td><strong>STAT6</strong></td><td><strong>IL-4, IL-13</strong></td><td><strong>Th2、M2、B 细胞</strong></td><td><strong>过敏、哮喘、B 细胞淋巴瘤</strong></td></tr>
+              <tr><td>核酸感应</td><td>cGAS-STING / RIG-I-MAVS 激活 TBK1</td><td>启动 I 型干扰素</td></tr>
+              <tr><td>PARP7 刹车</td><td>PARP7 MAR 化 TBK1</td><td>抑制 IFN → 免疫逃逸 <span class="badge danger">促肿瘤</span></td></tr>
+              <tr><td>抑制剂干预</td><td>小分子抑制 PARP7 催化活性</td><td>恢复 TBK1/IFN → 抗肿瘤免疫 <span class="badge">治疗窗口</span></td></tr>
+              <tr><td>AHR 反馈</td><td>AHR 诱导 PARP7，PARP7 MAR 化 AHR</td><td>限制 AHR 信号，调节免疫抑制性微环境</td></tr>
+              <tr><td>联合策略</td><td>PARP7i + PD-(L)1 / STING 激动剂</td><td>协同增强抗肿瘤免疫（临床前）</td></tr>
             </tbody>
           </table>
         </div>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="copyright">© 2026 STAT6 资讯站 · 仅供学术研究与科普使用</div>
+      <div class="footer-grid">
+        <div>
+          <h5>关于本站</h5>
+          <p>PARP7（TIPARP）抑制剂资讯监控站，汇编自公开文献、临床数据库、新闻与专利检索，仅供科研与竞品情报参考。</p>
+        </div>
+        <div>
+          <h5>页面导航</h5>
+          <ul>
+            <li><a href="structure.html">结构与功能</a></li>
+            <li><a href="disease.html">疾病与治疗</a></li>
+            <li><a href="landscape.html">竞争格局与里程碑</a></li>
+            <li><a href="news.html">每日资讯</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>数据来源</h5>
+          <ul>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=PARP7+interferon" target="_blank" rel="noopener">PubMed: PARP7 干扰素</a></li>
+            <li><a href="https://reactome.org/" target="_blank" rel="noopener">Reactome</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">© 2026 PARP7 资讯监控 · 仅供学术研究与竞品情报参考</div>
     </div>
   </footer>
 
