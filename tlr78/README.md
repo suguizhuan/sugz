@@ -13,6 +13,7 @@
 | `pathway.html` | ssRNA → TLR7/8 → MyD88 → IRAK → NF-κB / IRF7 通路、促炎与干扰素两条分支、拮抗节点 |
 | `disease.html` | SLE、皮肤型狼疮、狼疮性肾炎、皮肌炎、干燥综合征、相关药物管线 |
 | `research.html` | 每日自动更新的「最新进展」、在研管线对比、关键里程碑、FAQ、文献与外部资源 |
+| `deals.html` | 交易与投融资：TLR7/8 拮抗剂靶点的交易、合作、许可与资本动向，及与 STAT6 赛道的对比 |
 | `assets/style.css` | 共用样式（深/浅色主题、响应式设计） |
 | `assets/script.js` | 主题切换、移动端菜单、当前页高亮 |
 | `data/updates.json` | 策展 + 自动抓取的进展数据 |
