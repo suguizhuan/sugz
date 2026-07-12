@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T05:52:47+00:00",
+  "generated_at": "2026-07-12T06:14:00+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -116,6 +116,18 @@
     }
   ],
   "pubmed": [
+    {
+      "id": "pubmed-42373456",
+      "date": "2026 Jul 12",
+      "category": "Paper",
+      "title": "[Mechanisms and progress of airway mucus retention in bronchial asthma].",
+      "summary": "Zhonghua jie he he hu xi za zhi = Zhonghua jiehe he huxi zazhi = Chinese journal of tuberculosis and respiratory diseases",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42373456/",
+      "pmid": "42373456"
+    },
     {
       "id": "pubmed-42409330",
       "date": "2026 Jul 6",
