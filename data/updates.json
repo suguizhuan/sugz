@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T06:14:00+00:00",
+  "generated_at": "2026-07-13T06:31:40+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -116,6 +116,18 @@
     }
   ],
   "pubmed": [
+    {
+      "id": "pubmed-42437958",
+      "date": "2026 Jul 12",
+      "category": "Paper",
+      "title": "Hypoglycemia unmasking a giant pulmonary solitary fibrous tumor: a case report.",
+      "summary": "Journal of medical case reports",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42437958/",
+      "pmid": "42437958"
+    },
     {
       "id": "pubmed-42373456",
       "date": "2026 Jul 12",
