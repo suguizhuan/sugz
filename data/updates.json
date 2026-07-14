@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T06:31:40+00:00",
+  "generated_at": "2026-07-14T05:41:26+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -116,6 +116,18 @@
     }
   ],
   "pubmed": [
+    {
+      "id": "pubmed-42439222",
+      "date": "2026 Jul 13",
+      "category": "Paper",
+      "title": "GLI1-Altered neoplasms: From molecular alterations to morphologic and phenotypic features with formal recognition in the upcoming WHO Classification of soft tissue tumors.",
+      "summary": "Histology and histopathology",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42439222/",
+      "pmid": "42439222"
+    },
     {
       "id": "pubmed-42437958",
       "date": "2026 Jul 12",
