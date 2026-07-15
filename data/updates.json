@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T05:41:26+00:00",
+  "generated_at": "2026-07-15T05:42:35+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -116,6 +116,42 @@
     }
   ],
   "pubmed": [
+    {
+      "id": "pubmed-42449124",
+      "date": "2026 Jul 14",
+      "category": "Paper",
+      "title": "Downregulation of cytokine responses and STAT signaling in children with sickle cell disease.",
+      "summary": "Scientific reports",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42449124/",
+      "pmid": "42449124"
+    },
+    {
+      "id": "pubmed-42214327",
+      "date": "2026 Jul 14",
+      "category": "Paper",
+      "title": "Activating an interleukin 4-FLT3-STAT6 axis in multipotent progenitors restores lymphopoiesis in inflammation and aging.",
+      "summary": "Immunity",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42214327/",
+      "pmid": "42214327"
+    },
+    {
+      "id": "pubmed-42070316",
+      "date": "2026 Jul 15",
+      "category": "Paper",
+      "title": "Electroacupuncture modulates P300-mediated STAT6/PPARγ binding to promote M2 polarization of microglia following cerebral ischemic injury.",
+      "summary": "International immunopharmacology",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42070316/",
+      "pmid": "42070316"
+    },
     {
       "id": "pubmed-42439222",
       "date": "2026 Jul 13",
