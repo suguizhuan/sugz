@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>康百达在研项目信息监控 | 靶点资讯监控看板</title>
-  <meta name="description" content="康百达在研项目（PARP7、TLR7/8、PARP1、GPC3-RDC、APJ、c-Kit、DNA-PK 等靶点）竞争格局、临床、专利、文章及其他动态的每日资讯监控看板。" />
+  <title>康百达在研项目信息监控 | 靶点资讯监控</title>
+  <meta name="description" content="康百达在研项目（PARP7、TLR7/8、PARP1、GPC3-RDC、APJ、c-Kit、DNA-PK 等靶点）竞争格局、临床、专利、文章及投融资动态的每日资讯监控。" />
   <link rel="stylesheet" href="assets/monitor.css" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🛰️%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="monitor.html">
+      <a class="brand" href="#/">
         <span class="brand-mark">KBD</span>
         <span>靶点资讯监控</span>
       </a>
       <ul class="nav-links">
-        <li><a href="monitor.html">监控看板</a></li>
+        <li><a href="#/">全部靶点</a></li>
       </ul>
       <div style="display:flex;gap:8px;align-items:center;">
         <button class="theme-toggle" type="button">☀️ 浅色</button>
@@ -26,61 +26,64 @@
   </header>
 
   <main>
-    <!-- Hero -->
-    <section class="hero" style="padding:56px 0 24px;">
-      <div class="container">
-        <span class="eyebrow">TARGET PIPELINE MONITORING</span>
-        <h1>康百达在研项目 <span class="grad">信息监控看板</span></h1>
-        <p class="lead">
-          按靶点组织的资讯监控看板：每个靶点一栏，每栏下含
-          <strong>竞争格局 · 临床更新 · 专利更新 · 文章更新 · 其他更新</strong> 五个模块。
-          历史数据来自监控简报，并由 GitHub Actions 每日自动抓取 ClinicalTrials.gov / PubMed 增量更新。
-        </p>
-        <div class="stats" style="margin:28px 0 0;">
-          <div class="stat"><p class="stat-label">监控靶点</p><p class="stat-value" id="stat-targets">—</p></div>
-          <div class="stat"><p class="stat-label">动态条目</p><p class="stat-value" id="stat-updates">—</p></div>
-          <div class="stat"><p class="stat-label">最新监控期</p><p class="stat-value" style="font-size:18px;" id="stat-period">—</p></div>
-          <div class="stat"><p class="stat-label">最近更新</p><p class="stat-value" style="font-size:20px;" id="stat-updated">—</p></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 更新总览矩阵 -->
-    <section style="padding:20px 0 0;">
-      <div class="container">
-        <h2 class="section-title">本期更新总览</h2>
-        <p class="section-sub">在监控时间范围内若某模块有更变则标记 ✓；竞争格局仅在竞品进入 IND 及以上阶段时才视为变动。</p>
-        <div id="matrix"></div>
-      </div>
-    </section>
-
-    <!-- 最新动态 -->
-    <section style="padding:36px 0 0;">
-      <div class="container">
-        <h2 class="section-title">最新动态</h2>
-        <p class="section-sub">跨全部靶点、按日期倒序的最近动态。</p>
-        <div class="feed" id="feed"></div>
-      </div>
-    </section>
-
-    <!-- 看板 -->
-    <section style="padding:40px 0 20px;">
-      <div class="container">
-        <h2 class="section-title">靶点监控看板</h2>
-        <p class="section-sub">每个靶点一栏，展开各模块查看带来源的动态明细。</p>
-        <div class="monitor-toolbar">
-          <div class="filters" id="moduleFilters"></div>
-          <div class="search-box">
-            <span aria-hidden="true">🔎</span>
-            <input id="search" type="search" placeholder="搜索靶点 / 药物 / 公司 / 关键词…" />
+    <!-- ============ 总览 hub ============ -->
+    <div id="hub">
+      <section class="hero" style="padding:52px 0 8px;">
+        <div class="container">
+          <span class="eyebrow">TARGET PIPELINE MONITORING</span>
+          <h1>康百达在研项目 <span class="grad">靶点资讯监控</span></h1>
+          <p class="lead">
+            选择一个靶点，进入其专属页面查看
+            <strong>竞争格局全览 · 临床进展 · 专利更新 · 文章发布 · 投融资/其他</strong>，均按“最新在前”组织。
+            历史数据来自监控简报，并由每日自动抓取 ClinicalTrials.gov / PubMed 增量更新。
+          </p>
+          <div class="stats" style="margin:26px 0 0;">
+            <div class="stat"><p class="stat-label">监控靶点</p><p class="stat-value" id="stat-targets">—</p></div>
+            <div class="stat"><p class="stat-label">动态条目</p><p class="stat-value" id="stat-updates">—</p></div>
+            <div class="stat"><p class="stat-label">最新监控期</p><p class="stat-value" style="font-size:18px;" id="stat-period">—</p></div>
+            <div class="stat"><p class="stat-label">最近更新</p><p class="stat-value" style="font-size:20px;" id="stat-updated">—</p></div>
           </div>
         </div>
-        <p class="board-hint">← 左右滑动查看更多靶点栏（移动端为纵向堆叠）→</p>
-      </div>
-      <div class="container">
-        <div class="board" id="board"></div>
-      </div>
-    </section>
+      </section>
+
+      <!-- 靶点卡片 -->
+      <section style="padding:36px 0 0;">
+        <div class="container">
+          <div class="cards-head">
+            <div>
+              <h2 class="section-title">全部靶点</h2>
+              <p class="section-sub" style="margin-bottom:0;">点击任意靶点卡片进入其详情页。</p>
+            </div>
+            <div class="search-box">
+              <span aria-hidden="true">🔎</span>
+              <input id="search" type="search" placeholder="搜索靶点 / 药物 / 公司 / 关键词…" />
+            </div>
+          </div>
+          <div class="target-grid" id="cards"></div>
+        </div>
+      </section>
+
+      <!-- 最新动态 -->
+      <section style="padding:44px 0 0;">
+        <div class="container">
+          <h2 class="section-title">最新动态</h2>
+          <p class="section-sub">跨全部靶点、按日期倒序的最近动态；点击可跳转到对应靶点。</p>
+          <div class="feed" id="feed"></div>
+        </div>
+      </section>
+
+      <!-- 本期更新总览 -->
+      <section style="padding:44px 0 20px;">
+        <div class="container">
+          <h2 class="section-title">本期更新总览</h2>
+          <p class="section-sub">在监控时间范围内若某模块有更变则标记 ✓；竞争格局仅在竞品进入 IND 及以上阶段时才视为变动。点击行可进入对应靶点。</p>
+          <div id="matrix"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============ 单靶点详情（由 JS 渲染） ============ -->
+    <section id="detail" class="detail" hidden></section>
   </main>
 
   <footer class="site-footer">
