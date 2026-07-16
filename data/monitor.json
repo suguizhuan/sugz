@@ -1,0 +1,1337 @@
+{
+  "meta": {
+    "site": "康百达在研项目信息监控",
+    "note": "在监控时间范围内若有更变则标记；竞争格局：进入 IND 及以上阶段才视为变动。数据源自监控简报（2026.5.15 起）与每日自动抓取（ClinicalTrials.gov / PubMed）。",
+    "modules": [
+      {
+        "key": "competitive",
+        "label": "竞争格局",
+        "icon": "🏁"
+      },
+      {
+        "key": "clinical",
+        "label": "临床更新",
+        "icon": "🧪"
+      },
+      {
+        "key": "patent",
+        "label": "专利更新",
+        "icon": "📄"
+      },
+      {
+        "key": "article",
+        "label": "文章更新",
+        "icon": "📚"
+      },
+      {
+        "key": "other",
+        "label": "其他更新",
+        "icon": "📰"
+      }
+    ],
+    "periods": [
+      {
+        "id": "P20260531",
+        "label": "2026.5.15–2026.5.30",
+        "published": "2026-05-31"
+      },
+      {
+        "id": "P20260615",
+        "label": "2026.5.31–2026.6.15",
+        "published": "2026-06-15"
+      },
+      {
+        "id": "P20260702",
+        "label": "2026.6.16–2026.6.30",
+        "published": "2026-07-02"
+      },
+      {
+        "id": "P20260715",
+        "label": "2026.7.1–2026.7.15",
+        "published": "2026-07-15"
+      }
+    ],
+    "generated_at": "2026-07-16T09:11:36+00:00",
+    "auto_generated_at": null
+  },
+  "targets": [
+    {
+      "id": "KBD1921",
+      "code": "KBD1921 / BY1921",
+      "target": "PARP7 抑制剂",
+      "drug": "BY101921（百裕）/ KBD1921（康百达）",
+      "company": "康百达 · 百裕制药",
+      "indication": "晚期实体瘤",
+      "summary": "PARP7 选择性抑制剂，晚期实体瘤单药及多种联用方案（PD-1、PD-1/VEGF 双抗、TROP2-ADC）。",
+      "landscape": {
+        "note": "竞争格局：进入 IND 及以上阶段才视为变动。下表为最新一期竞品全景。",
+        "columns": [
+          "#",
+          "药物名称",
+          "研发公司",
+          "适应症",
+          "最高状态",
+          "临床信息"
+        ],
+        "rows": [
+          [
+            "1",
+            "BY101921",
+            "百裕制药",
+            "晚期实体瘤（单药）",
+            "1/2 期",
+            "完成（2024/3–2025/12）；CTR20240141、NCT06433726"
+          ],
+          [
+            "1",
+            "BY101921",
+            "百裕制药",
+            "晚期实体瘤（联 PD-1）",
+            "Ib/II 期",
+            "招募中（2025/3/18 首次公示）；CTR20250911"
+          ],
+          [
+            "1",
+            "BY101921",
+            "百裕制药",
+            "晚期实体瘤（联 PD-1/VEGF 双抗）",
+            "Ib/II 期",
+            "招募中；2025/11/12 获批"
+          ],
+          [
+            "1",
+            "BY101921",
+            "百裕制药",
+            "晚期实体瘤（联 TROP2-ADC）",
+            "Ib/II 期",
+            "招募中；2026/6/2 获批"
+          ],
+          [
+            "2",
+            "RBN-2397（ONO-7119 / Atamparib / NMS-4646）",
+            "NMS 纳维诺（2024/11 从 Ribon 收购；原研 Ribon）",
+            "晚期实体瘤、NSCLC（单药）",
+            "1/2 期",
+            "尚未招募（2026/2/10–2029/1/31）；NCT07374419、ChiCTR2600117616"
+          ],
+          [
+            "3",
+            "JAB-26766（JAB-26000）",
+            "加科思",
+            "晚期实体瘤（单药、联合 PD-1）",
+            "1/2 期",
+            "招募中（2025/9/19 首次公示）；CTR20253537"
+          ],
+          [
+            "4",
+            "QLS1103",
+            "齐鲁制药",
+            "晚期实体瘤（单药）",
+            "1 期",
+            "招募中（2023/5/29 首次公示）；CTR20231560、NCT05884801（状态未知）"
+          ],
+          [
+            "5",
+            "ABBV-711",
+            "AbbVie（2026/4/27 公开靶点）",
+            "晚期鳞状细胞癌（单药；联合 ABBV-181 PD-1 单抗，2/3 期）",
+            "1 期",
+            "招募中（美国、以色列、日本，2025.11–2030.10）；NCT07241039"
+          ],
+          [
+            "6",
+            "HSN002066C1",
+            "重庆华森英诺（华森制药子公司）",
+            "晚期实体瘤",
+            "IND 获批（中国，2026.2.24）",
+            "暂无临床信息"
+          ]
+        ]
+      },
+      "updates": [
+        {
+          "date": "2026-06-02",
+          "dateText": "2026年6月2日",
+          "period": "P20260615",
+          "module": "clinical",
+          "title": "康百达 BY1921 联合 TROP2-ADC 临床获 CDE 批准",
+          "body": [
+            "2026 年 6 月 2 日，康百达 BY1921 联合 TROP2-ADC 临床获 CDE 批准。"
+          ],
+          "sources": [
+            {
+              "label": "团队内部",
+              "url": null
+            }
+          ]
+        },
+        {
+          "date": "2026-06-09",
+          "dateText": "2026年6月9日",
+          "period": "P20260615",
+          "module": "patent",
+          "title": "专利动态（1 项公开）",
+          "body": [],
+          "table": {
+            "columns": [
+              "申请人",
+              "公开（公告）号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "嘉兴市第二医院",
+                "CN122163777A",
+                "—",
+                "2026/3/31",
+                "2026/6/9"
+              ]
+            ]
+          },
+          "sources": []
+        },
+        {
+          "date": "2026-06-25",
+          "dateText": "2026年6月25日",
+          "period": "P20260702",
+          "module": "patent",
+          "title": "专利动态（2 项公开）",
+          "body": [],
+          "table": {
+            "columns": [
+              "申请人",
+              "公开（公告）号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "诺沃斯达药业(上海)有限公司",
+                "WO2026130040",
+                "2024/12/19",
+                "2025/11/25",
+                "2026/6/25"
+              ],
+              [
+                "Gilead Sciences, Inc.",
+                "WO2026136515",
+                "2024/12/19",
+                "2025/12/17",
+                "2026/6/25"
+              ]
+            ]
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "KBD4409",
+      "code": "KBD4409",
+      "target": "TLR7/8 抑制剂",
+      "drug": "KBD104409",
+      "company": "康百达",
+      "indication": "系统性/皮肤型红斑狼疮",
+      "summary": "口服 TLR7/8 抑制剂，靶向红斑狼疮（SLE/CLE）。对标最快进度的默克 Enpatoran 与 Beeline 的 Afimetoran。",
+      "landscape": {
+        "note": "竞争格局：进入 IND 及以上阶段才视为变动。备注列汇总了竞品的关键交易/融资动态。",
+        "columns": [
+          "#",
+          "药物名称",
+          "研发公司",
+          "适应症",
+          "最高状态",
+          "临床信息",
+          "备注"
+        ],
+        "rows": [
+          [
+            "1",
+            "M5049（Enpatoran）",
+            "Merck",
+            "活动性 DLE 和/或 SCLE 和/或 ACLE",
+            "3 期",
+            "招募中（2026/3–2029/5）；NCT07332481、NCT07470957、NCT07355218、NCT07470970；CDE 已获默示许可；2026.4.30 完成首例给药；2026.5.21 中国 3 期方案披露（CTR20261950）；26.6.23 CDE 3 期方案再披露（CTR20262380）；WILLOW II 期已发表；2026/7/8 获 FDA 突破性疗法认定",
+            "2 期数据积极，CLE 队列尤佳，疗效同类最佳"
+          ],
+          [
+            "2",
+            "BMS-986256（Afimetoran）",
+            "Beeline Medicines",
+            "活动性 SLE",
+            "2 期",
+            "进行中（2021/1–2026/3）；NCT04895696",
+            "1 期披露 CLE 结果积极；2025/7/28 BMS×贝恩资本成立 NewCo；2026/4/15 Beeline 官宣分拆为核心后期资产；2026/6/30 完成 1.263 亿美元 A 轮扩募（累计 4.263 亿）"
+          ],
+          [
+            "3",
+            "E6742",
+            "Eisai",
+            "SLE",
+            "2 期",
+            "完成（2022/4–2023/9）；NCT05278663；CDE 2026.4.3 披露 2 期方案 CTR20261255",
+            "1 期披露 SLE 结果积极，安全性良好"
+          ],
+          [
+            "4",
+            "KBD104409",
+            "康百达",
+            "健康人",
+            "1 期",
+            "CDE：CTR20261240（20260401 披露）；20260604 获 FDA 临床批准通知书",
+            "—"
+          ]
+        ]
+      },
+      "updates": [
+        {
+          "date": "2026-05-21",
+          "dateText": "2026年5月21日",
+          "period": "P20260531",
+          "module": "clinical",
+          "title": "Merck Enpatoran 3 期临床启动并披露方案（CTR20261950）",
+          "body": [
+            "2026.5.21，中国药物临床试验登记与信息公示平台显示，Merck 开发的 TLR7/8 抑制剂 Enpatoran 3 期临床启动并披露方案。",
+            "登记号：CTR20261950",
+            "适应症：活动性皮肤表现的红斑狼疮",
+            "试验名称：一项在接受标准治疗、伴或不伴系统性疾病、具有活动性皮肤表现的红斑狼疮试验参与者中评价 Enpatoran 有效性和安全性的随机、双盲、安慰剂对照、平行分组、III 期研究",
+            "目标入组人数：国内 39 人"
+          ],
+          "sources": [
+            {
+              "label": "中国药物临床试验登记与信息公示平台（CTR20261950）",
+              "url": "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml?ckm_index=1&sort=desc&rule=CTR&secondLevel=0&currentpage=1&keywords=CTR20261950"
+            }
+          ]
+        },
+        {
+          "date": "2026-05-20",
+          "dateText": "2026年5月20日",
+          "period": "P20260531",
+          "module": "other",
+          "title": "拓领博泰 TLR8 抑制剂 TollB-001 启动新适应症 2 期（CTR20261937）",
+          "body": [
+            "2026.5.20，中国药物临床试验登记与信息公示平台显示，北京拓领博泰开发的 TLR8 抑制剂 TollB-001 启动新适应症 2 期临床。",
+            "登记号：CTR20261937",
+            "适应症：系统性硬化症",
+            "试验名称：评价 TollB-001 片在系统性硬化病患者中的疗效和安全性的多中心、随机、双盲、安慰剂对照 Ⅱ 期研究",
+            "目标入组人数：国内 36 人"
+          ],
+          "sources": [
+            {
+              "label": "中国药物临床试验登记与信息公示平台（CTR20261937）",
+              "url": "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml?ckm_index=1&sort=desc&rule=CTR&secondLevel=0&currentpage=1&keywords=CTR20261937"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-04",
+          "dateText": "2026年6月4日",
+          "period": "P20260615",
+          "module": "clinical",
+          "title": "KBD104409 片获得 FDA 临床批准通知",
+          "body": [
+            "2026.6.4，KBD104409 片获得 FDA 临床批准通知。"
+          ],
+          "sources": [
+            {
+              "label": "团队内部",
+              "url": null
+            }
+          ]
+        },
+        {
+          "date": "2026-06-15",
+          "dateText": "2026 年（回顾）",
+          "period": "P20260615",
+          "module": "article",
+          "tag": "回顾/背景",
+          "title": "Enpatoran（M5049，Merck）全球 II 期 WILLOW 研究完整结果 2026 年正式发表",
+          "body": [
+            "研究设计：WILLOW（NCT05162586）为全球多中心、随机、双盲、安慰剂对照、篮式剂量探索 II 期研究，覆盖 132 中心 / 22 国；评估口服 enpatoran 25/50/100 mg BID 对比安慰剂（均联合标准治疗 SoC），疗程 24 周；分两个队列——A：CLE 或伴活动性皮疹的 SLE；B：中重度活动性 SLE。由 Monash University 的 Eric Morand 教授牵头，Merck Healthcare 资助。",
+            "时间线：数据最早于 EULAR 2025（巴塞罗那，晚破摘要 LB0004，2025-06）报告；2026 年 5 月经同行评审正式发表——Cohort B 见 The Lancet 2026; 407:1809-1823，Cohort A 见 Lancet Rheumatology（2026-05-07 在线，doi:10.1016/S2665-9913(25)00337-6）。",
+            "Cohort A（CLE / 皮肤型，达到主要终点）：中位年龄 47 岁；单纯 CLE 占 58%、SLE 伴轻微或无皮肤外活动占 42%；基线 CLASI-A ≥8。第 16 周 CLASI-A 呈显著剂量依赖性改善，p = 0.0002；耐受性良好。",
+            "Cohort B（中重度 SLE，n=354）：随机 354 例；95% 为女性，中位年龄 41 岁。第 24 周 BICLA 应答的剂量–效应关系未达统计学显著（p = 0.14），但各剂量组应答率均高于安慰剂；活动性皮肤受累亚组（CLASI-A ≥8，约占 46%）BICLA 应答 50–59% vs 安慰剂 32%（OR 2.2–3.3），CLASI-70 最高达 60.5%。血中干扰素（IFN）特征下降。"
+          ],
+          "table": {
+            "columns": [
+              "剂量组（第 24 周 BICLA）",
+              "应答率",
+              "OR vs 安慰剂（95% CI）"
+            ],
+            "rows": [
+              [
+                "enpatoran 25 mg BID",
+                "58%（41/71）",
+                "2.2（1.1–4.0）"
+              ],
+              [
+                "enpatoran 50 mg BID",
+                "49%（36/74）",
+                "1.5（0.8–2.8）"
+              ],
+              [
+                "enpatoran 100 mg BID",
+                "49%（56/114）",
+                "1.6"
+              ],
+              [
+                "安慰剂 + SoC",
+                "参照（约 39%）",
+                "—"
+              ]
+            ]
+          },
+          "insight": "Enpatoran 是目前进度最快的 TLR7/8 抑制剂，是 KBD4409 必须对标的标杆。建议 KBD4409 的 TPP / 临床设计重点考虑 CLE / 皮肤活动性 SLE 人群富集与 CLASI 类终点；IFN 特征下降 + 糖皮质激素减量获益支持 TLR7/8 靶点成药性与口服 GC-sparing 差异化卖点。",
+          "sources": [
+            {
+              "label": "The Lancet（Cohort B，2026; 407:1809-1823）",
+              "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00463-0/fulltext"
+            },
+            {
+              "label": "Lancet Rheumatology（Cohort A，2026-05-07）",
+              "url": "https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(25)00337-6/abstract"
+            },
+            {
+              "label": "ClinicalTrials.gov（WILLOW，NCT05162586）",
+              "url": "https://clinicaltrials.gov/study/NCT05162586"
+            },
+            {
+              "label": "Monash University 新闻稿（2026-06）",
+              "url": "https://www.monash.edu/medicine/news/latest/2026-articles/new-clinical-trial-results-show-promising-potential-for-new-lupus-treatment"
+            },
+            {
+              "label": "Healio（2026-06-05）",
+              "url": "https://www.healio.com/news/rheumatology/20260605/enpatoran-bests-placebo-in-improving-lupus-skin-manifestations"
+            },
+            {
+              "label": "EMD Serono 新闻稿（Cohort A，2025-05-21）",
+              "url": "https://www.emdserono.com/us-en/company/news/press-releases/enpatoran-phase-2-data-21-05-2025.html"
+            },
+            {
+              "label": "EMD Serono 新闻稿（Cohort B，2025-06-12）",
+              "url": "https://www.emdserono.com/us-en/company/news/press-releases/enpatoran-phase-2-data-cohort-b-11-06-2025.html"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-23",
+          "dateText": "2026年6月23日",
+          "period": "P20260702",
+          "module": "clinical",
+          "title": "Merck Enpatoran 新登记 1 项 3 期（CTR20262380，协和牵头）——孪生关键性试验",
+          "body": [
+            "2026.6.23，Merck 开发的 TLR7/8 抑制剂在 CDE 平台新登记 1 项 3 期临床试验方案，方案与前者基本一致，牵头 PI 不同，本项由中国医学科学院北京协和医院牵头。",
+            "解读：默克 Enpatoran 针对皮肤型红斑狼疮（伴或不伴 SLE）在中国同期登记的两项 III 期（CTR20261950 / CTR20262380）并非两个独立项目，而是同一注册计划下的一对“孪生关键性试验”——在药物、适应症、双盲安慰剂对照设计、主要终点（第 24 周 CLASI-70）、11 项次要终点及入排标准上完全一致，仅在方案编号、牵头 PI、中心分布与国内配额上作了区分（华西风湿 39 例 + 协和皮肤 11 例，合计约 50 例）。这是跨国药企在无成熟标准治疗的自免适应症上开展全球加中国同步注册的成熟模板。"
+          ],
+          "sources": [
+            {
+              "label": "中国药物临床试验登记与信息公示平台",
+              "url": "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-19",
+          "dateText": "2026年6月18–19日",
+          "period": "P20260702",
+          "module": "patent",
+          "title": "专利更新（2 项公开）",
+          "body": [
+            "北京森妙生物科技有限公司（曾用名北京宇繁生物）成立于 2020 年，总部北京，核心研发方向为靶向 TLR7/8 的免疫治疗药物（人药、宠物药、大动物药），2022 年天使轮、2025 年 A 轮融资；未公开临床试验信息。Heronova 暂未查到公开信息。"
+          ],
+          "table": {
+            "columns": [
+              "申请人",
+              "公开（公告）号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "Heronova Pharmaceuticals, Llc",
+                "WO2026124420",
+                "2024/12/9",
+                "2025/12/8",
+                "2026/6/18"
+              ],
+              [
+                "北京森妙生物科技有限公司",
+                "CN122234051",
+                "2024/12/17",
+                "2025/11/25",
+                "2026/6/19"
+              ]
+            ]
+          },
+          "sources": []
+        },
+        {
+          "date": "2026-07-08",
+          "dateText": "2026年7月8日",
+          "period": "P20260715",
+          "module": "clinical",
+          "title": "默克宣布 Enpatoran 获 FDA 突破性疗法认定（活动性皮肤表现狼疮）",
+          "body": [
+            "2026.7.8，默克宣布 FDA 已授予 enpatoran 突破性疗法认定，用于治疗伴有活动性皮肤表现的狼疮，基于二期 WILLOW 研究结果（NCT05162586）：enpatoran 治疗组第 16 周 CLASI-70 应答比例最高达 60.9%，安慰剂组为 11.5%。",
+            "后续布局（三期 ELOWEN）：ELOWEN-1（NCT07332481）和 ELOWEN-2（NCT07355218）为两项全球随机、双盲、安慰剂对照三期研究，评估 enpatoran 每日两次叠加标准治疗，用于伴活动性皮肤表现的狼疮患者；将在 26 个国家 266 个中心开展，每项约招募 200 名受试者，主要终点为 CLASI-A 较基线的变化。",
+            "解读：CLE 皮肤表现在狼疮患者中很常见（72–85%），皮肤型狼疮靶向治疗是全球性空白。ELOWEN 三期覆盖 26 国 266 中心（含中国），为我方趟通了可获批适应症、监管接受终点与试验设计模板，方案可直接对标复用、大幅降低开发风险与试错成本。"
+          ],
+          "sources": [
+            {
+              "label": "EMD Group 新闻稿（FDA BTD，2026-07-08）",
+              "url": "https://www.emdgroup.com/en/news/fda-btd-enpatoran-07-08-2026.html"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-30",
+          "dateText": "2026年6月30日",
+          "period": "P20260715",
+          "module": "other",
+          "title": "Beeline Medicines 完成 1.263 亿美元 A 轮扩募（累计 4.263 亿）",
+          "body": [
+            "2026/6/30，Beeline Medicines 完成 1.263 亿美元的 A 轮扩大融资（累计 4.263 亿美元），资金来自贝恩资本、加拿大养老金计划投资委员会（CPP）和 BMS 等。主要项目 Afimetoran 为选择性小分子、每日一次的等效 TLR7/8 抑制剂，SLE 二期读数预计 2026 下半年，已启动狼疮关键开发准备。",
+            "解读：继默克 enpatoran 三期 + BTD 之后，又一独立、顶级资本重仓的玩家并列跑在前面，把 TLR7/8 口服狼疮从“单点事件”确认为高确定性主流赛道，对 KBD4409 构成强力利好。"
+          ],
+          "sources": [
+            {
+              "label": "Beeline Medicines 新闻稿（Series A upsize $426.3M）",
+              "url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KBD2430",
+      "code": "KBD2430",
+      "target": "透脑高选择性 PARP1 抑制剂",
+      "drug": "KBD2430",
+      "company": "康百达",
+      "indication": "HRD/HRR 相关实体瘤",
+      "summary": "脑渗透、高选择性 PARP1 抑制剂。竞品含海思科 HSK46256、DigmBio DM5167、SNV-1521 等；诊疗一体化放射偶联为新兴方向。",
+      "landscape": {
+        "note": "本靶点竞争格局以事件跟踪为主，下表汇总近期主要竞品及其进展。",
+        "columns": [
+          "药物名称",
+          "公司",
+          "阶段",
+          "适应症",
+          "进展 / 信息"
+        ],
+        "rows": [
+          [
+            "HSK46256（透脑，源于 AACR 2025）",
+            "海思科",
+            "1 期",
+            "晚期实体瘤（单药）；HRR 缺陷 / HRD 阳性",
+            "2026.6.12 获 CDE 默示许可（IND，CXHL2600418/419）；2026.6.29 变更为临床 1 期（CTR20262506、NCT07695142）"
+          ],
+          [
+            "DM5167",
+            "DigmBio（Dime Bio）",
+            "2 期（FDA IND）",
+            "罕见肿瘤",
+            "2026.5.19 获 FDA IND；2026.6.16 与 BIKE Therapeutics 合作开发 PARP-1 放射性药物"
+          ],
+          [
+            "SNV-1521（SNV-001）",
+            "—",
+            "1 期",
+            "晚期恶性肿瘤 / 实体瘤（单药）",
+            "2026.6 获 CDE 默示许可，1 期招募中"
+          ],
+          [
+            "AZD-9574",
+            "AstraZeneca",
+            "1/2 期",
+            "转移性前列腺癌",
+            "2026.5.14 与 AZD2265（225Ac-PSMA RDC）联用（NCT07590934）"
+          ],
+          [
+            "18F-FluorThanatrace（[F18]FTT）",
+            "华盛顿大学",
+            "2 期",
+            "胆管癌（PET 诊断）",
+            "2026.6.29 新增 2 期（NCT07673341）"
+          ]
+        ]
+      },
+      "updates": [
+        {
+          "date": "2026-05-19",
+          "dateText": "2026年5月19日",
+          "period": "P20260531",
+          "module": "competitive",
+          "title": "新增临床竞品：DM5167 2 期临床获 FDA IND 批准",
+          "body": [
+            "2026-5-19，DM5167 2 期临床试验获得 FDA IND 批准（暂无具体临床信息公开），适应症为罕见肿瘤。"
+          ],
+          "sources": [
+            {
+              "label": "DigmBio 新闻：Receives FDA IND Clearance for Phase 2 Trial of DM5167",
+              "url": null
+            }
+          ]
+        },
+        {
+          "date": "2026-05-14",
+          "dateText": "2026年5月14日",
+          "period": "P20260531",
+          "module": "clinical",
+          "title": "AZD-9574 参与联用临床（NCT07590934）",
+          "body": [
+            "2026 年 5 月 14 日，AZD-9574 参与其他药物的临床联用（1/2 期，转移性前列腺癌，NCT07590934）：AZD-9574 与 AZD2265（FPI-2265，225Ac 标记小分子 RDC（PSMA））联用，该联用组与 AZD-2265 单药、多西他赛单药比较。"
+          ],
+          "sources": [
+            {
+              "label": "ClinicalTrials.gov（NCT07590934）",
+              "url": "https://clinicaltrials.gov/study/NCT07590934"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-15",
+          "dateText": "2026年6月",
+          "period": "P20260615",
+          "module": "clinical",
+          "title": "SNV-1521（SNV-001）获 CDE 临床试验默示许可",
+          "body": [
+            "2026 年 6 月，SNV-1521（SNV-001）获得 CDE 临床试验默示许可，适应症为晚期恶性肿瘤。SNV-1521 目前正在进行 1 期临床（招募中），适应症为晚期实体瘤，单药。"
+          ],
+          "sources": [
+            {
+              "label": "CDE 官网",
+              "url": null
+            }
+          ]
+        },
+        {
+          "date": "2026-06-09",
+          "dateText": "2026年6月",
+          "period": "P20260615",
+          "module": "patent",
+          "title": "专利更新（2 项公开）",
+          "body": [],
+          "table": {
+            "columns": [
+              "机构",
+              "公开（公告）号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "中国药科大学",
+                "WO2026113688",
+                "2024/11/29",
+                "2025/10/14",
+                "2026/6/4"
+              ],
+              [
+                "西北大学",
+                "CN122167397",
+                "—",
+                "2026/2/10",
+                "2026/6/9"
+              ]
+            ]
+          },
+          "sources": []
+        },
+        {
+          "date": "2026-06-12",
+          "dateText": "2026年6月12日",
+          "period": "P20260702",
+          "module": "clinical",
+          "title": "海思科 HSK46256 片获 CDE 默示许可（IND 阶段）",
+          "body": [
+            "2026 年 6 月 12 日，海思科创新药 HSK46256 片获得 CDE 默示许可（IND 阶段，受理号 CXHL2600418、CXHL2600419）。"
+          ],
+          "sources": [
+            {
+              "label": "CDE",
+              "url": null
+            }
+          ]
+        },
+        {
+          "date": "2026-06-18",
+          "dateText": "2026年6月18–19日",
+          "period": "P20260702",
+          "module": "patent",
+          "title": "专利更新（2 项公开）",
+          "body": [],
+          "table": {
+            "columns": [
+              "机构",
+              "公开（公告）号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "中山大学",
+                "CN122234092",
+                "—",
+                "2026/3/23",
+                "2026/6/19"
+              ],
+              [
+                "Duke Street Bio Limited",
+                "WO2026124806",
+                "2024/12/9",
+                "2025/9/15",
+                "2026/6/18"
+              ]
+            ]
+          },
+          "sources": []
+        },
+        {
+          "date": "2026-06-16",
+          "dateText": "2026年6月16日",
+          "period": "P20260702",
+          "module": "other",
+          "title": "Dime Bio 与 BIKE Therapeutics 联合开发 PARP-1 靶向放射性药物（DM5167）",
+          "body": [
+            "2026 年 6 月 16 日，Dime Bio 和 BIKE Therapeutics 正在联合开发一种靶向 PARP-1 的放射性药物，计划将 BIKE 的放射性同位素标记和药物递送技术应用于 Dime Bio 的 PARP-1 抑制剂候选物 DM5167。"
+          ],
+          "insight": "标志着 PARP1 抑制剂领域正向高价值放射偶联模态延伸。对 KBD2430：通过与专业放射递送平台合作，可考虑与放射性同位素标记结合，实现诊断-治疗一体化，克服耐药并降低传统 PARP 抑制剂的血毒性风险，从而快速差异化管线、在 HRD 相关实体瘤市场建立更高壁垒。",
+          "sources": [
+            {
+              "label": "Dime Bio",
+              "url": "https://digmbio.com/page/?pid=m1_4"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-29",
+          "dateText": "2026年6月29日",
+          "period": "P20260715",
+          "module": "competitive",
+          "title": "海思科 HSK46256 由 IND 阶段变更为临床 1 期",
+          "body": [
+            "2026.06.29，海思科 PARP1 抑制剂 HSK46256（脑渗透）从 IND 阶段变更为临床 1 期阶段，适应症为晚期实体瘤（单药）。"
+          ],
+          "table": {
+            "columns": [
+              "药物名称",
+              "公司",
+              "阶段",
+              "基本信息",
+              "适应症",
+              "突变"
+            ],
+            "rows": [
+              [
+                "HSK46256（透脑，源于 AACR 2025）",
+                "海思科",
+                "1 期",
+                "CTR20262506（进行中，尚未招募，2026-06-29 首次公示）；NCT07695142（尚未招募，2026.07–2029.12）",
+                "晚期实体瘤（单药）",
+                "HRR 缺陷或 HRD 阳性"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "label": "ClinicalTrials.gov / 中国药物临床试验登记平台（CTR20262506）",
+              "url": "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml?ckm_index=1&sort=desc&rule=CTR&secondLevel=0&currentpage=1&keywords=CTR20262506"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-29",
+          "dateText": "2026年6月29日",
+          "period": "P20260715",
+          "module": "clinical",
+          "title": "18F-FluorThanatrace（[F18]FTT，靶向 PARP1）新增 2 期临床",
+          "body": [
+            "2026 年 6 月 29 日，18F-FluorThanatrace（[F18]FTT）（靶向 PARP1）新增 1 个临床：2 期（尚未招募），华盛顿大学，胆管癌（PET）。"
+          ],
+          "table": {
+            "columns": [
+              "药物名称",
+              "临床申请人",
+              "阶段",
+              "基本信息",
+              "适应症",
+              "主要终点"
+            ],
+            "rows": [
+              [
+                "18F-FluorThanatrace（[F18]FTT）",
+                "华盛顿大学",
+                "2 期",
+                "NCT07673341，尚未招募（2026-11-01~2028-12-31）",
+                "胆管癌，PET",
+                "SUVmax 与整体响应率之间的关系"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "label": "ClinicalTrials.gov（NCT07673341）",
+              "url": "https://clinicaltrials.gov/study/NCT07673341"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-10",
+          "dateText": "2026年7月",
+          "period": "P20260715",
+          "module": "patent",
+          "title": "专利更新（2 项公开）",
+          "body": [],
+          "table": {
+            "columns": [
+              "机构",
+              "公开（公告）号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "成都赜灵生物医药科技股份有限公司",
+                "CN122234092",
+                "2025/1/8",
+                "2026/1/7",
+                "2026/7/10"
+              ],
+              [
+                "Gilead Sciences, Inc.",
+                "WO2026142998（晶型）",
+                "2024/12/24",
+                "2025/12/22",
+                "2026/7/2"
+              ]
+            ]
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "KBD2188",
+      "code": "KBD2188",
+      "target": "GPC3-RDC",
+      "drug": "KBD2188",
+      "company": "康百达",
+      "indication": "肝细胞癌（HCC）",
+      "summary": "靶向 GPC3 的放射性配体偶联药物（RDC），适应症为肝细胞癌。竞品涵盖治疗性与诊断性 RDC，多为 1 期。",
+      "landscape": {
+        "note": "竞争格局：进入 IND 及以上阶段才视为变动。",
+        "columns": [
+          "#",
+          "药物名称",
+          "研发公司",
+          "适应症",
+          "最高状态",
+          "临床信息",
+          "备注"
+        ],
+        "rows": [
+          [
+            "1",
+            "RYZ801（225Ac-RAYZ-8009）",
+            "PeptiDream；RayzeBio(BMS)",
+            "HCC",
+            "1 期",
+            "招募中（2024/11/15–2031/1）；NCT06726161",
+            "治疗性 · 多肽 RDC"
+          ],
+          [
+            "2",
+            "BAY3547926",
+            "Bayer；Vividion",
+            "HCC",
+            "1 期",
+            "招募中（2025/2/28–2031/8/31）；NCT06764316、CTR2026129（2026/4/7 启动）、jRCT2031260213",
+            "治疗性 · 抗体 RDC"
+          ],
+          [
+            "3",
+            "[68Ga]Ga-NOTA-RG2",
+            "复旦华山医院；上海仁济医院",
+            "HCC",
+            "1 期",
+            "招募中（2023/9/30–2025/12）；NCT06383520，IIT",
+            "诊断性 · 抗体 RDC"
+          ],
+          [
+            "4",
+            "68Ga-NOTA-aGPC3-scFv（猜测 GPN02006）",
+            "华中科大协和医院；远大医药、杰科生物、睿迪辐生物",
+            "HCC",
+            "1 期",
+            "状态未知（2023/6/1–2024/6/1）；NCT06148155，IIT",
+            "诊断性 · 抗体 RDC"
+          ],
+          [
+            "5",
+            "131I-aGPC3-Scfv",
+            "华中科大协和医院",
+            "HCC",
+            "1 期",
+            "尚未招募（2025/5/1–2026/12/30）；ChiCTR2500103505，IIT",
+            "诊断性 · 抗体 RDC"
+          ],
+          [
+            "6",
+            "RYZ811（[68Ga]-RYZ-GPC3）",
+            "PeptiDream；RayzeBio(BMS)",
+            "HCC",
+            "1 期",
+            "招募中（2024/11/15–2031/1）；NCT06726161",
+            "诊断性 · 多肽 RDC"
+          ],
+          [
+            "7",
+            "BPR-608009",
+            "成都倍特药业",
+            "HCC",
+            "1 期",
+            "IIT，26.4.20；ChiCTR2600122906",
+            "诊断性 · RDC（配体未知）"
+          ],
+          [
+            "8",
+            "68Ga-NYM207",
+            "北京协和医院",
+            "HCC",
+            "1 期",
+            "IIT，26.4.30；ChiCTR2600123817",
+            "诊断性 · 配体未知"
+          ]
+        ]
+      },
+      "updates": [
+        {
+          "date": "2026-06-15",
+          "dateText": "2026年6月",
+          "period": "P20260702",
+          "module": "clinical",
+          "title": "Bayer BAY3547926 在日本 PMDA 登记临床（jRCT2031260213）",
+          "body": [
+            "2026.6，Bayer 开发的 BAY3547926（抗体 RDC）在日本药监局登记 1 项临床试验，系 NCT06764316 的关联临床。",
+            "登记号：jRCT2031260213；目标入组 148 人；适应症：GPC3 阳性肝细胞癌。"
+          ],
+          "sources": [
+            {
+              "label": "jRCT 官网",
+              "url": null
+            }
+          ]
+        },
+        {
+          "date": "2026-06-18",
+          "dateText": "2026年6月18日",
+          "period": "P20260702",
+          "module": "patent",
+          "title": "专利（2 项公开）",
+          "body": [
+            "PeptiDream Inc.（日本东证主板 4587，2006 年成立，PDPS 大环肽平台）与 RayzeBio, Inc.（美国圣地亚哥，225Ac α 核素放射性药物平台，2024 年被 BMS 整体收购）为本领域核心玩家。"
+          ],
+          "table": {
+            "columns": [
+              "公开号",
+              "机构",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "WO2026128539",
+                "Peptidream Inc.；Noncovich, Alain",
+                "2024/12/11",
+                "2025/12/10",
+                "2026/6/18"
+              ],
+              [
+                "WO2026128542",
+                "Rayzebio, Inc.",
+                "2024/12/11",
+                "2025/12/10",
+                "2026/6/18"
+              ]
+            ]
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "KBD1183",
+      "code": "KBD1183 / KBD2183",
+      "target": "APJ 激动剂",
+      "drug": "KBD1183",
+      "company": "康百达",
+      "indication": "代谢 / 心血管 / 肌少症",
+      "summary": "Apelin 受体（APJ）激动剂。减重主赛道进度偏晚，可错位布局肌少症、GLP-1 减重期保肌、HFpEF 等心血管适应症。",
+      "landscape": {
+        "note": "竞争格局：进入 IND 及以上阶段才视为变动。",
+        "columns": [
+          "#",
+          "药物名称",
+          "研发公司",
+          "适应症",
+          "最高状态",
+          "临床信息",
+          "备注"
+        ],
+        "rows": [
+          [
+            "1",
+            "ANPA-0073",
+            "Structure Therapeutics",
+            "健康人",
+            "1 期",
+            "完成（2021/5/28–2022/4/29）；ACTRN12621000644864",
+            "进展缓慢；1 期总体耐受性良好，无 SAE"
+          ]
+        ]
+      },
+      "updates": [
+        {
+          "date": "2026-05-21",
+          "dateText": "2026年5月21日",
+          "period": "P20260531",
+          "module": "patent",
+          "title": "专利更新（德睿智药）",
+          "body": [
+            "德睿智药（苏州）新药研发有限公司（mindrank.ai）：成立于 2022-07-01，总部上海、苏州为研发子公司，法定代表人牛张明，定位临床阶段 AI 驱动创新药物研发公司，聚焦“难以成药靶点”。天使轮（2021-05，700 万美元）、A 轮（2021-12）、A+ 轮（2023-07，超 2000 万美元）。"
+          ],
+          "table": {
+            "columns": [
+              "机构",
+              "公开号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "德睿智药(苏州)新药研发有限公司",
+                "WO2026103337",
+                "2024.11.15",
+                "2025.9.22",
+                "2026.5.21"
+              ]
+            ]
+          },
+          "sources": [
+            {
+              "label": "mindrank.ai",
+              "url": "https://www.mindrank.ai/"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-05",
+          "dateText": "2026年6月5–8日",
+          "period": "P20260615",
+          "module": "other",
+          "title": "ADA 2026：普罗斯特 PSTC1411 口服 G 蛋白偏向性 Apelin 激动剂临床前数据首次披露",
+          "body": [
+            "2026 年 6 月 5–8 日，美国糖尿病协会第 86 届科学会议（ADA 2026）上，普罗斯特公司（由药明康德 DDSU 团队领衔成立）首次披露新型口服 G 蛋白偏向性 Apelin 激动剂 PSTC1411 的临床前数据。",
+            "在 DIO 肥胖小鼠中：单药连续口服引起显著剂量依赖性减重，最高达 22%；与司美格鲁肽联用减重可达 33%（司美单药 19%）；在 orforglipron 平台期后加用可将减重从 18% 提升至 29%。相比传统 GLP-1RA，PSTC1411 减重同时肌肉保留率更高，增加肌纤维面积并改善肌肉功能。安全性方面显示良好 PK 与宽泛安全窗。"
+          ],
+          "insight": "KBD1183 在减重主赛道进度偏晚，可主动转入错位适应症：① 肌少症 / GLP-1 减重期保肌（顺应 APJ“运动模拟剂”属性）；② HFpEF 等心血管适应症（G 蛋白偏向解耦急性降压、保留心肌获益，竞争烈度低于减重主战场）。",
+          "sources": [
+            {
+              "label": "动脉网 / ADA 2026 报道：新型 G 蛋白偏向性 Apelin 激动剂 PSTC1411 首次数据发布",
+              "url": null
+            }
+          ]
+        },
+        {
+          "date": "2026-06-18",
+          "dateText": "2026年6月18日",
+          "period": "P20260702",
+          "module": "patent",
+          "title": "专利更新（2 项公开）",
+          "body": [
+            "药康众拓（北京）医药科技有限公司系江苏药康众拓集团在北京设立的全资研发子公司（2022-05-19 成立，注册资本 500 万元，法定代表人郭炳华，研发带头人蒋晟），领域涵盖抗肿瘤、抗病毒、代谢类慢病药物研发。"
+          ],
+          "table": {
+            "columns": [
+              "机构",
+              "公开号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "Research Triangle Institute",
+                "WO2026128137",
+                "2024.12.13",
+                "2025.11.7",
+                "2026.6.18"
+              ],
+              [
+                "药康众拓(北京)医药科技有限公司",
+                "WO2026123230",
+                "—",
+                "2024.12.11",
+                "2026.6.18"
+              ]
+            ]
+          },
+          "sources": []
+        },
+        {
+          "date": "2026-06-15",
+          "dateText": "2026年6月（正式发表 2026-09）",
+          "period": "P20260702",
+          "module": "article",
+          "title": "上海药物所：1H-1,2,4-三唑-3-甲酰胺类 apelin 受体激动剂",
+          "body": [
+            "中国科学院上海药物研究所化学生物学国家重点实验室设计并合成了一系列作为 apelin 受体激动剂的 1,2,4-三唑衍生物，最佳化合物 B-007 显示出有效的激动剂活性，EC50 值为 11.6 nM。发表于 Bioorg Med Chem Lett.（IF 2.3）。"
+          ],
+          "sources": [
+            {
+              "label": "ScienceDirect（Bioorg Med Chem Lett）",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0960894X26001526"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-26",
+          "dateText": "2026年6月26日",
+          "period": "P20260702",
+          "module": "other",
+          "title": "Anodyne Nanotech 完成 1260 万美元 A 轮融资",
+          "body": [
+            "2026.6.26，Anodyne Nanotech 完成 1260 万美元 A 轮融资，由 Velocity Partners VC 领投，Evercurious VC 联合领投，Relativity Healthcare Partners 参与。该公司拥有 APJ 激动剂产品（临床前），开发透皮贴剂，适应症为肌肉减少症、肌少型肥胖等，暂未披露临床开发计划。"
+          ],
+          "sources": [
+            {
+              "label": "BioSpace",
+              "url": "https://www.biospace.com/press-releases/anodyne-nanotech-closed-a-12-6-million-series-a-to-advance-once-weekly-glp-1-patch-into-phase-i-clinical-trials"
+            }
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "dateText": "2026年7月2日",
+          "period": "P20260715",
+          "module": "patent",
+          "title": "专利更新（1 项公开）",
+          "body": [],
+          "table": {
+            "columns": [
+              "机构",
+              "公开号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "上海亦加生物科技有限公司",
+                "WO2026138906",
+                "2024.12.25",
+                "2025.12.24",
+                "2026.7.2"
+              ]
+            ]
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "KBD1180",
+      "code": "KBD1180 / KBD2180",
+      "target": "c-Kit 抑制剂",
+      "drug": "KBD1180",
+      "company": "康百达",
+      "indication": "慢性荨麻疹（CSU/CIndU）",
+      "summary": "c-Kit 抑制剂，靶向肥大细胞介导的慢性荨麻疹。竞争核心已从“是否有效”转向安全性/选择性、给药便利与持久缓解。",
+      "landscape": {
+        "note": "竞争格局（荨麻疹）：进入 IND 及以上阶段才视为变动。",
+        "columns": [
+          "#",
+          "药物名称",
+          "研发公司",
+          "适应症",
+          "最高状态",
+          "临床信息",
+          "备注"
+        ],
+        "rows": [
+          [
+            "1",
+            "barzolvolimab（CDX-0159）",
+            "Celldex Therapeutics",
+            "慢性自发性荨麻疹 / 慢性诱发性荨麻疹",
+            "3 期",
+            "自发性：招募完成（2024.7–2027.4，NCT06445023）；诱发性：招募完成（2024.7–2027.4，NCT06455202）",
+            "—"
+          ],
+          [
+            "2",
+            "Briquilimab（AMG 191，JSP191）",
+            "Jasper Therapeutics；Amgen（原研）",
+            "慢性荨麻疹",
+            "2 期",
+            "活跃，不再招募（2024.11–2026.12）；NCT06736262",
+            "—"
+          ],
+          [
+            "3",
+            "BLU-808（小分子）",
+            "Blueprint Medicines（赛诺菲收购）",
+            "慢性荨麻疹 / 过敏性鼻结膜炎",
+            "2 期",
+            "鼻炎：完成（2025.4–2025.12，NCT06922448）；荨麻疹：招募中（2025.5–2026.12，NCT06931405）",
+            "鼻炎暂无结果公开"
+          ],
+          [
+            "4",
+            "EDP-978（小分子）",
+            "Enanta Pharmaceuticals",
+            "健康人（潜在适应症 CSU）",
+            "1 期",
+            "招募中（2026.4–2026.11，NCT07540910）",
+            "—"
+          ]
+        ]
+      },
+      "updates": [
+        {
+          "date": "2026-06-12",
+          "dateText": "2026年6月12日",
+          "period": "P20260615",
+          "module": "other",
+          "title": "诺华 Remibrutinib（Rhapsido）成为全球首个 CIndU 口服靶向药",
+          "body": [
+            "诺华 Remibrutinib（Rhapsido，口服 BTK 抑制剂）三期 REMIND 研究在 EAACI 2026（伊斯坦布尔，6/12–15；口头 L-OAS03，摘要 #100213，6 月 12 日）公布：25 mg BID、12 周，三大诱导性亚型 12 周完全缓解率显著优于安慰剂。部分亚型第 2 周即见效；安全性良好、无肝安全性信号；已就皮肤划痕症（SD）亚型向 FDA 递交 sNDA；remibrutinib 已在美/欧/中获批用于 CSU。"
+          ],
+          "table": {
+            "columns": [
+              "CIndU 亚型",
+              "Remibrutinib CR",
+              "安慰剂 CR"
+            ],
+            "rows": [
+              [
+                "症状性皮肤划痕症（SD，最常见）",
+                "29.3%",
+                "14.0%"
+              ],
+              [
+                "寒冷性荨麻疹",
+                "56.3%",
+                "14.6%"
+              ],
+              [
+                "胆碱能性荨麻疹",
+                "29.3%",
+                "15.8%"
+              ]
+            ]
+          },
+          "insight": "机制升级：从下游“阻断组胺”转向源头干预——BTK（remibrutinib）与 c-Kit（barzolvolimab，直接促肥大细胞凋亡）两条主线并行。c-Kit 赛道竞争核心已从“是否有效”转向“安全性/选择性 + 给药便利 + 持久缓解”；关注 CIndU（尤其寒冷性/皮肤划痕症）这一正被靶向药打开的细分市场。",
+          "sources": [
+            {
+              "label": "Novartis / GlobeNewswire（2026-06-12，EAACI 摘要 #100213）",
+              "url": null
+            }
+          ]
+        },
+        {
+          "date": "2026-06-14",
+          "dateText": "2026年6月14日",
+          "period": "P20260702",
+          "module": "clinical",
+          "title": "Celldex barzolvolimab 长期结果：显著且持久改善 CSU 血管性水肿",
+          "body": [
+            "2026-6-14，Celldex 展示 barzolvolimab（CDX-0159）长期结果，证明该药能显著且持久改善中重度 CSU 患者的血管性水肿：完成治疗 7 个月后，64% 的治疗者仍无血管性水肿（基线时有血管性水肿）；barzolvolimab 有潜力将治疗目标从症状控制转向疾病改变（EAACI 2026）。"
+          ],
+          "sources": [
+            {
+              "label": "Celldex 新闻：Presents Long-Term Barzolvolimab Results",
+              "url": null
+            }
+          ]
+        },
+        {
+          "date": "2026-06-25",
+          "dateText": "2026年6月25–26日",
+          "period": "P20260702",
+          "module": "patent",
+          "title": "专利（2 项公开）",
+          "body": [],
+          "table": {
+            "columns": [
+              "申请人",
+              "公开号",
+              "优先权日",
+              "申请日",
+              "公开日"
+            ],
+            "rows": [
+              [
+                "Blueprint Medicines Corporation",
+                "WO2026136215A1",
+                "2024/12/16",
+                "2025/12/15",
+                "2026/6/25"
+              ],
+              [
+                "库拉肿瘤学公司",
+                "CN122295107A",
+                "2023/11/17",
+                "2024/11/15",
+                "2026/6/26"
+              ]
+            ]
+          },
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "KBD1298",
+      "code": "KBD1298 / BY1298",
+      "target": "DNA-PK 抑制剂",
+      "drug": "KBD1298",
+      "company": "康百达",
+      "indication": "DNA 损伤修复 / 肿瘤",
+      "summary": "DNA-PK 抑制剂。近期机制研究揭示 DNA-PKcs 在 ATR 激活中的非 NHEJ 依赖新作用。",
+      "landscape": null,
+      "updates": [
+        {
+          "date": "2026-06-22",
+          "dateText": "2026年6月22日",
+          "period": "P20260702",
+          "module": "article",
+          "title": "南加州大学 bioRxiv：DNA-PKcs 在 DNA 双链断裂处激活 ATR 的 NHEJ 非依赖新作用",
+          "body": [
+            "机制研究（bioRxiv 预印本）：本研究揭示了 DNA 双链断裂时激活 ATR 的替代途径——DNA-PKcs 可独立于 ATM，通过在 S1131 位点磷酸化 TOPBP1，直接将 DNA 损伤识别与 ATR 信号激活偶联；该作用与其传统的 NHEJ 修复功能相分离。",
+            "标题：An NHEJ-independent Role for DNA-PKcs in ATR activation at DNA Double-Strand Breaks（南加州大学生物科学系）。"
+          ],
+          "sources": [
+            {
+              "label": "bioRxiv（预印本）",
+              "url": "https://www.biorxiv.org/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "auto": {}
+}
