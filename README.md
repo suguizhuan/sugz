@@ -31,8 +31,8 @@ python3 -m http.server 8000
 | 文件 | 作用 |
 | --- | --- |
 | `monitor.html` | 监控看板页面（顶部统计、本期更新总览矩阵、最新动态流、按靶点分栏的看板） |
-| `assets/monitor.css` | 看板专用样式（复用 `style.css` 的主题变量） |
-| `assets/monitor.js` | 从 `data/monitor.json` 渲染看板、矩阵、筛选与搜索 |
+| `assets/monitor.css` | 看板独立样式表（无外部依赖，自带主题变量） |
+| `assets/monitor.js` | 从 `data/monitor.json` 渲染看板、矩阵、筛选与搜索，并自带主题/菜单交互 |
 | `data/monitor.json` | 结构化数据：靶点、竞品全景、按模块的动态明细（人工策展 + 自动抓取） |
 | `scripts/monitor_fetch.py` | 每日自动抓取（ClinicalTrials.gov API v2 / PubMed E-utilities），仅用标准库、幂等合并 |
 | `.github/workflows/monitor-daily-update.yml` | 每日定时运行抓取脚本并回写 `data/monitor.json` |

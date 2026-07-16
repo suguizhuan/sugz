@@ -2,6 +2,34 @@
 (function () {
   "use strict";
 
+  // 主题与移动端菜单（自包含，不依赖其它脚本）
+  (function initChrome() {
+    const root = document.documentElement;
+    const KEY = "kbd-monitor-theme";
+    const stored = localStorage.getItem(KEY);
+    if (stored) root.setAttribute("data-theme", stored);
+    document.addEventListener("DOMContentLoaded", () => {
+      const btn = document.querySelector(".theme-toggle");
+      if (btn) {
+        const label = () => {
+          const cur = root.getAttribute("data-theme") || "dark";
+          btn.textContent = cur === "light" ? "🌙 深色" : "☀️ 浅色";
+        };
+        label();
+        btn.addEventListener("click", () => {
+          const cur = root.getAttribute("data-theme") || "dark";
+          const next = cur === "light" ? "dark" : "light";
+          root.setAttribute("data-theme", next);
+          localStorage.setItem(KEY, next);
+          label();
+        });
+      }
+      const menuBtn = document.querySelector(".menu-btn");
+      const links = document.querySelector(".nav-links");
+      if (menuBtn && links) menuBtn.addEventListener("click", () => links.classList.toggle("open"));
+    });
+  })();
+
   const MODULES = [
     { key: "competitive", label: "竞争格局", icon: "🏁" },
     { key: "clinical", label: "临床更新", icon: "🧪" },
