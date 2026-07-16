@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T05:42:35+00:00",
+  "generated_at": "2026-07-16T05:56:15+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -116,6 +116,30 @@
     }
   ],
   "pubmed": [
+    {
+      "id": "pubmed-42455134",
+      "date": "2026 Jul 15",
+      "category": "Paper",
+      "title": "Myeloid PKM2 deficiency alleviates allergic airway inflammation and promotes macrophage efferocytosis via SLC13A3.",
+      "summary": "Inflammation research : official journal of the European Histamine Research Society ... [et al.]",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42455134/",
+      "pmid": "42455134"
+    },
+    {
+      "id": "pubmed-42320477",
+      "date": "2026 Jul 15",
+      "category": "Paper",
+      "title": "Capturing the dynamics of STAT6 macrophage polarization using bioluminescence temporal signatures.",
+      "summary": "Cell systems",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42320477/",
+      "pmid": "42320477"
+    },
     {
       "id": "pubmed-42449124",
       "date": "2026 Jul 14",
