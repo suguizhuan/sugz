@@ -12,6 +12,7 @@
 | `disease.html` | 过敏/哮喘/特应性皮炎、B 细胞淋巴瘤、孤立性纤维瘤、相关药物管线 |
 | `research.html` | 关键里程碑、FAQ、代表性文献与外部资源 |
 | `parkour.html` | 🎮 霓虹跑酷小游戏（纯前端 Canvas，跳跃/二段跳/滑铲，键盘+触屏） |
+| `ai.html` | 🧠 霓虹 AI 对话（纯前端直连 Anthropic API，可开启「深度思考」实时展示推理；自带 Key，本地存储） |
 | `assets/style.css` | 共用样式（深/浅色主题、响应式设计） |
 | `assets/script.js` | 主题切换、移动端菜单、当前页高亮 |
 
