@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T05:56:46+00:00",
+  "generated_at": "2026-07-18T05:37:12+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -116,6 +116,30 @@
     }
   ],
   "pubmed": [
+    {
+      "id": "pubmed-42467351",
+      "date": "2026 Jul 17",
+      "category": "Paper",
+      "title": "STAT6 Targets the Autophagy Pathway to Regulate Microglial Senescence in Cognitive Impairment Caused by Cerebral Small-Vessel Disease.",
+      "summary": "Neuromolecular medicine",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42467351/",
+      "pmid": "42467351"
+    },
+    {
+      "id": "pubmed-42467305",
+      "date": "2026 Jul 17",
+      "category": "Paper",
+      "title": "Glomangiopericytoma of the nasopharynx in a previously irradiated field mimicking recurrent nasopharyngeal carcinoma.",
+      "summary": "Discover oncology",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42467305/",
+      "pmid": "42467305"
+    },
     {
       "id": "pubmed-42455134",
       "date": "2026 Jul 15",
