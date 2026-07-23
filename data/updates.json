@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T06:05:56+00:00",
+  "generated_at": "2026-07-23T06:11:19+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -116,6 +116,18 @@
     }
   ],
   "pubmed": [
+    {
+      "id": "pubmed-42480691",
+      "date": "2026 Jul 21",
+      "category": "Paper",
+      "title": "Fine Particle Exposure-Induced Renal Injury and the Protective Effect of Multi-strain Probiotics: Involvement of Bitter Taste Transduction and Inflammatory Response.",
+      "summary": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42480691/",
+      "pmid": "42480691"
+    },
     {
       "id": "pubmed-42467351",
       "date": "2026 Jul 17",
