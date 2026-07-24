@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T06:11:19+00:00",
+  "generated_at": "2026-07-24T06:05:27+00:00",
   "source": "curated + PubMed auto-append",
   "featured": [
     {
@@ -116,6 +116,30 @@
     }
   ],
   "pubmed": [
+    {
+      "id": "pubmed-42492880",
+      "date": "2026 Jul 23",
+      "category": "Paper",
+      "title": "Role of Genetic Polymorphisms on Opioid Safety and Efficacy in Cancer Pain: A Systematic Review and Meta-Analysis.",
+      "summary": "European journal of pharmacology",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42492880/",
+      "pmid": "42492880"
+    },
+    {
+      "id": "pubmed-42486456",
+      "date": "2026 Jul 22",
+      "category": "Paper",
+      "title": "Investigation of Anti-Asthmatic Constituents and Mechanisms of Cimicifugae Rhizoma Based on LC-MS Analysis, Network Pharmacology and Experimental Validation.",
+      "summary": "Journal of ethnopharmacology",
+      "tags": [
+        "pubmed"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42486456/",
+      "pmid": "42486456"
+    },
     {
       "id": "pubmed-42480691",
       "date": "2026 Jul 21",
